@@ -1,9 +1,8 @@
 import "./globals.css";
-
 import type { Metadata } from "next";
-
 import { APP } from "@/config/app";
 import { ThemeProvider } from "@/context/ThemeContext";
+import { LocaleProvider } from "@/context/LocaleContext";
 
 export const metadata: Metadata = {
     title: APP.name,
@@ -24,7 +23,9 @@ export default function RootLayout({
         >
             <body>
                 <ThemeProvider>
-                    {children}
+                    <LocaleProvider>
+                        {children}
+                    </LocaleProvider>
                 </ThemeProvider>
             </body>
         </html>

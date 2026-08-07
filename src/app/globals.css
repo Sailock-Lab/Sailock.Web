@@ -6,8 +6,7 @@
 @import "../styles/base/animations.css";
 @import "../styles/base/typography.css";
 @import "../styles/base/globals.css";
-
 @import "../styles/components/button.css";
 @import "../styles/components/navbar.css";
-
 @import "../styles/sections/hero.css";
+@import "../styles/components/language-switcher.css";

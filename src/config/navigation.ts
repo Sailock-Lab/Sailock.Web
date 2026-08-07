@@ -1,7 +1,22 @@
 export const NAVIGATION = [
-    { label: "Download", href: "#download" },
-    { label: "Tutorials", href: "#tutorials" },
-    { label: "Changelog", href: "#changelog" },
-    { label: "FAQ", href: "#faq" },
-    { label: "Contributors", href: "#contributors" },
+    {
+        key: "navigation.download",
+        href: "#download",
+    },
+    {
+        key: "navigation.tutorials",
+        href: "#tutorials",
+    },
+    {
+        key: "navigation.changelog",
+        href: "#changelog",
+    },
+    {
+        key: "navigation.faq",
+        href: "#faq",
+    },
+    {
+        key: "navigation.contributors",
+        href: "#contributors",
+    },
 ];

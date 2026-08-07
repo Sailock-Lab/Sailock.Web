@@ -21,7 +21,7 @@
 .navbar-logo {
     display: flex;
     align-items: center;
-    gap: .85rem;
+    gap: .5rem;
     font-size: 2rem;
     font-weight: 700;
     transition: opacity var(--duration-normal);

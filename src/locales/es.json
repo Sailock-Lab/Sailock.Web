@@ -1,0 +1,17 @@
+{
+    "navigation": {
+        "download": "Descargar",
+        "tutorials": "Tutoriales",
+        "changelog": "Cambios",
+        "faq": "FAQ",
+        "contributors": "Colaboradores"
+    },
+
+    "hero": {
+        "badge": "",
+        "title": "",
+        "description": "",
+        "download": "",
+        "github": ""
+    }
+}
