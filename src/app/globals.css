@@ -1,12 +1,20 @@
+@import "../styles/base/animations.css";
 @import "../styles/base/colors.css";
-@import "../styles/base/spacing.css";
+@import "../styles/base/globals.css";
+@import "../styles/base/layout.css";
 @import "../styles/base/radius.css";
 @import "../styles/base/shadows.css";
-@import "../styles/base/layout.css";
-@import "../styles/base/animations.css";
+@import "../styles/base/spacing.css";
 @import "../styles/base/typography.css";
-@import "../styles/base/globals.css";
+
 @import "../styles/components/button.css";
-@import "../styles/components/navbar.css";
-@import "../styles/sections/hero.css";
 @import "../styles/components/language-switcher.css";
+@import "../styles/components/navbar.css";
+
+@import "../styles/sections/community.css";
+@import "../styles/sections/download.css";
+@import "../styles/sections/faq.css";
+@import "../styles/sections/features.css";
+@import "../styles/sections/footer.css";
+@import "../styles/sections/hero.css";
+@import "../styles/sections/screenshots.css";
