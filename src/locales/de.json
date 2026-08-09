@@ -17,5 +17,19 @@
             "offline": "Offline",
             "openSource": "Open Source"
         }
+    },
+    "tutorials": {
+        "title": "Anleitungen",
+        "description": "Erfahren Sie, wie Sie Sailock verwenden und alle Funktionen entdecken können.",
+        "categories": {
+            "all": "Alle anzeigen",
+            "firstSteps": "Erste Schritte",
+            "twoFactor": "2FA",
+            "autoLock": "Automatische Sperre",
+            "generator": "Generator",
+            "vault": "Tresor",
+            "importExport": "Importieren und Exportieren",
+            "settings": "Einstellungen"
+        }
     }
 }

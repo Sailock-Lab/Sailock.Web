@@ -17,5 +17,19 @@
             "offline": "Hors ligne",
             "openSource": "Open Source"
         }
+    },
+    "tutorials": {
+        "title": "Tutoriels",
+        "description": "Apprenez à utiliser Sailock et découvrez toutes ses fonctionnalités.",
+        "categories": {
+            "all": "Tout afficher",
+            "firstSteps": "Premiers pas",
+            "twoFactor": "2FA",
+            "autoLock": "Verrouillage automatique",
+            "generator": "Générateur",
+            "vault": "Coffre-fort",
+            "importExport": "Importer et exporter",
+            "settings": "Paramètres"
+        }
     }
 }

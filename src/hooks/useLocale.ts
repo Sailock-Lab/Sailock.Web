@@ -8,11 +8,9 @@ import {
 
 export default function useLocale() {
 
-    const context =
-        useContext(LocaleContext);
+    const context = useContext(LocaleContext);
 
     if (!context) {
-
         throw new Error(
             "LocaleProvider is missing."
         );

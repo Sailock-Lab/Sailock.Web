@@ -1,0 +1,130 @@
+.tutorials {
+    width: 100%;
+}
+
+.tutorials-hero {
+    padding: 7rem 0 5rem;
+}
+
+.tutorials-hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tutorials-hero h1 {
+    font-size: clamp(3.5rem, 7vw, 6rem);
+    line-height: 1;
+    letter-spacing: -0.055em;
+    font-weight: 800;
+}
+
+.tutorials-hero p {
+    max-width: 650px;
+    margin: var(--space-5) auto 0;
+    color: var(--color-text-secondary);
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+.tutorials-content {
+    padding: 0 0 6rem;
+}
+
+.tutorials-search {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.tutorials-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.tutorial-category {
+    flex: 0 0 auto;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    background: transparent;
+    color: var(--color-text-secondary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor:pointer;
+    transition:
+        border-color var(--duration-fast),
+        color var(--duration-fast),
+        background-color var(--duration-fast);
+}
+
+.tutorial-category:hover {
+    border-color: var(--color-primary);
+    color: var(--color-text);
+}
+
+.tutorial-category.is-active {
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .tutorials-hero {
+        padding: 5rem 0 4rem;
+    }
+
+    .tutorials-hero h1 {
+        font-size: clamp(3rem, 14vw, 4.5rem);
+    }
+
+    .tutorials-hero p {
+        font-size: 1rem;
+    }
+
+    .tutorials-content {
+        padding-bottom: 4rem;
+    }
+
+    .tutorials-categories {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        padding-bottom: 1.75rem;
+    }
+
+    .tutorial-category {
+        font-size: 0.78rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .tutorials-hero {
+        padding: 4rem 0 3.5rem;
+    }
+
+    .tutorials-hero h1 {
+        font-size: clamp(2.75rem, 15vw, 4rem);
+    }
+
+    .tutorials-hero p {
+        font-size: 0.95rem;
+    }
+
+    .tutorials-categories {
+        gap: 0.45rem;
+    }
+
+    .tutorial-category {
+        padding: 0.4rem 0.7rem;
+        font-size: 0.75rem;
+    }
+}

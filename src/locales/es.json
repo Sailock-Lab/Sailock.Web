@@ -17,5 +17,19 @@
             "offline": "Sin conexión",
             "openSource": "Código abierto"
         }
+    },
+    "tutorials": {
+        "title": "Tutoriales",
+        "description": "Aprende a utilizar Sailock y descubre todas sus funciones.",
+        "categories": {
+            "all": "Mostrar todo",
+            "firstSteps": "Primeros pasos",
+            "twoFactor": "2FA",
+            "autoLock": "Bloqueo automático",
+            "generator": "Generador",
+            "vault": "Bóveda",
+            "importExport": "Importar y exportar",
+            "settings": "Configuración"
+        }
     }
 }

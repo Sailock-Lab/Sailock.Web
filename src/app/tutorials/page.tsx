@@ -1,17 +1,22 @@
-"use client";
-
+import Navbar from "@/components/layout/Navbar";
 import Container from "@/components/common/Container";
-import useLocale from "@/hooks/useLocale";
+import TutorialsHero from "@/components/tutorials/TutorialsHero";
+import TutorialsFilters from "@/components/tutorials/TutorialsFilters";
 
 export default function TutorialsPage() {
-    const { t } = useLocale();
-
     return (
-        <main>
-            <Container>
-                <h1>{t("tutorials.title")}</h1>
-                <p>{t("tutorials.description")}</p>
-            </Container>
-        </main>
+        <>
+            <main className="tutorials">
+                <TutorialsHero />
+
+                <section className="tutorials-content">
+                    <Container>
+                        <TutorialsFilters />
+
+                        {/* Tutorials will go here */}
+                    </Container>
+                </section>
+            </main>
+        </>
     );
 }

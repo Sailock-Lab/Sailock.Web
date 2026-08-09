@@ -1,8 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
+
 import { APP } from "@/config/app";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { LocaleProvider } from "@/context/LocaleContext";
+import Navbar from "@/components/layout/Navbar";
 
 export const metadata: Metadata = {
     title: APP.name,
@@ -24,6 +26,7 @@ export default function RootLayout({
             <body>
                 <ThemeProvider>
                     <LocaleProvider>
+                        <Navbar />
                         {children}
                     </LocaleProvider>
                 </ThemeProvider>
