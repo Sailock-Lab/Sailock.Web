@@ -1,22 +1,22 @@
 export const NAVIGATION = [
     {
         key: "navigation.download",
-        href: "#download",
+        href: "/download",
     },
     {
         key: "navigation.tutorials",
-        href: "#tutorials",
+        href: "/tutorials",
     },
     {
         key: "navigation.changelog",
-        href: "#changelog",
+        href: "/changelog",
     },
     {
         key: "navigation.faq",
-        href: "#faq",
+        href: "/faq",
     },
     {
         key: "navigation.contributors",
-        href: "#contributors",
+        href: "/contributors",
     },
 ];

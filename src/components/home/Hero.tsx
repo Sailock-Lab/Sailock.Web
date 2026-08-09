@@ -1,24 +1,27 @@
+"use client";
+
 import Link from "next/link";
 import { IconArrowRight, IconBrandGithub } from "@tabler/icons-react";
+
 import Container from "@/components/common/Container";
 import { APP } from "@/config/app";
+import useLocale from "@/hooks/useLocale";
 
 export default function Hero() {
+    const { t } = useLocale();
+
     return (
         <section className="hero">
             <Container>
                 <div className="hero-content">
-
                     <h1>
-                        Your passwords.
+                        {t("hero.title")}
                         <br />
-                        <span>Under your control.</span>
+                        <span>{t("hero.titleHighlight")}</span>
                     </h1>
 
                     <p className="hero-description">
-                        Sailock is a local-first password manager designed to
-                        keep your encrypted vault on your device. No cloud,
-                        no account, no telemetry.
+                        {t("hero.description")}
                     </p>
 
                     <div className="hero-actions">
@@ -26,7 +29,7 @@ export default function Hero() {
                             href="#download"
                             className="button button-primary"
                         >
-                            Download Sailock
+                            {t("hero.download")}
                             <IconArrowRight size={18} />
                         </Link>
 
@@ -37,14 +40,14 @@ export default function Hero() {
                             className="button button-secondary"
                         >
                             <IconBrandGithub size={18} />
-                            View on GitHub
+                            {t("hero.github")}
                         </a>
                     </div>
 
                     <div className="hero-meta">
-                        <span>Windows</span>
-                        <span>Offline</span>
-                        <span>Open Source</span>
+                        <span>{t("hero.meta.windows")}</span>
+                        <span>{t("hero.meta.offline")}</span>
+                        <span>{t("hero.meta.openSource")}</span>
                     </div>
                 </div>
             </Container>

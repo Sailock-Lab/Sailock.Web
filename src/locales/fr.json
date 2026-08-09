@@ -6,12 +6,16 @@
         "faq": "FAQ",
         "contributors": "Contributeurs"
     },
-
     "hero": {
-        "badge": "",
-        "title": "",
-        "description": "",
-        "download": "",
-        "github": ""
+        "title": "Vos mots de passe.",
+        "titleHighlight": "Sous votre contrôle.",
+        "description": "Sailock est un gestionnaire de mots de passe local-first conçu pour conserver votre coffre-fort chiffré sur votre appareil. Pas de cloud, pas de compte, pas de télémétrie.",
+        "download": "Télécharger Sailock",
+        "github": "Voir sur GitHub",
+        "meta": {
+            "windows": "Windows",
+            "offline": "Hors ligne",
+            "openSource": "Open Source"
+        }
     }
 }

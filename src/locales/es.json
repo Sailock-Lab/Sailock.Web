@@ -6,12 +6,16 @@
         "faq": "FAQ",
         "contributors": "Colaboradores"
     },
-
     "hero": {
-        "badge": "",
-        "title": "",
-        "description": "",
-        "download": "",
-        "github": ""
+        "title": "Tus contraseñas.",
+        "titleHighlight": "Bajo tu control.",
+        "description": "Sailock es un gestor de contraseñas local-first diseñado para mantener tu bóveda cifrada en tu dispositivo. Sin nube, sin cuenta, sin telemetría.",
+        "download": "Descargar Sailock",
+        "github": "Ver en GitHub",
+        "meta": {
+            "windows": "Windows",
+            "offline": "Sin conexión",
+            "openSource": "Código abierto"
+        }
     }
 }

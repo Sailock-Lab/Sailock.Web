@@ -6,12 +6,16 @@
         "faq": "FAQ",
         "contributors": "Mitwirkende"
     },
-
     "hero": {
-        "badge": "",
-        "title": "",
-        "description": "",
-        "download": "",
-        "github": ""
+        "title": "Deine Passwörter.",
+        "titleHighlight": "Unter deiner Kontrolle.",
+        "description": "Sailock ist ein Local-First-Passwortmanager, der dafür entwickelt wurde, deinen verschlüsselten Tresor auf deinem Gerät zu speichern. Keine Cloud, kein Konto, keine Telemetrie.",
+        "download": "Sailock herunterladen",
+        "github": "Auf GitHub ansehen",
+        "meta": {
+            "windows": "Windows",
+            "offline": "Offline",
+            "openSource": "Open Source"
+        }
     }
 }
