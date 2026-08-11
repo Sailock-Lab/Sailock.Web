@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { IconBrandGithub } from "@tabler/icons-react";
+
 import Container from "@/components/common/Container";
 import { APP } from "@/config/app";
 import useLocale from "@/hooks/useLocale";
@@ -51,18 +52,33 @@ export default function Footer() {
 
                         <div className="footer-column">
                             <h3>{t("footer.community.title")}</h3>
-
                             <a
                                 href={APP.github}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 <IconBrandGithub size={17} />
-                                GitHub
+                                <span>GitHub</span>
                             </a>
 
                             <Link href="/contributors">
                                 {t("navigation.contributors")}
+                            </Link>
+                        </div>
+
+                        <div className="footer-column">
+                            <h3>{t("footer.project.title")}</h3>
+
+                            <Link href="/about">
+                                {t("footer.project.about")}
+                            </Link>
+
+                            <Link href="/sitemap">
+                                {t("footer.project.sitemap")}
+                            </Link>
+
+                            <Link href="/contact">
+                                {t("footer.project.contact")}
                             </Link>
                         </div>
                     </div>
@@ -73,7 +89,15 @@ export default function Footer() {
                         © {year} Sailock. {t("footer.copyright")}
                     </span>
 
-                    <span>{t("footer.madeWith")}</span>
+                    <div className="footer-legal">
+                        <Link href="/terms">
+                            {t("footer.legal.terms")}
+                        </Link>
+
+                        <Link href="/privacy">
+                            {t("footer.legal.privacy")}
+                        </Link>
+                    </div>
                 </div>
             </Container>
         </footer>

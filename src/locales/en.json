@@ -26,8 +26,17 @@
     "community": {
       "title": "Community"
     },
-    "copyright": "Open source software.",
-    "madeWith": "Open source. Built with care."
+    "project": {
+      "title": "Project",
+      "about": "About Sailock",
+      "sitemap": "Sitemap",
+      "contact": "Contact"
+    },
+    "legal": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "Open source software."
   },
   "terms": {
     "title": "Terms of Use",

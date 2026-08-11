@@ -6,7 +6,6 @@
     "faq": "FAQ",
     "contributors": "Contributeurs"
   },
-
   "hero": {
     "title": "Vos mots de passe.",
     "titleHighlight": "Sous votre contrôle.",
@@ -19,24 +18,30 @@
       "openSource": "Open Source"
     }
   },
-
   "footer": {
-    "description": "Un gestionnaire de mots de passe local-first basé sur la confidentialité, la sécurité et le contrôle.",
+    "description": "Un gestionnaire de mots de passe local conçu autour de la confidentialité, de la sécurité et du contrôle.",
     "product": {
       "title": "Produit"
     },
     "community": {
       "title": "Communauté"
     },
-    "copyright": "Logiciel open source.",
-    "madeWith": "Open source. Développé avec soin."
+    "project": {
+      "title": "Projet",
+      "about": "À propos de Sailock",
+      "sitemap": "Plan du site",
+      "contact": "Contact"
+    },
+    "legal": {
+      "terms": "Conditions d’utilisation",
+      "privacy": "Politique de confidentialité"
+    },
+    "copyright": "Logiciel open source."
   },
-
   "terms": {
     "title": "Conditions d'utilisation",
     "description": "Les conditions applicables à l'utilisation du site web et des logiciels Sailock.",
     "lastUpdated": "Dernière mise à jour : août 2026",
-
     "sections": {
       "about": {
         "title": "1. À propos de Sailock",
@@ -88,12 +93,10 @@
       }
     }
   },
-
   "privacy": {
     "title": "Politique de confidentialité",
     "description": "Comment Sailock traite les informations lorsque vous utilisez le logiciel ou visitez le site web.",
     "lastUpdated": "Dernière mise à jour : août 2026",
-
     "sections": {
       "overview": {
         "title": "1. Vue d'ensemble",
@@ -137,17 +140,14 @@
       }
     }
   },
-
   "notFound": {
     "title": "Page introuvable",
     "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
     "backHome": "Retour à l'accueil"
   },
-
   "tutorials": {
     "title": "Tutoriels",
     "description": "Apprenez à utiliser Sailock et découvrez toutes ses fonctionnalités.",
-
     "categories": {
       "all": "Tout afficher",
       "firstSteps": "Premiers pas",

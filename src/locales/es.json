@@ -19,15 +19,24 @@
         }
     },
     "footer": {
-        "description": "Un gestor de contraseñas local-first diseñado para ofrecer privacidad, seguridad y control.",
+        "description": "Un gestor de contraseñas local centrado en la privacidad, la seguridad y el control.",
         "product": {
             "title": "Producto"
         },
         "community": {
             "title": "Comunidad"
         },
-        "copyright": "Software de código abierto.",
-        "madeWith": "Código abierto. Hecho con cuidado."
+        "project": {
+            "title": "Proyecto",
+            "about": "Sobre Sailock",
+            "sitemap": "Mapa del sitio",
+            "contact": "Contacto"
+        },
+        "legal": {
+            "terms": "Términos de uso",
+            "privacy": "Política de privacidad"
+        },
+        "copyright": "Software de código abierto."
     },
     "terms": {
         "title": "Términos de uso",

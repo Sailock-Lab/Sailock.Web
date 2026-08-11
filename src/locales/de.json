@@ -6,7 +6,6 @@
     "faq": "FAQ",
     "contributors": "Mitwirkende"
   },
-
   "hero": {
     "title": "Deine Passwörter.",
     "titleHighlight": "Unter deiner Kontrolle.",
@@ -19,24 +18,30 @@
       "openSource": "Open Source"
     }
   },
-
   "footer": {
-    "description": "Ein Local-First-Passwortmanager mit Fokus auf Datenschutz, Sicherheit und Kontrolle.",
+    "description": "Ein lokaler Passwort-Manager, entwickelt mit Fokus auf Privatsphäre, Sicherheit und Kontrolle.",
     "product": {
       "title": "Produkt"
     },
     "community": {
       "title": "Community"
     },
-    "copyright": "Open-Source-Software.",
-    "madeWith": "Open Source. Mit Sorgfalt entwickelt."
+    "project": {
+      "title": "Projekt",
+      "about": "Über Sailock",
+      "sitemap": "Sitemap",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzerklärung"
+    },
+    "copyright": "Open-Source-Software."
   },
-
   "terms": {
     "title": "Nutzungsbedingungen",
     "description": "Die Bedingungen für die Nutzung der Sailock-Website und der Software.",
     "lastUpdated": "Zuletzt aktualisiert: August 2026",
-
     "sections": {
       "about": {
         "title": "1. Über Sailock",
@@ -88,12 +93,10 @@
       }
     }
   },
-
   "privacy": {
     "title": "Datenschutzerklärung",
     "description": "Wie Sailock mit Informationen umgeht, wenn du die Software nutzt oder die Website besuchst.",
     "lastUpdated": "Zuletzt aktualisiert: August 2026",
-
     "sections": {
       "overview": {
         "title": "1. Überblick",
@@ -137,17 +140,14 @@
       }
     }
   },
-
   "notFound": {
     "title": "Seite nicht gefunden",
     "description": "Die gesuchte Seite existiert nicht oder wurde möglicherweise verschoben.",
     "backHome": "Zur Startseite"
   },
-
   "tutorials": {
     "title": "Anleitungen",
     "description": "Erfahre, wie du Sailock verwendest und entdecke alle Funktionen.",
-
     "categories": {
       "all": "Alle anzeigen",
       "firstSteps": "Erste Schritte",
