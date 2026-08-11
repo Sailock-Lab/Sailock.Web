@@ -29,6 +29,11 @@
         "copyright": "Open-Source-Software.",
         "madeWith": "Open Source. Mit Sorgfalt entwickelt."
     },
+    "notFound": {
+        "title": "Seite nicht gefunden",
+        "description": "Die gesuchte Seite existiert nicht oder wurde möglicherweise verschoben.",
+        "backHome": "Zur Startseite"
+    },
     "tutorials": {
         "title": "Anleitungen",
         "description": "Erfahren Sie, wie Sie Sailock verwenden und alle Funktionen entdecken können.",

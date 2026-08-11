@@ -29,6 +29,11 @@
         "copyright": "Software de código abierto.",
         "madeWith": "Código abierto. Hecho con cuidado."
     },
+    "notFound": {
+        "title": "Página no encontrada",
+        "description": "La página que buscas no existe o puede haberse movido.",
+        "backHome": "Volver al inicio"
+    },
     "tutorials": {
         "title": "Tutoriales",
         "description": "Aprende a utilizar Sailock y descubre todas sus funciones.",

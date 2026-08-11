@@ -29,6 +29,11 @@
         "copyright": "Logiciel open source.",
         "madeWith": "Open source. Créé avec soin."
     },
+    "notFound": {
+        "title": "Page introuvable",
+        "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
+        "backHome": "Retour à l'accueil"
+    },
     "tutorials": {
         "title": "Tutoriels",
         "description": "Apprenez à utiliser Sailock et découvrez toutes ses fonctionnalités.",
