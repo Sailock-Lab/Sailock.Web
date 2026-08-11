@@ -1,51 +1,162 @@
 {
-    "navigation": {
-        "download": "Download",
-        "tutorials": "Anleitungen",
-        "changelog": "Änderungsprotokoll",
-        "faq": "FAQ",
-        "contributors": "Mitwirkende"
-    },
-    "hero": {
-        "title": "Deine Passwörter.",
-        "titleHighlight": "Unter deiner Kontrolle.",
-        "description": "Sailock ist ein Local-First-Passwortmanager, der dafür entwickelt wurde, deinen verschlüsselten Tresor auf deinem Gerät zu speichern. Keine Cloud, kein Konto, keine Telemetrie.",
-        "download": "Sailock herunterladen",
-        "github": "Auf GitHub ansehen",
-        "meta": {
-            "windows": "Windows",
-            "offline": "Offline",
-            "openSource": "Open Source"
-        }
-    },
-    "footer": {
-        "description": "Ein Local-First-Passwortmanager, entwickelt für Privatsphäre, Sicherheit und Kontrolle.",
-        "product": {
-            "title": "Produkt"
-        },
-        "community": {
-            "title": "Community"
-        },
-        "copyright": "Open-Source-Software.",
-        "madeWith": "Open Source. Mit Sorgfalt entwickelt."
-    },
-    "notFound": {
-        "title": "Seite nicht gefunden",
-        "description": "Die gesuchte Seite existiert nicht oder wurde möglicherweise verschoben.",
-        "backHome": "Zur Startseite"
-    },
-    "tutorials": {
-        "title": "Anleitungen",
-        "description": "Erfahren Sie, wie Sie Sailock verwenden und alle Funktionen entdecken können.",
-        "categories": {
-            "all": "Alle anzeigen",
-            "firstSteps": "Erste Schritte",
-            "twoFactor": "2FA",
-            "autoLock": "Automatische Sperre",
-            "generator": "Generator",
-            "vault": "Tresor",
-            "importExport": "Importieren und Exportieren",
-            "settings": "Einstellungen"
-        }
+  "navigation": {
+    "download": "Download",
+    "tutorials": "Anleitungen",
+    "changelog": "Änderungsprotokoll",
+    "faq": "FAQ",
+    "contributors": "Mitwirkende"
+  },
+
+  "hero": {
+    "title": "Deine Passwörter.",
+    "titleHighlight": "Unter deiner Kontrolle.",
+    "description": "Sailock ist ein Local-First-Passwortmanager, der dafür entwickelt wurde, deinen verschlüsselten Tresor auf deinem Gerät zu speichern. Keine Cloud, kein Konto, keine Telemetrie.",
+    "download": "Sailock herunterladen",
+    "github": "Auf GitHub ansehen",
+    "meta": {
+      "windows": "Windows",
+      "offline": "Offline",
+      "openSource": "Open Source"
     }
+  },
+
+  "footer": {
+    "description": "Ein Local-First-Passwortmanager mit Fokus auf Datenschutz, Sicherheit und Kontrolle.",
+    "product": {
+      "title": "Produkt"
+    },
+    "community": {
+      "title": "Community"
+    },
+    "copyright": "Open-Source-Software.",
+    "madeWith": "Open Source. Mit Sorgfalt entwickelt."
+  },
+
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "description": "Die Bedingungen für die Nutzung der Sailock-Website und der Software.",
+    "lastUpdated": "Zuletzt aktualisiert: August 2026",
+
+    "sections": {
+      "about": {
+        "title": "1. Über Sailock",
+        "content": "Sailock ist ein Open-Source-Projekt, das entwickelt wurde, um eine sichere und datenschutzorientierte Möglichkeit zur Verwaltung von Passwörtern bereitzustellen. Sailock wird derzeit als unabhängiges Open-Source-Projekt entwickelt und ist weder als Unternehmen tätig noch bietet es einen gehosteten Passwortverwaltungsdienst an."
+      },
+      "website": {
+        "title": "2. Nutzung der Website",
+        "content": "Du kannst die Sailock-Website nutzen, um mehr über das Projekt zu erfahren, die Software herunterzuladen, Dokumentation und Tutorials zu lesen, Projektupdates anzusehen und auf andere vom Projekt bereitgestellte Ressourcen zuzugreifen."
+      },
+      "software": {
+        "title": "3. Sailock-Software",
+        "content": "Sailock wird als Software bereitgestellt, die Benutzer auf ihren eigenen Geräten installieren und ausführen können. Du bist dafür verantwortlich, eine geeignete Umgebung auszuwählen, dein Gerät zu schützen und eigene Kopien wichtiger Daten aufzubewahren."
+      },
+      "localFirst": {
+        "title": "4. Local-First-Architektur",
+        "content": "Sailock basiert auf einem Local-First-Ansatz. Die Desktop-Anwendung ist dafür ausgelegt, den Passworttresor des Benutzers auf dessen eigenem Gerät zu speichern, ohne ein Cloud-Konto oder eine gehostete Passwortdatenbank zu benötigen."
+      },
+      "userResponsibility": {
+        "title": "5. Verantwortung des Benutzers",
+        "content": "Du bist für den Schutz deines Master-Passworts, deines Geräts, exportierter Tresordateien und deiner Backups verantwortlich. Wenn du dein Master-Passwort verlierst oder ein verschlüsselter Tresor nicht mehr zugänglich ist, kann das Sailock-Projekt deine Zugangsdaten nicht für dich wiederherstellen."
+      },
+      "security": {
+        "title": "6. Sicherheit",
+        "content": "Sailock wurde mit Sicherheit und Datenschutz als grundlegenden Prinzipien entwickelt. Allerdings kann keine Software absolute Sicherheit garantieren. Benutzer sollten ihr Betriebssystem und ihre Geräte aktuell halten und geeignete Sicherheitspraktiken bei der Nutzung und Sicherung ihres Tresors befolgen."
+      },
+      "openSource": {
+        "title": "7. Open Source",
+        "content": "Sailock wird als Open-Source-Software unter der mit dem Projekt veröffentlichten Lizenz bereitgestellt. Die geltende Lizenz regelt die Rechte zur Nutzung, Änderung und Weiterverbreitung der Software."
+      },
+      "externalServices": {
+        "title": "8. Externe Dienste",
+        "content": "Die Sailock-Website kann Links zu externen Websites oder Diensten enthalten, einschließlich des Quellcode-Repositories des Projekts. Diese Dienste werden unabhängig von Sailock betrieben und unterliegen ihren eigenen Nutzungsbedingungen und Datenschutzrichtlinien."
+      },
+      "availability": {
+        "title": "9. Verfügbarkeit",
+        "content": "Die Website, Downloads, Dokumentation und andere Projektressourcen können jederzeit geändert, aktualisiert, verschoben oder eingestellt werden. Wir garantieren nicht, dass alle Ressourcen jederzeit verfügbar oder fehlerfrei sind."
+      },
+      "changes": {
+        "title": "10. Änderungen dieser Bedingungen",
+        "content": "Diese Bedingungen können aktualisiert werden, wenn sich das Sailock-Projekt weiterentwickelt. Bei wesentlichen Änderungen wird die aktualisierte Version zusammen mit einem neuen Änderungsdatum auf dieser Seite veröffentlicht."
+      },
+      "law": {
+        "title": "11. Anwendbares Recht",
+        "content": "Diese Bedingungen unterliegen dem geltenden Recht. Nichts in diesen Bedingungen soll Rechte ausschließen oder beschränken, die gesetzlich nicht ausgeschlossen oder beschränkt werden dürfen."
+      },
+      "contact": {
+        "title": "12. Kontakt",
+        "content": "Fragen, Vorschläge und Probleme bezüglich Sailock können über das offizielle Projekt-Repository oder einen anderen vom Projekt bereitgestellten offiziellen Kontaktweg eingereicht werden."
+      }
+    }
+  },
+
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "description": "Wie Sailock mit Informationen umgeht, wenn du die Software nutzt oder die Website besuchst.",
+    "lastUpdated": "Zuletzt aktualisiert: August 2026",
+
+    "sections": {
+      "overview": {
+        "title": "1. Überblick",
+        "content": "Sailock wurde mit Datenschutz als grundlegendes Prinzip entwickelt. Die Desktop-Anwendung basiert auf einem Local-First-Ansatz und benötigt weder ein Online-Konto noch einen Cloud-Dienst zur Speicherung deines Passworttresors."
+      },
+      "application": {
+        "title": "2. Von der Anwendung gespeicherte Daten",
+        "content": "Die Sailock-Desktop-Anwendung speichert die für den Betrieb deines Passworttresors erforderlichen Informationen lokal auf deinem Gerät. Dein Tresor soll unter deiner Kontrolle bleiben und wird nicht auf Sailock-Server hochgeladen."
+      },
+      "vault": {
+        "title": "3. Passworttresordaten",
+        "content": "Sailock hat keinen Zugriff auf dein Master-Passwort oder den Inhalt deines lokalen Passworttresors. Du bist für den Schutz deines Geräts, deines Master-Passworts sowie exportierter oder gesicherter Tresordateien verantwortlich."
+      },
+      "telemetry": {
+        "title": "4. Telemetrie und Tracking",
+        "content": "Die Sailock-Desktop-Anwendung ist ohne integrierte Telemetrie oder Verhaltensverfolgung konzipiert. Das Projekt sammelt nicht absichtlich Informationen darüber, wie du den Passwortmanager verwendest."
+      },
+      "website": {
+        "title": "5. Informationen über die Website",
+        "content": "Wenn du die Sailock-Website besuchst, kann die Hosting-Infrastruktur technische Informationen verarbeiten, die zur Bereitstellung und zum Schutz der Website erforderlich sind, beispielsweise IP-Adressen, Browserinformationen, Zeitstempel oder Serverprotokolle. Welche Informationen tatsächlich gespeichert werden, hängt vom Hosting-Anbieter und dessen Konfiguration ab."
+      },
+      "cookies": {
+        "title": "6. Cookies",
+        "content": "Sailock verwendet Cookies nicht absichtlich für Werbung oder verhaltensbezogenes Tracking. Falls in Zukunft technisch notwendige Cookies oder ähnliche Technologien eingeführt werden, wird diese Richtlinie entsprechend aktualisiert."
+      },
+      "analytics": {
+        "title": "7. Analysen",
+        "content": "Sailock verwendet derzeit keine Analyse-Dienste von Drittanbietern, um Werbe- oder Verhaltensprofile zu erstellen. Falls in Zukunft Analysewerkzeuge eingeführt werden, wird diese Richtlinie aktualisiert und erläutert, welche Informationen gesammelt werden und warum."
+      },
+      "external": {
+        "title": "8. Externe Dienste",
+        "content": "Die Website kann auf externe Dienste wie GitHub oder Download-Anbieter verweisen. Wenn du einen externen Dienst besuchst, kann dieser Informationen gemäß seiner eigenen Datenschutzrichtlinie und seinen Nutzungsbedingungen verarbeiten."
+      },
+      "contact": {
+        "title": "9. Kontaktinformationen",
+        "content": "Wenn du das Sailock-Projekt über einen verfügbaren Kontaktweg kontaktierst, können die von dir freiwillig bereitgestellten Informationen ausschließlich zur Beantwortung deiner Anfrage und zur Pflege des Projekts verarbeitet werden."
+      },
+      "changes": {
+        "title": "10. Änderungen dieser Richtlinie",
+        "content": "Diese Datenschutzerklärung kann aktualisiert werden, wenn sich das Sailock-Projekt oder seine Website ändert. Die aktuellste Version wird zusammen mit ihrem Änderungsdatum immer auf dieser Seite veröffentlicht."
+      }
+    }
+  },
+
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde möglicherweise verschoben.",
+    "backHome": "Zur Startseite"
+  },
+
+  "tutorials": {
+    "title": "Anleitungen",
+    "description": "Erfahre, wie du Sailock verwendest und entdecke alle Funktionen.",
+
+    "categories": {
+      "all": "Alle anzeigen",
+      "firstSteps": "Erste Schritte",
+      "twoFactor": "2FA",
+      "autoLock": "Automatische Sperre",
+      "generator": "Generator",
+      "vault": "Tresor",
+      "importExport": "Import & Export",
+      "settings": "Einstellungen"
+    }
+  }
 }

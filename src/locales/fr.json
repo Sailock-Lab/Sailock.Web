@@ -1,51 +1,162 @@
 {
-    "navigation": {
-        "download": "Télécharger",
-        "tutorials": "Tutoriels",
-        "changelog": "Journal des modifications",
-        "faq": "FAQ",
-        "contributors": "Contributeurs"
-    },
-    "hero": {
-        "title": "Vos mots de passe.",
-        "titleHighlight": "Sous votre contrôle.",
-        "description": "Sailock est un gestionnaire de mots de passe local-first conçu pour conserver votre coffre-fort chiffré sur votre appareil. Pas de cloud, pas de compte, pas de télémétrie.",
-        "download": "Télécharger Sailock",
-        "github": "Voir sur GitHub",
-        "meta": {
-            "windows": "Windows",
-            "offline": "Hors ligne",
-            "openSource": "Open Source"
-        }
-    },
-    "footer": {
-        "description": "Un gestionnaire de mots de passe local-first conçu pour offrir confidentialité, sécurité et contrôle.",
-        "product": {
-            "title": "Produit"
-        },
-        "community": {
-            "title": "Communauté"
-        },
-        "copyright": "Logiciel open source.",
-        "madeWith": "Open source. Créé avec soin."
-    },
-    "notFound": {
-        "title": "Page introuvable",
-        "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
-        "backHome": "Retour à l'accueil"
-    },
-    "tutorials": {
-        "title": "Tutoriels",
-        "description": "Apprenez à utiliser Sailock et découvrez toutes ses fonctionnalités.",
-        "categories": {
-            "all": "Tout afficher",
-            "firstSteps": "Premiers pas",
-            "twoFactor": "2FA",
-            "autoLock": "Verrouillage automatique",
-            "generator": "Générateur",
-            "vault": "Coffre-fort",
-            "importExport": "Importer et exporter",
-            "settings": "Paramètres"
-        }
+  "navigation": {
+    "download": "Télécharger",
+    "tutorials": "Tutoriels",
+    "changelog": "Journal des modifications",
+    "faq": "FAQ",
+    "contributors": "Contributeurs"
+  },
+
+  "hero": {
+    "title": "Vos mots de passe.",
+    "titleHighlight": "Sous votre contrôle.",
+    "description": "Sailock est un gestionnaire de mots de passe local-first conçu pour conserver votre coffre-fort chiffré sur votre appareil. Pas de cloud, pas de compte, pas de télémétrie.",
+    "download": "Télécharger Sailock",
+    "github": "Voir sur GitHub",
+    "meta": {
+      "windows": "Windows",
+      "offline": "Hors ligne",
+      "openSource": "Open Source"
     }
+  },
+
+  "footer": {
+    "description": "Un gestionnaire de mots de passe local-first basé sur la confidentialité, la sécurité et le contrôle.",
+    "product": {
+      "title": "Produit"
+    },
+    "community": {
+      "title": "Communauté"
+    },
+    "copyright": "Logiciel open source.",
+    "madeWith": "Open source. Développé avec soin."
+  },
+
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "description": "Les conditions applicables à l'utilisation du site web et des logiciels Sailock.",
+    "lastUpdated": "Dernière mise à jour : août 2026",
+
+    "sections": {
+      "about": {
+        "title": "1. À propos de Sailock",
+        "content": "Sailock est un projet open source créé pour fournir une manière sécurisée et respectueuse de la vie privée de gérer les mots de passe. Sailock est actuellement développé comme un projet open source indépendant et n'exploite pas d'entreprise ni de service de gestion de mots de passe hébergé."
+      },
+      "website": {
+        "title": "2. Utilisation du site web",
+        "content": "Vous pouvez utiliser le site web de Sailock pour découvrir le projet, télécharger le logiciel, consulter la documentation et les tutoriels, suivre les mises à jour du projet et accéder aux autres ressources proposées."
+      },
+      "software": {
+        "title": "3. Logiciel Sailock",
+        "content": "Sailock est fourni sous la forme d'un logiciel que les utilisateurs peuvent installer et exécuter sur leurs propres appareils. Vous êtes responsable du choix d'un environnement approprié, de la sécurité de votre appareil et de la conservation de vos propres copies des données importantes."
+      },
+      "localFirst": {
+        "title": "4. Architecture local-first",
+        "content": "Sailock repose sur une approche local-first. L'application de bureau est conçue pour conserver le coffre-fort de mots de passe de l'utilisateur sur son propre appareil, sans nécessiter de compte cloud ni de base de données de mots de passe hébergée."
+      },
+      "userResponsibility": {
+        "title": "5. Responsabilité de l'utilisateur",
+        "content": "Vous êtes responsable de la protection de votre mot de passe principal, de votre appareil, de vos fichiers de coffre-fort exportés et de vos sauvegardes. Si vous perdez votre mot de passe principal ou si un coffre-fort chiffré devient inaccessible, le projet Sailock ne peut pas récupérer vos identifiants à votre place."
+      },
+      "security": {
+        "title": "6. Sécurité",
+        "content": "Sailock est conçu en plaçant la sécurité et la confidentialité au cœur du projet. Cependant, aucun logiciel ne peut garantir une sécurité absolue. Les utilisateurs doivent maintenir leur système d'exploitation et leurs appareils à jour et appliquer les bonnes pratiques de sécurité lors de l'utilisation et de la sauvegarde de leur coffre-fort."
+      },
+      "openSource": {
+        "title": "7. Open source",
+        "content": "Sailock est distribué en tant que logiciel open source sous la licence publiée avec le projet. La licence applicable régit les droits d'utilisation, de modification et de redistribution du logiciel."
+      },
+      "externalServices": {
+        "title": "8. Services externes",
+        "content": "Le site web de Sailock peut contenir des liens vers des sites web ou services externes, notamment le dépôt du code source du projet. Ces services sont exploités indépendamment de Sailock et sont soumis à leurs propres conditions et politiques de confidentialité."
+      },
+      "availability": {
+        "title": "9. Disponibilité",
+        "content": "Le site web, les téléchargements, la documentation et les autres ressources du projet peuvent être modifiés, mis à jour, déplacés ou interrompus à tout moment. Nous ne garantissons pas que toutes les ressources seront toujours disponibles ou exemptes d'erreurs."
+      },
+      "changes": {
+        "title": "10. Modifications de ces conditions",
+        "content": "Ces conditions peuvent être mises à jour au fur et à mesure de l'évolution du projet Sailock. Lorsque des modifications importantes sont apportées, la version mise à jour sera publiée sur cette page avec une nouvelle date de révision."
+      },
+      "law": {
+        "title": "11. Droit applicable",
+        "content": "Ces conditions sont soumises au droit applicable. Rien dans ces conditions n'a pour objet d'exclure ou de limiter les droits qui ne peuvent légalement être exclus ou limités."
+      },
+      "contact": {
+        "title": "12. Contact",
+        "content": "Les questions, suggestions et problèmes concernant Sailock peuvent être soumis via le dépôt officiel du projet ou tout autre moyen de contact officiel mis à disposition par le projet."
+      }
+    }
+  },
+
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "description": "Comment Sailock traite les informations lorsque vous utilisez le logiciel ou visitez le site web.",
+    "lastUpdated": "Dernière mise à jour : août 2026",
+
+    "sections": {
+      "overview": {
+        "title": "1. Vue d'ensemble",
+        "content": "Sailock est conçu avec la confidentialité comme principe fondamental. L'application de bureau repose sur une architecture local-first et ne nécessite ni compte en ligne ni service cloud pour stocker votre coffre-fort de mots de passe."
+      },
+      "application": {
+        "title": "2. Données stockées par l'application",
+        "content": "L'application de bureau Sailock stocke localement sur votre appareil les informations nécessaires au fonctionnement de votre coffre-fort de mots de passe. Votre coffre-fort est destiné à rester sous votre contrôle et n'est pas envoyé aux serveurs de Sailock."
+      },
+      "vault": {
+        "title": "3. Données du coffre-fort",
+        "content": "Sailock n'a pas accès à votre mot de passe principal ni au contenu de votre coffre-fort local. Vous êtes responsable de la protection de votre appareil, de votre mot de passe principal ainsi que des fichiers de coffre-fort exportés ou sauvegardés."
+      },
+      "telemetry": {
+        "title": "4. Télémétrie et suivi",
+        "content": "L'application de bureau Sailock est conçue sans télémétrie intégrée ni suivi comportemental. Le projet ne collecte pas intentionnellement d'informations sur votre utilisation du gestionnaire de mots de passe."
+      },
+      "website": {
+        "title": "5. Informations relatives au site web",
+        "content": "Lorsque vous visitez le site web de Sailock, l'infrastructure d'hébergement peut traiter les informations techniques nécessaires à la fourniture et à la protection du site, telles que les adresses IP, les informations du navigateur, les horodatages ou les journaux du serveur. Les informations effectivement conservées dépendent du fournisseur d'hébergement et de sa configuration."
+      },
+      "cookies": {
+        "title": "6. Cookies",
+        "content": "Sailock n'utilise pas intentionnellement de cookies à des fins publicitaires ou de suivi comportemental. Si des cookies techniquement nécessaires ou des technologies similaires sont introduits à l'avenir, cette politique sera mise à jour en conséquence."
+      },
+      "analytics": {
+        "title": "7. Analyses",
+        "content": "Sailock n'utilise actuellement aucun service d'analyse tiers pour créer des profils publicitaires ou comportementaux. Si des outils d'analyse sont introduits à l'avenir, cette politique sera mise à jour afin de préciser quelles informations sont collectées et pourquoi."
+      },
+      "external": {
+        "title": "8. Services externes",
+        "content": "Le site web peut contenir des liens vers des services externes tels que GitHub ou des fournisseurs de téléchargement. Lorsque vous visitez un service externe, celui-ci peut traiter des informations conformément à sa propre politique de confidentialité et à ses conditions."
+      },
+      "contact": {
+        "title": "9. Informations de contact",
+        "content": "Si vous contactez le projet Sailock via un moyen de contact disponible, les informations que vous fournissez volontairement peuvent être traitées uniquement afin de répondre à votre demande et de maintenir le projet."
+      },
+      "changes": {
+        "title": "10. Modifications de cette politique",
+        "content": "Cette politique de confidentialité peut être mise à jour lorsque le projet Sailock ou son site web évolue. La dernière version sera toujours publiée sur cette page avec sa date de révision."
+      }
+    }
+  },
+
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
+    "backHome": "Retour à l'accueil"
+  },
+
+  "tutorials": {
+    "title": "Tutoriels",
+    "description": "Apprenez à utiliser Sailock et découvrez toutes ses fonctionnalités.",
+
+    "categories": {
+      "all": "Tout afficher",
+      "firstSteps": "Premiers pas",
+      "twoFactor": "2FA",
+      "autoLock": "Verrouillage automatique",
+      "generator": "Générateur",
+      "vault": "Coffre-fort",
+      "importExport": "Importation et exportation",
+      "settings": "Paramètres"
+    }
+  }
 }

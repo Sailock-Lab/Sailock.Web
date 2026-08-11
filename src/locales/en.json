@@ -1,51 +1,153 @@
 {
-    "navigation": {
-        "download": "Download",
-        "tutorials": "Tutorials",
-        "changelog": "Changelog",
-        "faq": "FAQ",
-        "contributors": "Contributors"
-    },
-    "hero": {
-        "title": "Your passwords.",
-        "titleHighlight": "Under your control.",
-        "description": "Sailock is a local-first password manager designed to keep your encrypted vault on your device. No cloud, no account, no telemetry.",
-        "download": "Download Sailock",
-        "github": "View on GitHub",
-        "meta": {
-            "windows": "Windows",
-            "offline": "Offline",
-            "openSource": "Open Source"
-        }
-    },
-    "footer": {
-        "description": "A local-first password manager built around privacy, security and control.",
-        "product": {
-            "title": "Product"
-        },
-        "community": {
-            "title": "Community"
-        },
-        "copyright": "Open source software.",
-        "madeWith": "Open source. Built with care."
-    },
-    "notFound": {
-        "title": "Page not found",
-        "description": "The page you're looking for doesn't exist or may have been moved.",
-        "backHome": "Back to home"
-    },
-    "tutorials": {
-        "title": "Tutorials",
-        "description": "Learn how to use Sailock and discover all its features.",
-        "categories": {
-            "all": "Show All",
-            "firstSteps": "First Steps",
-            "twoFactor": "2FA",
-            "autoLock": "Auto-lock",
-            "generator": "Generator",
-            "vault": "Vault",
-            "importExport": "Import & Export",
-            "settings": "Settings"
-        }
+  "navigation": {
+    "download": "Download",
+    "tutorials": "Tutorials",
+    "changelog": "Changelog",
+    "faq": "FAQ",
+    "contributors": "Contributors"
+  },
+  "hero": {
+    "title": "Your passwords.",
+    "titleHighlight": "Under your control.",
+    "description": "Sailock is a local-first password manager designed to keep your encrypted vault on your device. No cloud, no account, no telemetry.",
+    "download": "Download Sailock",
+    "github": "View on GitHub",
+    "meta": {
+      "windows": "Windows",
+      "offline": "Offline",
+      "openSource": "Open Source"
     }
+  },
+  "footer": {
+    "description": "A local-first password manager built around privacy, security and control.",
+    "product": {
+      "title": "Product"
+    },
+    "community": {
+      "title": "Community"
+    },
+    "copyright": "Open source software.",
+    "madeWith": "Open source. Built with care."
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "description": "The terms that apply to the use of the Sailock website and software.",
+    "lastUpdated": "Last updated: August 2026",
+    "sections": {
+      "about": {
+        "title": "1. About Sailock",
+        "content": "Sailock is an open-source project created to provide a secure, privacy-focused way to manage passwords. Sailock is currently developed as an independent open-source project and does not operate as a company or provide a hosted password management service."
+      },
+      "website": {
+        "title": "2. Use of the website",
+        "content": "You may use the Sailock website to learn about the project, download the software, read documentation and tutorials, view project updates, and access other resources made available by the project."
+      },
+      "software": {
+        "title": "3. Sailock software",
+        "content": "Sailock is provided as software that users can install and run on their own devices. You are responsible for choosing an appropriate environment, keeping your device secure, and maintaining your own copies of important data."
+      },
+      "localFirst": {
+        "title": "4. Local-first architecture",
+        "content": "Sailock is designed around a local-first approach. The desktop application is intended to keep the user's password vault on their own device rather than requiring a cloud account or hosted password database."
+      },
+      "userResponsibility": {
+        "title": "5. User responsibility",
+        "content": "You are responsible for protecting your master password, device, exported vault files and backups. If you lose your master password or an encrypted vault becomes inaccessible, the Sailock project cannot recover your credentials for you."
+      },
+      "security": {
+        "title": "6. Security",
+        "content": "Sailock is designed with security and privacy as core principles. However, no software can guarantee absolute security. Users should keep their operating system and devices updated and follow appropriate security practices when using and backing up their vault."
+      },
+      "openSource": {
+        "title": "7. Open source",
+        "content": "Sailock is distributed as open-source software under the license published with the project. The applicable license governs the rights to use, modify and redistribute the software."
+      },
+      "externalServices": {
+        "title": "8. External services",
+        "content": "The Sailock website may contain links to external websites or services, including the project's source-code repository. These services are operated independently from Sailock and are subject to their own terms and privacy policies."
+      },
+      "availability": {
+        "title": "9. Availability",
+        "content": "The website, downloads, documentation and other project resources may be changed, updated, moved or discontinued at any time. We do not guarantee that every resource will always be available or free from errors."
+      },
+      "changes": {
+        "title": "10. Changes to these terms",
+        "content": "These terms may be updated as the Sailock project evolves. When significant changes are made, the updated version will be published on this page together with a new revision date."
+      },
+      "law": {
+        "title": "11. Applicable law",
+        "content": "These terms are subject to applicable law. Nothing in these terms is intended to exclude or limit rights that cannot legally be excluded or limited."
+      },
+      "contact": {
+        "title": "12. Contact",
+        "content": "Questions, suggestions and issues regarding Sailock can be submitted through the official project repository or another official contact channel made available by the project."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "How Sailock handles information when you use the software or visit the website.",
+    "lastUpdated": "Last updated: August 2026",
+    "sections": {
+      "overview": {
+        "title": "1. Overview",
+        "content": "Sailock is designed with privacy as a core principle. The desktop application is local-first and does not require an online account or a cloud service to store your password vault."
+      },
+      "application": {
+        "title": "2. Data stored by the application",
+        "content": "The Sailock desktop application stores the information required to operate your password vault locally on your device. Your vault is intended to remain under your control and is not uploaded to Sailock servers."
+      },
+      "vault": {
+        "title": "3. Password vault data",
+        "content": "Sailock does not have access to your master password or the contents of your local password vault. You are responsible for protecting your device, master password and any exported or backed-up vault files."
+      },
+      "telemetry": {
+        "title": "4. Telemetry and tracking",
+        "content": "The Sailock desktop application is designed without built-in telemetry or behavioral tracking. The project does not intentionally collect information about how you use the password manager."
+      },
+      "website": {
+        "title": "5. Website information",
+        "content": "When you visit the Sailock website, the hosting infrastructure may process technical information required to deliver and protect the website, such as IP addresses, browser information, timestamps or server logs. The exact information retained depends on the hosting provider and its configuration."
+      },
+      "cookies": {
+        "title": "6. Cookies",
+        "content": "Sailock does not intentionally use cookies for advertising or behavioral tracking. If technically necessary cookies or similar technologies are introduced in the future, this policy will be updated accordingly."
+      },
+      "analytics": {
+        "title": "7. Analytics",
+        "content": "Sailock does not currently use third-party analytics services to build advertising or behavioral profiles. If analytics are introduced in the future, this policy will be updated to describe what information is collected and why."
+      },
+      "external": {
+        "title": "8. External services",
+        "content": "The website may link to external services such as GitHub or download providers. When you visit an external service, that service may process information according to its own privacy policy and terms."
+      },
+      "contact": {
+        "title": "9. Contact information",
+        "content": "If you contact the Sailock project through an available contact channel, the information you voluntarily provide may be processed solely for the purpose of responding to your request and maintaining the project."
+      },
+      "changes": {
+        "title": "10. Changes to this policy",
+        "content": "This Privacy Policy may be updated when the Sailock project or its website changes. The latest version will always be published on this page together with its revision date."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or may have been moved.",
+    "backHome": "Back to home"
+  },
+  "tutorials": {
+    "title": "Tutorials",
+    "description": "Learn how to use Sailock and discover all its features.",
+    "categories": {
+      "all": "Show All",
+      "firstSteps": "First Steps",
+      "twoFactor": "2FA",
+      "autoLock": "Auto-lock",
+      "generator": "Generator",
+      "vault": "Vault",
+      "importExport": "Import & Export",
+      "settings": "Settings"
+    }
+  }
 }
