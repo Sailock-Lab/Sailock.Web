@@ -18,6 +18,17 @@
             "openSource": "Open Source"
         }
     },
+    "footer": {
+        "description": "Un gestionnaire de mots de passe local-first conçu pour offrir confidentialité, sécurité et contrôle.",
+        "product": {
+            "title": "Produit"
+        },
+        "community": {
+            "title": "Communauté"
+        },
+        "copyright": "Logiciel open source.",
+        "madeWith": "Open source. Créé avec soin."
+    },
     "tutorials": {
         "title": "Tutoriels",
         "description": "Apprenez à utiliser Sailock et découvrez toutes ses fonctionnalités.",

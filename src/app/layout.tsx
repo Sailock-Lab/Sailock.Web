@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-
 import { APP } from "@/config/app";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { LocaleProvider } from "@/context/LocaleContext";
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
     title: APP.name,
@@ -27,7 +27,10 @@ export default function RootLayout({
                 <ThemeProvider>
                     <LocaleProvider>
                         <Navbar />
-                        {children}
+                        <main>
+                            {children}
+                        </main>
+                        <Footer />
                     </LocaleProvider>
                 </ThemeProvider>
             </body>

@@ -18,6 +18,17 @@
             "openSource": "Código abierto"
         }
     },
+    "footer": {
+        "description": "Un gestor de contraseñas local-first diseñado para ofrecer privacidad, seguridad y control.",
+        "product": {
+            "title": "Producto"
+        },
+        "community": {
+            "title": "Comunidad"
+        },
+        "copyright": "Software de código abierto.",
+        "madeWith": "Código abierto. Hecho con cuidado."
+    },
     "tutorials": {
         "title": "Tutoriales",
         "description": "Aprende a utilizar Sailock y descubre todas sus funciones.",

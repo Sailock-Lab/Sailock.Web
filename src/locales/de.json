@@ -18,6 +18,17 @@
             "openSource": "Open Source"
         }
     },
+    "footer": {
+        "description": "Ein Local-First-Passwortmanager, entwickelt für Privatsphäre, Sicherheit und Kontrolle.",
+        "product": {
+            "title": "Produkt"
+        },
+        "community": {
+            "title": "Community"
+        },
+        "copyright": "Open-Source-Software.",
+        "madeWith": "Open Source. Mit Sorgfalt entwickelt."
+    },
     "tutorials": {
         "title": "Anleitungen",
         "description": "Erfahren Sie, wie Sie Sailock verwenden und alle Funktionen entdecken können.",

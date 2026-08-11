@@ -18,6 +18,17 @@
             "openSource": "Open Source"
         }
     },
+    "footer": {
+        "description": "A local-first password manager built around privacy, security and control.",
+        "product": {
+            "title": "Product"
+        },
+        "community": {
+            "title": "Community"
+        },
+        "copyright": "Open source software.",
+        "madeWith": "Open source. Built with care."
+    },
     "tutorials": {
         "title": "Tutorials",
         "description": "Learn how to use Sailock and discover all its features.",
