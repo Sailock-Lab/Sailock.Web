@@ -2,29 +2,28 @@
 
 import Link from "next/link";
 import { IconArrowRight, IconBrandGithub } from "@tabler/icons-react";
-
 import Container from "@/components/common/Container";
 import { APP } from "@/config/app";
 import useLocale from "@/hooks/useLocale";
 
-export default function Hero() {
+export default function HomeHero() {
     const { t } = useLocale();
 
     return (
-        <section className="hero">
+        <section className="home-hero">
             <Container>
-                <div className="hero-content">
+                <div className="home-hero-content">
                     <h1>
                         {t("hero.title")}
                         <br />
                         <span>{t("hero.titleHighlight")}</span>
                     </h1>
 
-                    <p className="hero-description">
+                    <p className="home-hero-description">
                         {t("hero.description")}
                     </p>
 
-                    <div className="hero-actions">
+                    <div className="home-hero-actions">
                         <Link
                             href="#download"
                             className="button button-primary"
@@ -44,7 +43,7 @@ export default function Hero() {
                         </a>
                     </div>
 
-                    <div className="hero-meta">
+                    <div className="home-hero-meta">
                         <span>{t("hero.meta.windows")}</span>
                         <span>{t("hero.meta.offline")}</span>
                         <span>{t("hero.meta.openSource")}</span>

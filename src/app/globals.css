@@ -1,23 +1,17 @@
-@import "../styles/base/animations.css";
 @import "../styles/base/colors.css";
-@import "../styles/base/base.css";
-@import "../styles/base/layout.css";
+@import "../styles/base/typography.css";
+@import "../styles/base/spacing.css";
 @import "../styles/base/radius.css";
 @import "../styles/base/shadows.css";
-@import "../styles/base/spacing.css";
-@import "../styles/base/typography.css";
+@import "../styles/base/layout.css";
+@import "../styles/base/animations.css";
+@import "../styles/base/base.css";
 
 @import "../styles/components/button.css";
+@import "../styles/components/container.css";
+@import "../styles/components/accordion.css";
 @import "../styles/components/language-switcher.css";
 @import "../styles/components/navbar.css";
-
-@import "../styles/sections/community.css";
-@import "../styles/sections/download.css";
-@import "../styles/sections/faq.css";
-@import "../styles/sections/features.css";
-@import "../styles/sections/footer.css";
-@import "../styles/sections/hero.css";
-@import "../styles/sections/screenshots.css";
-@import "../styles/sections/tutorials.css";
-@import "../styles/sections/404.css";
-@import "../styles/sections/legal.css";
+@import "../styles/components/footer.css";
+@import "../styles/components/page-hero.css";
+@import "../styles/components/home-hero.css";

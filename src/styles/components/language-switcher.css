@@ -6,10 +6,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
 
-    height: 42px;
-    padding: 0 .75rem;
+    gap: var(--space-2);
+
+    min-height: 42px;
+    padding: 0 var(--space-3);
 
     border-radius: var(--radius-md);
 
@@ -25,12 +26,10 @@
 }
 
 .language-button span {
-    font-weight: 600;
-    color: inherit;
+    font-weight: var(--font-weight-semibold);
 }
 
 .language-button svg {
-    color: inherit;
     flex-shrink: 0;
 }
 
@@ -44,15 +43,16 @@
 
 .language-menu {
     position: absolute;
-    top: calc(100% + .75rem);
+    top: calc(100% + var(--space-3));
     right: 0;
 
     display: flex;
     flex-direction: column;
-    gap: .25rem;
+
+    gap: var(--space-1);
 
     min-width: 180px;
-    padding: .5rem;
+    padding: var(--space-2);
 
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: .75rem 1rem;
+    padding: var(--space-3) var(--space-4);
 
     border-radius: var(--radius-md);
 
@@ -89,13 +89,9 @@
 
 .language-item.active {
     background: var(--color-primary);
-    color: white;
+    color: #ffffff;
 }
 
 .language-item.active:hover {
     background: var(--color-primary-hover);
-}
-
-.language-item svg {
-    color: inherit;
 }

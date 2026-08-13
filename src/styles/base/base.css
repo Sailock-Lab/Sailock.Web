@@ -21,7 +21,7 @@ body {
 
     font-family: var(--font-family);
     font-size: var(--font-size-base);
-    line-height: 1.6;
+    line-height: var(--line-height-normal);
 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -51,7 +51,7 @@ select {
 }
 
 button {
-    border: none;
+    border: 0;
     background: transparent;
     cursor: pointer;
 }
@@ -68,10 +68,5 @@ ol {
 
 ::selection {
     background: var(--color-primary);
-    color: white;
-}
-
-.container {
-    width: min(var(--container-width), calc(100% - 2rem));
-    margin-inline: auto;
+    color: #ffffff;
 }

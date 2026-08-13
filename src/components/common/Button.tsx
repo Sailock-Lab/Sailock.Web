@@ -8,6 +8,7 @@ interface ButtonProps {
     href: string;
     variant?: ButtonVariant;
     external?: boolean;
+    className?: string;
 }
 
 export default function Button({
@@ -15,14 +16,15 @@ export default function Button({
     href,
     variant = "primary",
     external = false,
+    className = "",
 }: ButtonProps) {
-    const className = `button button-${variant}`;
+    const classes = `button button-${variant} ${className}`.trim();
 
     if (external) {
         return (
             <a
                 href={href}
-                className={className}
+                className={classes}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -32,7 +34,7 @@ export default function Button({
     }
 
     return (
-        <Link href={href} className={className}>
+        <Link href={href} className={classes}>
             {children}
         </Link>
     );

@@ -1,0 +1,21 @@
+.page-hero {
+    padding: var(--space-9) 0 var(--space-7);
+}
+
+.page-hero-content {
+    max-width: 900px;
+    margin-inline: auto;
+
+    text-align: center;
+}
+
+.page-hero-content p {
+    max-width: 680px;
+    margin: var(--space-5) auto 0;
+}
+
+@media (max-width: 768px) {
+    .page-hero {
+        padding: var(--space-8) 0 var(--space-6);
+    }
+}

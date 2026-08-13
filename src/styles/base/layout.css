@@ -1,5 +1,11 @@
 :root {
     --container-width: 1280px;
-    --navbar-height: 80px;
+    --navbar-height: 88px;
     --section-padding: 6rem;
+}
+
+@media (max-width: 768px) {
+    :root {
+        --navbar-height: 72px;
+    }
 }
