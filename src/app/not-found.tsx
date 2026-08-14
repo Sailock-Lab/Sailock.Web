@@ -10,7 +10,7 @@ export default function NotFound() {
     const { t } = useLocale();
 
     return (
-        <main className="not-found">
+        <section className="not-found">
             <Container>
                 <div className="not-found-content">
                     <span className="not-found-code">404</span>
@@ -19,12 +19,15 @@ export default function NotFound() {
 
                     <p>{t("notFound.description")}</p>
 
-                    <Link href="/" className="button button-primary">
+                    <Link
+                        href="/"
+                        className="button button-primary"
+                    >
                         <IconArrowLeft size={18} />
                         {t("notFound.backHome")}
                     </Link>
                 </div>
             </Container>
-        </main>
+        </section>
     );
 }
