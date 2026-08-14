@@ -1,6 +1,6 @@
 "use client";
 
-import { IconPlus } from "@tabler/icons-react";
+import { IconMinus, IconPlus } from "@tabler/icons-react";
 
 interface AccordionProps {
     title: string;
@@ -22,7 +22,17 @@ export default function Accordion({
                     className="accordion-icon"
                     aria-hidden="true"
                 >
-                    <IconPlus size={18} stroke={1.8} />
+                    <IconPlus
+                        className="accordion-icon-plus"
+                        size={18}
+                        stroke={1.8}
+                    />
+
+                    <IconMinus
+                        className="accordion-icon-minus"
+                        size={18}
+                        stroke={1.8}
+                    />
                 </span>
             </summary>
 

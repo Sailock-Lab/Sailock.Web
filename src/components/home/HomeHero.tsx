@@ -12,7 +12,7 @@ export default function HomeHero() {
     return (
         <section className="home-hero">
             <Container>
-                <div className="home-hero-content">
+                <div className="home-hero-content animate-fade-in-up">
                     <h1>
                         {t("hero.title")}
                         <br />
@@ -41,12 +41,6 @@ export default function HomeHero() {
                             <IconBrandGithub size={18} />
                             {t("hero.github")}
                         </a>
-                    </div>
-
-                    <div className="home-hero-meta">
-                        <span>{t("hero.meta.windows")}</span>
-                        <span>{t("hero.meta.offline")}</span>
-                        <span>{t("hero.meta.openSource")}</span>
                     </div>
                 </div>
             </Container>

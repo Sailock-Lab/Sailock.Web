@@ -1,0 +1,34 @@
+.faq-page-hero .page-hero {
+    padding: var(--space-8) 0 var(--space-5);
+}
+
+.faq-page-hero .page-hero-content h1 {
+    color: var(--color-primary);
+}
+
+.faq {
+    padding: 0 0 var(--space-10);
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+.faq-list p {
+    margin: 0;
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+    .faq-page-hero .page-hero {
+        padding: var(--space-7) 0 var(--space-4);
+    }
+
+    .faq {
+        padding-bottom: var(--space-8);
+    }
+}
