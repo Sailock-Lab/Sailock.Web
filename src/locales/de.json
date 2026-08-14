@@ -142,8 +142,10 @@
   },
   "notFound": {
     "title": "Seite nicht gefunden",
-    "description": "Die gesuchte Seite existiert nicht oder wurde möglicherweise verschoben.",
-    "backHome": "Zur Startseite"
+    "description": "Die gesuchte Seite konnte nicht gefunden werden. Möglicherweise wurde sie entfernt, verschoben oder die URL ist nicht korrekt.",
+    "backHome": "Zur Startseite",
+    "help": "Brauchst du Hilfe? Besuche unsere",
+    "helpLink": "häufig gestellten Fragen"
   },
   "tutorials": {
     "title": "Anleitungen",

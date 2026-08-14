@@ -142,8 +142,10 @@
   },
   "notFound": {
     "title": "Page not found",
-    "description": "The page you're looking for doesn't exist or may have been moved.",
-    "backHome": "Back to home"
+    "description": "We couldn't find the page you're looking for. It may have been removed, moved, or the URL is incorrect.",
+    "backHome": "Back to home",
+    "help": "Need help? Visit our",
+    "helpLink": "frequently asked questions"
   },
   "tutorials": {
     "title": "Tutorials",

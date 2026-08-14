@@ -142,8 +142,10 @@
     },
     "notFound": {
         "title": "Página no encontrada",
-        "description": "La página que buscas no existe o puede haberse movido.",
-        "backHome": "Volver al inicio"
+        "description": "No hemos podido encontrar la página que buscas. Puede que haya sido eliminada, movida o que la URL sea incorrecta.",
+        "backHome": "Volver al inicio",
+        "help": "¿Tienes alguna duda? Consulta nuestras",
+        "helpLink": "preguntas frecuentes"
     },
     "tutorials": {
         "title": "Tutoriales",

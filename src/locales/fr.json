@@ -142,8 +142,10 @@
   },
   "notFound": {
     "title": "Page introuvable",
-    "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
-    "backHome": "Retour à l'accueil"
+    "description": "Nous n'avons pas trouvé la page que vous recherchez. Elle a peut-être été supprimée, déplacée ou l'URL est incorrecte.",
+    "backHome": "Retour à l'accueil",
+    "help": "Besoin d'aide ? Consultez nos",
+    "helpLink": "questions fréquentes"
   },
   "tutorials": {
     "title": "Tutoriels",
