@@ -1,0 +1,29 @@
+{
+  "footer": {
+    "description": "Un gestor de contraseñas local centrado en la privacidad, la seguridad y el control.",
+    "product": {
+      "title": "Producto"
+    },
+    "community": {
+      "title": "Comunidad"
+    },
+    "project": {
+      "title": "Proyecto",
+      "about": "Sobre Sailock",
+      "sitemap": "Mapa del sitio",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "terms": "Términos de uso",
+      "privacy": "Política de privacidad"
+    },
+    "copyright": "Software de código abierto."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "No hemos podido encontrar la página que buscas. Puede que haya sido eliminada, movida o que la URL sea incorrecta.",
+    "backHome": "Volver al inicio",
+    "help": "¿Tienes alguna duda? Consulta nuestras",
+    "helpLink": "preguntas frecuentes"
+  }
+}

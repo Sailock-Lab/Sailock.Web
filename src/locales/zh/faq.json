@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "常见问题",
+    "description": "关于 Sailock、它的工作原理以及如何开始使用的常见问题解答。",
+    "questions": {
+      "whatIs": {
+        "question": "Sailock 是什么？",
+        "answer": "Sailock 是一款面向 Windows 的本地优先密码管理器。它会将你的加密密码库保存在你自己的设备上——不需要云账户，也不涉及服务器。"
+      },
+      "isFree": {
+        "question": "Sailock 是免费的吗？",
+        "answer": "是的。Sailock 免费且开源。你可以免费使用它、查看其源代码，并为其贡献代码。"
+      },
+      "whereDownload": {
+        "question": "我可以在哪里下载 Sailock？",
+        "answer": "你可以从官方 GitHub 仓库或 Microsoft Store 下载最新版本。"
+      },
+      "windows": {
+        "question": "除了 Windows，Sailock 是否支持其他平台？",
+        "answer": "目前 Sailock 是专为 Windows 开发的。短期内没有支持其他平台的计划，但我们始终欢迎社区的反馈。"
+      },
+      "offline": {
+        "question": "Sailock 在没有网络连接的情况下也能使用吗？",
+        "answer": "可以。Sailock 完全支持离线运行。你的密码库保存在设备本地，使用时不需要联网。"
+      },
+      "openSource": {
+        "question": "Sailock 是开源的吗？",
+        "answer": "是的。完整的源代码以开放许可证的形式发布在 GitHub 上，任何人都可以查看或参与贡献。"
+      },
+      "security": {
+        "question": "Sailock 如何保护我的密码？",
+        "answer": "你的密码库使用 AES-256 加密，访问权限由你的主密码保护。Sailock 还支持基于 TOTP 的双重验证，为账户提供额外的安全保障。"
+      },
+      "masterPassword": {
+        "question": "如果我忘记了主密码会怎样？",
+        "answer": "由于 Sailock 不会在任何地方存储你的主密码，一旦遗忘，将无法恢复对密码库的访问。请务必将其妥善保管在安全的地方。"
+      }
+    }
+  }
+}

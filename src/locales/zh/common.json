@@ -1,0 +1,25 @@
+{
+  "footer": {
+    "description": "一款围绕隐私、安全与掌控力打造的本地密码管理器。",
+    "product": { "title": "产品" },
+    "community": { "title": "社区" },
+    "project": {
+      "title": "项目",
+      "about": "关于 Sailock",
+      "sitemap": "网站地图",
+      "contact": "联系方式"
+    },
+    "legal": {
+      "terms": "使用条款",
+      "privacy": "隐私政策"
+    },
+    "copyright": "开源软件。"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "我们找不到你要访问的页面。它可能已被删除、移动，或者链接地址有误。",
+    "backHome": "返回首页",
+    "help": "需要帮助？请查看我们的",
+    "helpLink": "常见问题"
+  }
+}

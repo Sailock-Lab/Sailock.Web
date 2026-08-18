@@ -1,0 +1,25 @@
+{
+  "footer": {
+    "description": "Lokalny menedżer haseł zbudowany z myślą o prywatności, bezpieczeństwie i kontroli.",
+    "product": { "title": "Produkt" },
+    "community": { "title": "Społeczność" },
+    "project": {
+      "title": "Projekt",
+      "about": "O Sailock",
+      "sitemap": "Mapa strony",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "terms": "Warunki korzystania",
+      "privacy": "Polityka prywatności"
+    },
+    "copyright": "Oprogramowanie open source."
+  },
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "description": "Nie udało się znaleźć szukanej strony. Mogła zostać usunięta, przeniesiona lub adres URL jest nieprawidłowy.",
+    "backHome": "Wróć na stronę główną",
+    "help": "Potrzebujesz pomocy? Sprawdź nasze",
+    "helpLink": "najczęściej zadawane pytania"
+  }
+}

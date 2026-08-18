@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "Najczęściej zadawane pytania",
+    "description": "Odpowiedzi na najczęstsze pytania dotyczące Sailock, sposobu jego działania i jak zacząć.",
+    "questions": {
+      "whatIs": {
+        "question": "Czym jest Sailock?",
+        "answer": "Sailock to menedżer haseł typu local-first dla systemu Windows. Przechowuje Twój zaszyfrowany magazyn na Twoim urządzeniu — bez konta w chmurze i bez serwera."
+      },
+      "isFree": {
+        "question": "Czy Sailock jest darmowy?",
+        "answer": "Tak. Sailock jest darmowy i open source. Możesz go używać, przeglądać jego kod źródłowy i wnosić swój wkład bez żadnych opłat."
+      },
+      "whereDownload": {
+        "question": "Gdzie mogę pobrać Sailock?",
+        "answer": "Najnowszą wersję możesz pobrać z oficjalnego repozytorium na GitHub lub ze sklepu Microsoft Store."
+      },
+      "windows": {
+        "question": "Czy Sailock jest dostępny na inne platformy niż Windows?",
+        "answer": "Obecnie Sailock jest tworzony specjalnie dla systemu Windows. Wsparcie dla innych platform nie jest planowane w najbliższym czasie, ale opinie społeczności są zawsze mile widziane."
+      },
+      "offline": {
+        "question": "Czy Sailock działa bez połączenia z internetem?",
+        "answer": "Tak. Sailock działa w pełni offline. Twój magazyn znajduje się na Twoim urządzeniu, więc do korzystania z niego nie jest potrzebne połączenie z internetem."
+      },
+      "openSource": {
+        "question": "Czy Sailock jest open source?",
+        "answer": "Tak. Pełny kod źródłowy jest dostępny na GitHub na otwartej licencji, a każdy może go przejrzeć lub wnieść swój wkład."
+      },
+      "security": {
+        "question": "Jak Sailock chroni moje hasła?",
+        "answer": "Twój magazyn jest szyfrowany za pomocą AES-256, a dostęp jest chroniony hasłem głównym. Sailock obsługuje również uwierzytelnianie dwuskładnikowe oparte na TOTP jako dodatkową warstwę zabezpieczeń."
+      },
+      "masterPassword": {
+        "question": "Co się stanie, jeśli zapomnę hasła głównego?",
+        "answer": "Ponieważ Sailock nigdzie nie przechowuje Twojego hasła głównego, jeśli je zgubisz, nie ma możliwości odzyskania dostępu do magazynu. Koniecznie przechowuj je w bezpiecznym miejscu."
+      }
+    }
+  }
+}

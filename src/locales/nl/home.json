@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Jouw wachtwoorden.",
+    "titleHighlight": "Onder jouw controle.",
+    "description": "Sailock is een local-first wachtwoordmanager die je versleutelde kluis op je eigen apparaat bewaart. Geen cloud, geen account, geen telemetrie.",
+    "download": "Download Sailock",
+    "github": "Bekijk op GitHub",
+    "meta": {
+      "windows": "Windows",
+      "offline": "Offline",
+      "openSource": "Open source"
+    }
+  }
+}

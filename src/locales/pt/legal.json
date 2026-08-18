@@ -1,0 +1,104 @@
+{
+  "terms": {
+    "title": "Termos de uso",
+    "description": "Os termos aplicáveis ao uso do site e do software Sailock.",
+    "lastUpdated": "Última atualização: agosto de 2026",
+    "sections": {
+      "about": {
+        "title": "1. Sobre o Sailock",
+        "content": "Sailock é um projeto de código aberto criado para oferecer uma forma segura e voltada à privacidade de gerenciar senhas. O Sailock é atualmente desenvolvido como um projeto de código aberto independente e não opera como empresa nem oferece um serviço hospedado de gerenciamento de senhas."
+      },
+      "website": {
+        "title": "2. Uso do site",
+        "content": "Você pode usar o site do Sailock para conhecer o projeto, baixar o software, consultar documentação e tutoriais, acompanhar atualizações do projeto e acessar outros recursos disponibilizados pelo projeto."
+      },
+      "software": {
+        "title": "3. Software Sailock",
+        "content": "O Sailock é fornecido como software que os usuários podem instalar e executar em seus próprios dispositivos. Você é responsável por escolher um ambiente adequado, manter seu dispositivo seguro e conservar suas próprias cópias de dados importantes."
+      },
+      "localFirst": {
+        "title": "4. Arquitetura local-first",
+        "content": "O Sailock é projetado em torno de uma abordagem local-first. O aplicativo desktop tem como objetivo manter o cofre de senhas do usuário no próprio dispositivo, sem exigir uma conta na nuvem ou um banco de dados de senhas hospedado."
+      },
+      "userResponsibility": {
+        "title": "5. Responsabilidade do usuário",
+        "content": "Você é responsável por proteger sua senha mestra, dispositivo, arquivos de cofre exportados e backups. Se você perder sua senha mestra ou um cofre criptografado ficar inacessível, o projeto Sailock não poderá recuperar suas credenciais por você."
+      },
+      "security": {
+        "title": "6. Segurança",
+        "content": "O Sailock é projetado tendo segurança e privacidade como princípios fundamentais. No entanto, nenhum software pode garantir segurança absoluta. Os usuários devem manter seu sistema operacional e dispositivos atualizados e seguir boas práticas de segurança ao usar e fazer backup de seu cofre."
+      },
+      "openSource": {
+        "title": "7. Código aberto",
+        "content": "O Sailock é distribuído como software de código aberto sob a licença publicada junto ao projeto. A licença aplicável rege os direitos de uso, modificação e redistribuição do software."
+      },
+      "externalServices": {
+        "title": "8. Serviços externos",
+        "content": "O site do Sailock pode conter links para sites ou serviços externos, incluindo o repositório de código-fonte do projeto. Esses serviços são operados de forma independente do Sailock e estão sujeitos aos seus próprios termos e políticas de privacidade."
+      },
+      "availability": {
+        "title": "9. Disponibilidade",
+        "content": "O site, downloads, documentação e outros recursos do projeto podem ser alterados, atualizados, movidos ou descontinuados a qualquer momento. Não garantimos que todos os recursos estarão sempre disponíveis ou livres de erros."
+      },
+      "changes": {
+        "title": "10. Alterações a estes termos",
+        "content": "Estes termos podem ser atualizados à medida que o projeto Sailock evolui. Quando alterações significativas forem feitas, a versão atualizada será publicada nesta página junto com uma nova data de revisão."
+      },
+      "law": {
+        "title": "11. Lei aplicável",
+        "content": "Estes termos estão sujeitos à lei aplicável. Nada nestes termos pretende excluir ou limitar direitos que não possam ser legalmente excluídos ou limitados."
+      },
+      "contact": {
+        "title": "12. Contato",
+        "content": "Dúvidas, sugestões e problemas relacionados ao Sailock podem ser enviados através do repositório oficial do projeto ou de outro canal de contato oficial disponibilizado pelo projeto."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Política de privacidade",
+    "description": "Como o Sailock trata as informações quando você usa o software ou visita o site.",
+    "lastUpdated": "Última atualização: agosto de 2026",
+    "sections": {
+      "overview": {
+        "title": "1. Visão geral",
+        "content": "O Sailock é projetado com a privacidade como princípio fundamental. O aplicativo desktop é local-first e não exige uma conta on-line nem um serviço de nuvem para armazenar seu cofre de senhas."
+      },
+      "application": {
+        "title": "2. Dados armazenados pelo aplicativo",
+        "content": "O aplicativo desktop do Sailock armazena localmente, no seu dispositivo, as informações necessárias para operar seu cofre de senhas. Seu cofre deve permanecer sob seu controle e não é enviado aos servidores do Sailock."
+      },
+      "vault": {
+        "title": "3. Dados do cofre de senhas",
+        "content": "O Sailock não tem acesso à sua senha mestra nem ao conteúdo do seu cofre de senhas local. Você é responsável por proteger seu dispositivo, sua senha mestra e quaisquer arquivos de cofre exportados ou salvos em backup."
+      },
+      "telemetry": {
+        "title": "4. Telemetria e rastreamento",
+        "content": "O aplicativo desktop do Sailock é projetado sem telemetria integrada nem rastreamento comportamental. O projeto não coleta intencionalmente informações sobre como você usa o gerenciador de senhas."
+      },
+      "website": {
+        "title": "5. Informações sobre o site",
+        "content": "Ao visitar o site do Sailock, a infraestrutura de hospedagem pode processar informações técnicas necessárias para fornecer e proteger o site, como endereços IP, informações do navegador, registros de data e hora ou logs de servidor. As informações efetivamente retidas dependem do provedor de hospedagem e de sua configuração."
+      },
+      "cookies": {
+        "title": "6. Cookies",
+        "content": "O Sailock não usa cookies intencionalmente para fins de publicidade ou rastreamento comportamental. Caso cookies tecnicamente necessários ou tecnologias semelhantes sejam introduzidos no futuro, esta política será atualizada de acordo."
+      },
+      "analytics": {
+        "title": "7. Análises",
+        "content": "Atualmente, o Sailock não usa serviços de análise de terceiros para criar perfis publicitários ou comportamentais. Caso ferramentas de análise sejam introduzidas no futuro, esta política será atualizada para descrever quais informações são coletadas e por quê."
+      },
+      "external": {
+        "title": "8. Serviços externos",
+        "content": "O site pode conter links para serviços externos, como GitHub ou provedores de download. Ao visitar um serviço externo, ele pode processar informações de acordo com sua própria política de privacidade e termos."
+      },
+      "contact": {
+        "title": "9. Informações de contato",
+        "content": "Se você entrar em contato com o projeto Sailock por meio de um canal de contato disponível, as informações fornecidas voluntariamente por você poderão ser processadas exclusivamente para responder à sua solicitação e manter o projeto."
+      },
+      "changes": {
+        "title": "10. Alterações a esta política",
+        "content": "Esta Política de privacidade pode ser atualizada conforme o projeto Sailock ou seu site sejam alterados. A versão mais recente será sempre publicada nesta página junto com sua data de revisão."
+      }
+    }
+  }
+}

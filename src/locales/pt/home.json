@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Suas senhas.",
+    "titleHighlight": "Sob seu controle.",
+    "description": "Sailock é um gerenciador de senhas local-first, projetado para manter seu cofre criptografado no seu dispositivo. Sem nuvem, sem conta, sem telemetria.",
+    "download": "Baixar Sailock",
+    "github": "Ver no GitHub",
+    "meta": {
+      "windows": "Windows",
+      "offline": "Offline",
+      "openSource": "Código aberto"
+    }
+  }
+}

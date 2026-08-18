@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "자주 묻는 질문",
+    "description": "Sailock과 작동 방식, 시작하는 방법에 대한 일반적인 질문에 대한 답변입니다.",
+    "questions": {
+      "whatIs": {
+        "question": "Sailock은 무엇인가요?",
+        "answer": "Sailock은 암호화된 볼트를 사용자의 기기에 보관하도록 설계된 Windows용 로컬 우선 비밀번호 관리자입니다. 클라우드 계정도, 서버도 필요하지 않습니다."
+      },
+      "isFree": {
+        "question": "Sailock은 무료인가요?",
+        "answer": "네. Sailock은 무료이며 오픈 소스입니다. 비용 없이 사용하고, 소스 코드를 확인하고, 기여할 수 있습니다."
+      },
+      "whereDownload": {
+        "question": "Sailock은 어디에서 다운로드할 수 있나요?",
+        "answer": "공식 GitHub 저장소 또는 Microsoft Store에서 최신 버전을 다운로드할 수 있습니다."
+      },
+      "windows": {
+        "question": "Sailock은 Windows 외의 다른 플랫폼에서도 사용할 수 있나요?",
+        "answer": "현재 Sailock은 Windows 전용으로 개발되고 있습니다. 단기적으로 다른 플랫폼 지원 계획은 없지만, 커뮤니티의 의견은 언제나 환영합니다."
+      },
+      "offline": {
+        "question": "인터넷 연결 없이도 Sailock을 사용할 수 있나요?",
+        "answer": "네. Sailock은 완전히 오프라인으로 작동합니다. 볼트가 사용자의 기기에 저장되어 있으므로 사용에 인터넷 연결이 필요하지 않습니다."
+      },
+      "openSource": {
+        "question": "Sailock은 오픈 소스인가요?",
+        "answer": "네. 전체 소스 코드가 GitHub에 오픈 라이선스로 공개되어 있으며, 누구나 확인하거나 기여할 수 있습니다."
+      },
+      "security": {
+        "question": "Sailock은 제 비밀번호를 어떻게 보호하나요?",
+        "answer": "볼트는 AES-256으로 암호화되며, 접근은 마스터 비밀번호로 보호됩니다. Sailock은 추가적인 보안 계층으로 TOTP 기반 2단계 인증도 지원합니다."
+      },
+      "masterPassword": {
+        "question": "마스터 비밀번호를 잊어버리면 어떻게 되나요?",
+        "answer": "Sailock은 마스터 비밀번호를 어디에도 저장하지 않기 때문에, 이를 잊어버리면 볼트에 대한 접근을 복구할 방법이 없습니다. 반드시 안전한 곳에 보관해 주세요."
+      }
+    }
+  }
+}

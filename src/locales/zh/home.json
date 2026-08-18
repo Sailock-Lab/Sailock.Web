@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "你的密码。",
+    "titleHighlight": "由你掌控。",
+    "description": "Sailock 是一款本地优先（local-first）的密码管理器，旨在将你的加密密码库保存在你自己的设备上。没有云端，没有账户，没有遥测。",
+    "download": "下载 Sailock",
+    "github": "在 GitHub 上查看",
+    "meta": {
+      "windows": "Windows",
+      "offline": "离线",
+      "openSource": "开源"
+    }
+  }
+}

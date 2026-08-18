@@ -1,0 +1,16 @@
+{
+  "tutorials": {
+    "title": "튜토리얼",
+    "description": "Sailock 사용법과 모든 기능을 알아보세요.",
+    "categories": {
+      "all": "전체 보기",
+      "firstSteps": "시작하기",
+      "twoFactor": "2단계 인증",
+      "autoLock": "자동 잠금",
+      "generator": "생성기",
+      "vault": "볼트",
+      "importExport": "가져오기 및 내보내기",
+      "settings": "설정"
+    }
+  }
+}

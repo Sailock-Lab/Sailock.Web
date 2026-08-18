@@ -1,0 +1,104 @@
+{
+  "terms": {
+    "title": "Gebruiksvoorwaarden",
+    "description": "De voorwaarden die van toepassing zijn op het gebruik van de Sailock-website en -software.",
+    "lastUpdated": "Laatst bijgewerkt: augustus 2026",
+    "sections": {
+      "about": {
+        "title": "1. Over Sailock",
+        "content": "Sailock is een opensourceproject dat is opgezet om een veilige, privacygerichte manier te bieden om wachtwoorden te beheren. Sailock wordt momenteel ontwikkeld als een onafhankelijk opensourceproject en opereert niet als bedrijf en biedt geen gehoste wachtwoordbeheerdienst aan."
+      },
+      "website": {
+        "title": "2. Gebruik van de website",
+        "content": "Je kunt de Sailock-website gebruiken om meer te weten te komen over het project, de software te downloaden, documentatie en tutorials te lezen, projectupdates te bekijken en toegang te krijgen tot andere bronnen die door het project beschikbaar worden gesteld."
+      },
+      "software": {
+        "title": "3. Sailock-software",
+        "content": "Sailock wordt aangeboden als software die gebruikers op hun eigen apparaten kunnen installeren en uitvoeren. Je bent zelf verantwoordelijk voor het kiezen van een geschikte omgeving, het beveiligen van je apparaat en het bewaren van eigen kopieën van belangrijke gegevens."
+      },
+      "localFirst": {
+        "title": "4. Local-first-architectuur",
+        "content": "Sailock is ontworpen rond een local-first-benadering. De desktopapplicatie is bedoeld om de wachtwoordkluis van de gebruiker op diens eigen apparaat te bewaren, zonder dat hiervoor een cloudaccount of gehoste wachtwoorddatabase nodig is."
+      },
+      "userResponsibility": {
+        "title": "5. Verantwoordelijkheid van de gebruiker",
+        "content": "Je bent zelf verantwoordelijk voor het beschermen van je hoofdwachtwoord, apparaat, geëxporteerde kluisbestanden en back-ups. Als je je hoofdwachtwoord kwijtraakt of een versleutelde kluis niet meer toegankelijk is, kan het Sailock-project je gegevens niet voor je herstellen."
+      },
+      "security": {
+        "title": "6. Beveiliging",
+        "content": "Sailock is ontworpen met beveiliging en privacy als kernprincipes. Geen enkele software kan echter absolute beveiliging garanderen. Gebruikers dienen hun besturingssysteem en apparaten up-to-date te houden en passende beveiligingspraktijken te volgen bij het gebruiken en back-uppen van hun kluis."
+      },
+      "openSource": {
+        "title": "7. Open source",
+        "content": "Sailock wordt verspreid als opensourcesoftware onder de licentie die samen met het project is gepubliceerd. De toepasselijke licentie regelt de rechten om de software te gebruiken, aan te passen en opnieuw te verspreiden."
+      },
+      "externalServices": {
+        "title": "8. Externe diensten",
+        "content": "De Sailock-website kan links bevatten naar externe websites of diensten, waaronder de broncoderepository van het project. Deze diensten worden onafhankelijk van Sailock beheerd en zijn onderworpen aan hun eigen voorwaarden en privacybeleid."
+      },
+      "availability": {
+        "title": "9. Beschikbaarheid",
+        "content": "De website, downloads, documentatie en andere projectbronnen kunnen op elk moment worden gewijzigd, bijgewerkt, verplaatst of stopgezet. We garanderen niet dat elke bron altijd beschikbaar of foutloos zal zijn."
+      },
+      "changes": {
+        "title": "10. Wijzigingen in deze voorwaarden",
+        "content": "Deze voorwaarden kunnen worden bijgewerkt naarmate het Sailock-project zich verder ontwikkelt. Bij belangrijke wijzigingen wordt de bijgewerkte versie samen met een nieuwe revisiedatum op deze pagina gepubliceerd."
+      },
+      "law": {
+        "title": "11. Toepasselijk recht",
+        "content": "Deze voorwaarden zijn onderworpen aan het toepasselijke recht. Niets in deze voorwaarden is bedoeld om rechten uit te sluiten of te beperken die wettelijk niet kunnen worden uitgesloten of beperkt."
+      },
+      "contact": {
+        "title": "12. Contact",
+        "content": "Vragen, suggesties en problemen met betrekking tot Sailock kunnen worden ingediend via de officiële projectrepository of een ander officieel contactkanaal dat door het project beschikbaar wordt gesteld."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "description": "Hoe Sailock omgaat met informatie wanneer je de software gebruikt of de website bezoekt.",
+    "lastUpdated": "Laatst bijgewerkt: augustus 2026",
+    "sections": {
+      "overview": {
+        "title": "1. Overzicht",
+        "content": "Sailock is ontworpen met privacy als kernprincipe. De desktopapplicatie is local-first en vereist geen online account of clouddienst om je wachtwoordkluis op te slaan."
+      },
+      "application": {
+        "title": "2. Gegevens die door de applicatie worden opgeslagen",
+        "content": "De Sailock-desktopapplicatie slaat de informatie die nodig is om je wachtwoordkluis te laten werken lokaal op je apparaat op. Je kluis blijft onder jouw controle en wordt niet geüpload naar Sailock-servers."
+      },
+      "vault": {
+        "title": "3. Gegevens van de wachtwoordkluis",
+        "content": "Sailock heeft geen toegang tot je hoofdwachtwoord of de inhoud van je lokale wachtwoordkluis. Jij bent verantwoordelijk voor het beschermen van je apparaat, hoofdwachtwoord en eventuele geëxporteerde of geback-upte kluisbestanden."
+      },
+      "telemetry": {
+        "title": "4. Telemetrie en tracking",
+        "content": "De Sailock-desktopapplicatie is ontworpen zonder ingebouwde telemetrie of gedragstracking. Het project verzamelt niet opzettelijk informatie over hoe je de wachtwoordmanager gebruikt."
+      },
+      "website": {
+        "title": "5. Informatie over de website",
+        "content": "Wanneer je de Sailock-website bezoekt, kan de hostinginfrastructuur technische informatie verwerken die nodig is om de website te leveren en te beschermen, zoals IP-adressen, browserinformatie, tijdstempels of serverlogs. De exacte informatie die wordt bewaard, is afhankelijk van de hostingprovider en de configuratie daarvan."
+      },
+      "cookies": {
+        "title": "6. Cookies",
+        "content": "Sailock gebruikt niet opzettelijk cookies voor advertentie- of gedragstrackingdoeleinden. Als technisch noodzakelijke cookies of vergelijkbare technologieën in de toekomst worden geïntroduceerd, wordt dit beleid dienovereenkomstig bijgewerkt."
+      },
+      "analytics": {
+        "title": "7. Analyse",
+        "content": "Sailock maakt momenteel geen gebruik van analysediensten van derden om advertentie- of gedragsprofielen op te bouwen. Als analysetools in de toekomst worden geïntroduceerd, wordt dit beleid bijgewerkt om te beschrijven welke informatie wordt verzameld en waarom."
+      },
+      "external": {
+        "title": "8. Externe diensten",
+        "content": "De website kan links bevatten naar externe diensten zoals GitHub of downloadproviders. Wanneer je een externe dienst bezoekt, kan deze informatie verwerken volgens zijn eigen privacybeleid en voorwaarden."
+      },
+      "contact": {
+        "title": "9. Contactgegevens",
+        "content": "Als je contact opneemt met het Sailock-project via een beschikbaar contactkanaal, kan de informatie die je vrijwillig verstrekt uitsluitend worden verwerkt om te reageren op je verzoek en het project te onderhouden."
+      },
+      "changes": {
+        "title": "10. Wijzigingen in dit beleid",
+        "content": "Dit privacybeleid kan worden bijgewerkt wanneer het Sailock-project of de bijbehorende website verandert. De meest recente versie wordt altijd samen met de revisiedatum op deze pagina gepubliceerd."
+      }
+    }
+  }
+}

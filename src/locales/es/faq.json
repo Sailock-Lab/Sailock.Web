@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "description": "Respuestas a las preguntas más habituales sobre Sailock, cómo funciona y cómo empezar.",
+    "questions": {
+      "whatIs": {
+        "question": "¿Qué es Sailock?",
+        "answer": "Sailock es un gestor de contraseñas local-first para Windows. Mantiene tu bóveda cifrada en tu propio dispositivo: no hay cuenta en la nube ni ningún servidor implicado."
+      },
+      "isFree": {
+        "question": "¿Es gratis Sailock?",
+        "answer": "Sí. Sailock es gratuito y de código abierto. Puedes usarlo, revisar su código fuente y contribuir a él sin ningún coste."
+      },
+      "whereDownload": {
+        "question": "¿Dónde puedo descargar Sailock?",
+        "answer": "Puedes descargar la última versión desde el repositorio oficial de GitHub o desde la Microsoft Store."
+      },
+      "windows": {
+        "question": "¿Sailock está disponible para otras plataformas además de Windows?",
+        "answer": "Por ahora, Sailock está desarrollado específicamente para Windows. No hay planes a corto plazo de soporte para otras plataformas, pero los comentarios de la comunidad son bienvenidos."
+      },
+      "offline": {
+        "question": "¿Sailock funciona sin conexión a internet?",
+        "answer": "Sí. Sailock funciona completamente sin conexión. Tu bóveda vive en tu dispositivo, así que no necesitas internet para usarlo."
+      },
+      "openSource": {
+        "question": "¿Sailock es de código abierto?",
+        "answer": "Sí. El código fuente completo está disponible en GitHub bajo una licencia abierta, y cualquiera puede revisarlo o contribuir."
+      },
+      "security": {
+        "question": "¿Cómo protege Sailock mis contraseñas?",
+        "answer": "Tu bóveda se cifra con AES-256, y el acceso está protegido por tu contraseña maestra. Sailock también admite autenticación de dos factores basada en TOTP para una capa extra de seguridad."
+      },
+      "masterPassword": {
+        "question": "¿Qué ocurre si olvido mi contraseña maestra?",
+        "answer": "Como Sailock no almacena tu contraseña maestra en ningún sitio, si la pierdes no hay forma de recuperar el acceso a tu bóveda. Asegúrate de guardarla en un lugar seguro."
+      }
+    }
+  }
+}

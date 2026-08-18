@@ -1,43 +1,4 @@
 {
-  "navigation": {
-    "download": "Télécharger",
-    "tutorials": "Tutoriels",
-    "changelog": "Journal des modifications",
-    "faq": "FAQ",
-    "contributors": "Contributeurs"
-  },
-  "hero": {
-    "title": "Vos mots de passe.",
-    "titleHighlight": "Sous votre contrôle.",
-    "description": "Sailock est un gestionnaire de mots de passe local-first conçu pour conserver votre coffre-fort chiffré sur votre appareil. Pas de cloud, pas de compte, pas de télémétrie.",
-    "download": "Télécharger Sailock",
-    "github": "Voir sur GitHub",
-    "meta": {
-      "windows": "Windows",
-      "offline": "Hors ligne",
-      "openSource": "Open Source"
-    }
-  },
-  "footer": {
-    "description": "Un gestionnaire de mots de passe local conçu autour de la confidentialité, de la sécurité et du contrôle.",
-    "product": {
-      "title": "Produit"
-    },
-    "community": {
-      "title": "Communauté"
-    },
-    "project": {
-      "title": "Projet",
-      "about": "À propos de Sailock",
-      "sitemap": "Plan du site",
-      "contact": "Contact"
-    },
-    "legal": {
-      "terms": "Conditions d’utilisation",
-      "privacy": "Politique de confidentialité"
-    },
-    "copyright": "Logiciel open source."
-  },
   "terms": {
     "title": "Conditions d'utilisation",
     "description": "Les conditions applicables à l'utilisation du site web et des logiciels Sailock.",
@@ -138,27 +99,6 @@
         "title": "10. Modifications de cette politique",
         "content": "Cette politique de confidentialité peut être mise à jour lorsque le projet Sailock ou son site web évolue. La dernière version sera toujours publiée sur cette page avec sa date de révision."
       }
-    }
-  },
-  "notFound": {
-    "title": "Page introuvable",
-    "description": "Nous n'avons pas trouvé la page que vous recherchez. Elle a peut-être été supprimée, déplacée ou l'URL est incorrecte.",
-    "backHome": "Retour à l'accueil",
-    "help": "Besoin d'aide ? Consultez nos",
-    "helpLink": "questions fréquentes"
-  },
-  "tutorials": {
-    "title": "Tutoriels",
-    "description": "Apprenez à utiliser Sailock et découvrez toutes ses fonctionnalités.",
-    "categories": {
-      "all": "Tout afficher",
-      "firstSteps": "Premiers pas",
-      "twoFactor": "2FA",
-      "autoLock": "Verrouillage automatique",
-      "generator": "Générateur",
-      "vault": "Coffre-fort",
-      "importExport": "Importation et exportation",
-      "settings": "Paramètres"
     }
   }
 }

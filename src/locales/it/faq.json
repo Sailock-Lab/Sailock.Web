@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "Domande frequenti",
+    "description": "Risposte alle domande più comuni su Sailock, sul suo funzionamento e su come iniziare.",
+    "questions": {
+      "whatIs": {
+        "question": "Cos'è Sailock?",
+        "answer": "Sailock è un gestore di password local-first per Windows. Mantiene il tuo archivio cifrato sul tuo dispositivo: nessun account cloud, nessun server coinvolto."
+      },
+      "isFree": {
+        "question": "Sailock è gratuito?",
+        "answer": "Sì. Sailock è gratuito e open source. Puoi usarlo, esaminarne il codice sorgente e contribuire senza alcun costo."
+      },
+      "whereDownload": {
+        "question": "Dove posso scaricare Sailock?",
+        "answer": "Puoi scaricare l'ultima versione dal repository ufficiale su GitHub o dal Microsoft Store."
+      },
+      "windows": {
+        "question": "Sailock è disponibile su altre piattaforme oltre a Windows?",
+        "answer": "Al momento Sailock è sviluppato specificamente per Windows. Non è previsto il supporto ad altre piattaforme a breve termine, ma i feedback della community sono benvenuti."
+      },
+      "offline": {
+        "question": "Sailock funziona senza connessione a internet?",
+        "answer": "Sì. Sailock funziona completamente offline. Il tuo archivio risiede sul tuo dispositivo, quindi non è necessaria una connessione internet per utilizzarlo."
+      },
+      "openSource": {
+        "question": "Sailock è open source?",
+        "answer": "Sì. Il codice sorgente completo è disponibile su GitHub con licenza aperta, e chiunque può consultarlo o contribuire."
+      },
+      "security": {
+        "question": "Come protegge Sailock le mie password?",
+        "answer": "Il tuo archivio è cifrato con AES-256 e l'accesso è protetto dalla tua password principale. Sailock supporta anche l'autenticazione a due fattori basata su TOTP per un ulteriore livello di sicurezza."
+      },
+      "masterPassword": {
+        "question": "Cosa succede se dimentico la mia password principale?",
+        "answer": "Poiché Sailock non memorizza da nessuna parte la tua password principale, se la perdi non c'è modo di recuperare l'accesso al tuo archivio. Assicurati di conservarla in un luogo sicuro."
+      }
+    }
+  }
+}

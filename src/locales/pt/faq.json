@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "Perguntas frequentes",
+    "description": "Respostas para as perguntas mais comuns sobre o Sailock, como ele funciona e como começar.",
+    "questions": {
+      "whatIs": {
+        "question": "O que é o Sailock?",
+        "answer": "Sailock é um gerenciador de senhas local-first para Windows. Ele mantém seu cofre criptografado no seu próprio dispositivo — sem conta na nuvem, sem servidor envolvido."
+      },
+      "isFree": {
+        "question": "O Sailock é gratuito?",
+        "answer": "Sim. O Sailock é gratuito e de código aberto. Você pode usá-lo, revisar seu código-fonte e contribuir sem nenhum custo."
+      },
+      "whereDownload": {
+        "question": "Onde posso baixar o Sailock?",
+        "answer": "Você pode baixar a versão mais recente pelo repositório oficial no GitHub ou pela Microsoft Store."
+      },
+      "windows": {
+        "question": "O Sailock está disponível para outras plataformas além do Windows?",
+        "answer": "No momento, o Sailock é desenvolvido especificamente para Windows. Não há planos de suporte a outras plataformas no curto prazo, mas o feedback da comunidade é sempre bem-vindo."
+      },
+      "offline": {
+        "question": "O Sailock funciona sem conexão com a internet?",
+        "answer": "Sim. O Sailock funciona totalmente offline. Seu cofre fica no seu dispositivo, então não é necessária conexão com a internet para usá-lo."
+      },
+      "openSource": {
+        "question": "O Sailock é de código aberto?",
+        "answer": "Sim. Todo o código-fonte está disponível no GitHub sob uma licença aberta, e qualquer pessoa pode revisá-lo ou contribuir."
+      },
+      "security": {
+        "question": "Como o Sailock protege minhas senhas?",
+        "answer": "Seu cofre é criptografado com AES-256, e o acesso é protegido pela sua senha mestra. O Sailock também oferece suporte à autenticação de dois fatores baseada em TOTP para uma camada extra de segurança."
+      },
+      "masterPassword": {
+        "question": "O que acontece se eu esquecer minha senha mestra?",
+        "answer": "Como o Sailock não armazena sua senha mestra em nenhum lugar, se você a perder, não há como recuperar o acesso ao seu cofre. Guarde-a sempre em um local seguro."
+      }
+    }
+  }
+}

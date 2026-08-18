@@ -1,0 +1,25 @@
+{
+  "footer": {
+    "description": "Un gestore di password locale pensato per privacy, sicurezza e controllo.",
+    "product": { "title": "Prodotto" },
+    "community": { "title": "Community" },
+    "project": {
+      "title": "Progetto",
+      "about": "Informazioni su Sailock",
+      "sitemap": "Mappa del sito",
+      "contact": "Contatti"
+    },
+    "legal": {
+      "terms": "Termini di utilizzo",
+      "privacy": "Informativa sulla privacy"
+    },
+    "copyright": "Software open source."
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "description": "Non siamo riusciti a trovare la pagina che stai cercando. Potrebbe essere stata rimossa, spostata oppure l'URL non è corretto.",
+    "backHome": "Torna alla home",
+    "help": "Hai bisogno di aiuto? Visita le nostre",
+    "helpLink": "domande frequenti"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tutorials": {
+    "title": "教程",
+    "description": "了解如何使用 Sailock，探索它的全部功能。",
+    "categories": {
+      "all": "全部显示",
+      "firstSteps": "新手入门",
+      "twoFactor": "双重验证",
+      "autoLock": "自动锁定",
+      "generator": "生成器",
+      "vault": "密码库",
+      "importExport": "导入与导出",
+      "settings": "设置"
+    }
+  }
+}

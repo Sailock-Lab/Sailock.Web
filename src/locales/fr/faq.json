@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "Foire aux questions",
+    "description": "Réponses aux questions les plus courantes sur Sailock, son fonctionnement et la prise en main.",
+    "questions": {
+      "whatIs": {
+        "question": "Qu'est-ce que Sailock ?",
+        "answer": "Sailock est un gestionnaire de mots de passe local-first pour Windows. Il conserve votre coffre-fort chiffré sur votre propre appareil : pas de compte cloud, pas de serveur impliqué."
+      },
+      "isFree": {
+        "question": "Sailock est-il gratuit ?",
+        "answer": "Oui. Sailock est gratuit et open source. Vous pouvez l'utiliser, consulter son code source et y contribuer sans aucun coût."
+      },
+      "whereDownload": {
+        "question": "Où puis-je télécharger Sailock ?",
+        "answer": "Vous pouvez télécharger la dernière version depuis le dépôt officiel GitHub ou depuis le Microsoft Store."
+      },
+      "windows": {
+        "question": "Sailock est-il disponible sur d'autres plateformes que Windows ?",
+        "answer": "Pour l'instant, Sailock est développé spécifiquement pour Windows. Aucun support d'autres plateformes n'est prévu à court terme, mais les retours de la communauté sont les bienvenus."
+      },
+      "offline": {
+        "question": "Sailock fonctionne-t-il sans connexion internet ?",
+        "answer": "Oui. Sailock fonctionne entièrement hors ligne. Votre coffre-fort réside sur votre appareil, une connexion internet n'est donc pas nécessaire pour l'utiliser."
+      },
+      "openSource": {
+        "question": "Sailock est-il open source ?",
+        "answer": "Oui. L'intégralité du code source est disponible sur GitHub sous une licence ouverte, et chacun est libre de le consulter ou d'y contribuer."
+      },
+      "security": {
+        "question": "Comment Sailock protège-t-il mes mots de passe ?",
+        "answer": "Votre coffre-fort est chiffré avec AES-256, et l'accès est protégé par votre mot de passe principal. Sailock prend également en charge l'authentification à deux facteurs basée sur TOTP pour une couche de sécurité supplémentaire."
+      },
+      "masterPassword": {
+        "question": "Que se passe-t-il si j'oublie mon mot de passe principal ?",
+        "answer": "Comme Sailock ne stocke votre mot de passe principal nulle part, si vous le perdez, il n'existe aucun moyen de récupérer l'accès à votre coffre-fort. Veillez à le conserver en lieu sûr."
+      }
+    }
+  }
+}

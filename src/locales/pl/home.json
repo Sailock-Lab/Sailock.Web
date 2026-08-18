@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Twoje hasła.",
+    "titleHighlight": "Pod Twoją kontrolą.",
+    "description": "Sailock to menedżer haseł typu local-first, zaprojektowany tak, aby przechowywać Twój zaszyfrowany magazyn na Twoim urządzeniu. Bez chmury, bez konta, bez telemetrii.",
+    "download": "Pobierz Sailock",
+    "github": "Zobacz na GitHub",
+    "meta": {
+      "windows": "Windows",
+      "offline": "Offline",
+      "openSource": "Open Source"
+    }
+  }
+}

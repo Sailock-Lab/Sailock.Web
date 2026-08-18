@@ -1,0 +1,29 @@
+{
+  "footer": {
+    "description": "Un gestionnaire de mots de passe local conçu autour de la confidentialité, de la sécurité et du contrôle.",
+    "product": {
+      "title": "Produit"
+    },
+    "community": {
+      "title": "Communauté"
+    },
+    "project": {
+      "title": "Projet",
+      "about": "À propos de Sailock",
+      "sitemap": "Plan du site",
+      "contact": "Contact"
+    },
+    "legal": {
+      "terms": "Conditions d’utilisation",
+      "privacy": "Politique de confidentialité"
+    },
+    "copyright": "Logiciel open source."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "Nous n'avons pas trouvé la page que vous recherchez. Elle a peut-être été supprimée, déplacée ou l'URL est incorrecte.",
+    "backHome": "Retour à l'accueil",
+    "help": "Besoin d'aide ? Consultez nos",
+    "helpLink": "questions fréquentes"
+  }
+}

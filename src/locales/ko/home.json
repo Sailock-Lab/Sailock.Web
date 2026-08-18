@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "당신의 비밀번호.",
+    "titleHighlight": "당신의 통제 아래.",
+    "description": "Sailock은 암호화된 볼트를 사용자의 기기에 보관하도록 설계된 로컬 우선(local-first) 비밀번호 관리자입니다. 클라우드도, 계정도, 텔레메트리도 없습니다.",
+    "download": "Sailock 다운로드",
+    "github": "GitHub에서 보기",
+    "meta": {
+      "windows": "Windows",
+      "offline": "오프라인",
+      "openSource": "오픈 소스"
+    }
+  }
+}

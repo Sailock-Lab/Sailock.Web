@@ -1,0 +1,16 @@
+{
+  "tutorials": {
+    "title": "Tutorials",
+    "description": "Leer hoe je Sailock gebruikt en ontdek alle functies.",
+    "categories": {
+      "all": "Alles weergeven",
+      "firstSteps": "Eerste stappen",
+      "twoFactor": "2FA",
+      "autoLock": "Automatisch vergrendelen",
+      "generator": "Generator",
+      "vault": "Kluis",
+      "importExport": "Importeren & exporteren",
+      "settings": "Instellingen"
+    }
+  }
+}

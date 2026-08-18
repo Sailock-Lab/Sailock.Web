@@ -1,0 +1,29 @@
+{
+  "footer": {
+    "description": "A local-first password manager built around privacy, security and control.",
+    "product": {
+      "title": "Product"
+    },
+    "community": {
+      "title": "Community"
+    },
+    "project": {
+      "title": "Project",
+      "about": "About Sailock",
+      "sitemap": "Sitemap",
+      "contact": "Contact"
+    },
+    "legal": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "Open source software."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "We couldn't find the page you're looking for. It may have been removed, moved, or the URL is incorrect.",
+    "backHome": "Back to home",
+    "help": "Need help? Visit our",
+    "helpLink": "frequently asked questions"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Answers to common questions about Sailock, how it works, and how to get started.",
+    "questions": {
+      "whatIs": {
+        "question": "What is Sailock?",
+        "answer": "Sailock is a local-first password manager for Windows. It keeps your encrypted vault stored on your own device — there's no cloud account and no server involved."
+      },
+      "isFree": {
+        "question": "Is Sailock free?",
+        "answer": "Yes. Sailock is free and open source. You can use it, inspect its source code, and contribute to it without any cost."
+      },
+      "whereDownload": {
+        "question": "Where can I download Sailock?",
+        "answer": "You can download the latest version from the official GitHub repository or from the Microsoft Store."
+      },
+      "windows": {
+        "question": "Is Sailock available for other platforms besides Windows?",
+        "answer": "Right now Sailock is built specifically for Windows. Support for other platforms isn't planned in the short term, but community feedback is welcome."
+      },
+      "offline": {
+        "question": "Does Sailock work without an internet connection?",
+        "answer": "Yes. Sailock works fully offline. Your vault lives on your device, so an internet connection isn't required to use it."
+      },
+      "openSource": {
+        "question": "Is Sailock open source?",
+        "answer": "Yes. The full source code is available on GitHub under an open license, and anyone is welcome to review it or contribute."
+      },
+      "security": {
+        "question": "How does Sailock protect my passwords?",
+        "answer": "Your vault is encrypted with AES-256, and access is protected by your master password. Sailock also supports TOTP-based two-factor authentication for an extra layer of security."
+      },
+      "masterPassword": {
+        "question": "What happens if I forget my master password?",
+        "answer": "Because Sailock doesn't store your master password anywhere, if you lose it there's no way to recover access to your vault. Make sure to keep it somewhere safe."
+      }
+    }
+  }
+}

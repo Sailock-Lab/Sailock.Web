@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Le tue password.",
+    "titleHighlight": "Sotto il tuo controllo.",
+    "description": "Sailock è un gestore di password local-first progettato per mantenere il tuo archivio cifrato sul tuo dispositivo. Nessun cloud, nessun account, nessuna telemetria.",
+    "download": "Scarica Sailock",
+    "github": "Vedi su GitHub",
+    "meta": {
+      "windows": "Windows",
+      "offline": "Offline",
+      "openSource": "Open Source"
+    }
+  }
+}

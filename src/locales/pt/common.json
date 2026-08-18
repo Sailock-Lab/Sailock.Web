@@ -1,0 +1,25 @@
+{
+  "footer": {
+    "description": "Um gerenciador de senhas local construído em torno de privacidade, segurança e controle.",
+    "product": { "title": "Produto" },
+    "community": { "title": "Comunidade" },
+    "project": {
+      "title": "Projeto",
+      "about": "Sobre o Sailock",
+      "sitemap": "Mapa do site",
+      "contact": "Contato"
+    },
+    "legal": {
+      "terms": "Termos de uso",
+      "privacy": "Política de privacidade"
+    },
+    "copyright": "Software de código aberto."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "Não conseguimos encontrar a página que você procura. Ela pode ter sido removida, movida, ou a URL está incorreta.",
+    "backHome": "Voltar ao início",
+    "help": "Precisa de ajuda? Confira nossas",
+    "helpLink": "perguntas frequentes"
+  }
+}

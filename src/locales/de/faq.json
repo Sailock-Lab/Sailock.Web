@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "description": "Antworten auf häufige Fragen zu Sailock, seiner Funktionsweise und dem Einstieg.",
+    "questions": {
+      "whatIs": {
+        "question": "Was ist Sailock?",
+        "answer": "Sailock ist ein Local-First-Passwortmanager für Windows. Er speichert deinen verschlüsselten Tresor auf deinem eigenen Gerät – kein Cloud-Konto, kein Server beteiligt."
+      },
+      "isFree": {
+        "question": "Ist Sailock kostenlos?",
+        "answer": "Ja. Sailock ist kostenlos und Open Source. Du kannst es nutzen, den Quellcode einsehen und dazu beitragen, ohne dass Kosten entstehen."
+      },
+      "whereDownload": {
+        "question": "Wo kann ich Sailock herunterladen?",
+        "answer": "Du kannst die neueste Version über das offizielle GitHub-Repository oder den Microsoft Store herunterladen."
+      },
+      "windows": {
+        "question": "Ist Sailock auch für andere Plattformen als Windows verfügbar?",
+        "answer": "Aktuell wird Sailock speziell für Windows entwickelt. Support für andere Plattformen ist kurzfristig nicht geplant, aber Feedback aus der Community ist willkommen."
+      },
+      "offline": {
+        "question": "Funktioniert Sailock ohne Internetverbindung?",
+        "answer": "Ja. Sailock funktioniert vollständig offline. Dein Tresor liegt auf deinem Gerät, daher ist keine Internetverbindung nötig, um es zu nutzen."
+      },
+      "openSource": {
+        "question": "Ist Sailock Open Source?",
+        "answer": "Ja. Der vollständige Quellcode ist auf GitHub unter einer offenen Lizenz verfügbar, und jeder kann ihn einsehen oder dazu beitragen."
+      },
+      "security": {
+        "question": "Wie schützt Sailock meine Passwörter?",
+        "answer": "Dein Tresor wird mit AES-256 verschlüsselt, und der Zugriff ist durch dein Master-Passwort geschützt. Sailock unterstützt außerdem TOTP-basierte Zwei-Faktor-Authentifizierung für eine zusätzliche Sicherheitsebene."
+      },
+      "masterPassword": {
+        "question": "Was passiert, wenn ich mein Master-Passwort vergesse?",
+        "answer": "Da Sailock dein Master-Passwort nirgendwo speichert, gibt es keine Möglichkeit, den Zugriff auf deinen Tresor wiederherzustellen, falls du es verlierst. Bewahre es daher unbedingt sicher auf."
+      }
+    }
+  }
+}

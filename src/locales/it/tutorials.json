@@ -1,0 +1,16 @@
+{
+  "tutorials": {
+    "title": "Tutorial",
+    "description": "Scopri come utilizzare Sailock e tutte le sue funzionalità.",
+    "categories": {
+      "all": "Mostra tutto",
+      "firstSteps": "Primi passi",
+      "twoFactor": "2FA",
+      "autoLock": "Blocco automatico",
+      "generator": "Generatore",
+      "vault": "Archivio",
+      "importExport": "Importa ed esporta",
+      "settings": "Impostazioni"
+    }
+  }
+}

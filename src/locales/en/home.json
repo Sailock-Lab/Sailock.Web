@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Your passwords.",
+    "titleHighlight": "Under your control.",
+    "description": "Sailock is a local-first password manager designed to keep your encrypted vault on your device. No cloud, no account, no telemetry.",
+    "download": "Download Sailock",
+    "github": "View on GitHub",
+    "meta": {
+      "windows": "Windows",
+      "offline": "Offline",
+      "openSource": "Open Source"
+    }
+  }
+}

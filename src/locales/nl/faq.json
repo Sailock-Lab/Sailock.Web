@@ -1,0 +1,40 @@
+{
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "description": "Antwoorden op veelgestelde vragen over Sailock, hoe het werkt en hoe je aan de slag gaat.",
+    "questions": {
+      "whatIs": {
+        "question": "Wat is Sailock?",
+        "answer": "Sailock is een local-first wachtwoordmanager voor Windows. Je versleutelde kluis wordt bewaard op je eigen apparaat — geen cloudaccount, geen server nodig."
+      },
+      "isFree": {
+        "question": "Is Sailock gratis?",
+        "answer": "Ja. Sailock is gratis en open source. Je kunt het gebruiken, de broncode bekijken en eraan bijdragen zonder enige kosten."
+      },
+      "whereDownload": {
+        "question": "Waar kan ik Sailock downloaden?",
+        "answer": "Je kunt de nieuwste versie downloaden via de officiële GitHub-repository of via de Microsoft Store."
+      },
+      "windows": {
+        "question": "Is Sailock beschikbaar voor andere platforms dan Windows?",
+        "answer": "Op dit moment is Sailock specifiek ontwikkeld voor Windows. Ondersteuning voor andere platforms staat niet op de korte termijn gepland, maar feedback van de community is altijd welkom."
+      },
+      "offline": {
+        "question": "Werkt Sailock zonder internetverbinding?",
+        "answer": "Ja. Sailock werkt volledig offline. Je kluis staat op je eigen apparaat, dus je hebt geen internetverbinding nodig om het te gebruiken."
+      },
+      "openSource": {
+        "question": "Is Sailock open source?",
+        "answer": "Ja. De volledige broncode is beschikbaar op GitHub onder een open licentie, en iedereen mag deze bekijken of eraan bijdragen."
+      },
+      "security": {
+        "question": "Hoe beschermt Sailock mijn wachtwoorden?",
+        "answer": "Je kluis wordt versleuteld met AES-256, en toegang wordt beschermd door je hoofdwachtwoord. Sailock ondersteunt ook TOTP-gebaseerde tweestapsverificatie voor een extra beveiligingslaag."
+      },
+      "masterPassword": {
+        "question": "Wat gebeurt er als ik mijn hoofdwachtwoord vergeet?",
+        "answer": "Omdat Sailock je hoofdwachtwoord nergens opslaat, is er geen manier om toegang tot je kluis te herstellen als je het kwijtraakt. Bewaar het dus altijd op een veilige plek."
+      }
+    }
+  }
+}

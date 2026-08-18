@@ -1,43 +1,4 @@
 {
-  "navigation": {
-    "download": "Download",
-    "tutorials": "Tutorials",
-    "changelog": "Changelog",
-    "faq": "FAQ",
-    "contributors": "Contributors"
-  },
-  "hero": {
-    "title": "Your passwords.",
-    "titleHighlight": "Under your control.",
-    "description": "Sailock is a local-first password manager designed to keep your encrypted vault on your device. No cloud, no account, no telemetry.",
-    "download": "Download Sailock",
-    "github": "View on GitHub",
-    "meta": {
-      "windows": "Windows",
-      "offline": "Offline",
-      "openSource": "Open Source"
-    }
-  },
-  "footer": {
-    "description": "A local-first password manager built around privacy, security and control.",
-    "product": {
-      "title": "Product"
-    },
-    "community": {
-      "title": "Community"
-    },
-    "project": {
-      "title": "Project",
-      "about": "About Sailock",
-      "sitemap": "Sitemap",
-      "contact": "Contact"
-    },
-    "legal": {
-      "terms": "Terms of Use",
-      "privacy": "Privacy Policy"
-    },
-    "copyright": "Open source software."
-  },
   "terms": {
     "title": "Terms of Use",
     "description": "The terms that apply to the use of the Sailock website and software.",
@@ -138,27 +99,6 @@
         "title": "10. Changes to this policy",
         "content": "This Privacy Policy may be updated when the Sailock project or its website changes. The latest version will always be published on this page together with its revision date."
       }
-    }
-  },
-  "notFound": {
-    "title": "Page not found",
-    "description": "We couldn't find the page you're looking for. It may have been removed, moved, or the URL is incorrect.",
-    "backHome": "Back to home",
-    "help": "Need help? Visit our",
-    "helpLink": "frequently asked questions"
-  },
-  "tutorials": {
-    "title": "Tutorials",
-    "description": "Learn how to use Sailock and discover all its features.",
-    "categories": {
-      "all": "Show All",
-      "firstSteps": "First Steps",
-      "twoFactor": "2FA",
-      "autoLock": "Auto-lock",
-      "generator": "Generator",
-      "vault": "Vault",
-      "importExport": "Import & Export",
-      "settings": "Settings"
     }
   }
 }

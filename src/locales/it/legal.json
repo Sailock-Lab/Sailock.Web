@@ -1,0 +1,104 @@
+{
+  "terms": {
+    "title": "Termini di utilizzo",
+    "description": "Le condizioni applicabili all'utilizzo del sito web e del software Sailock.",
+    "lastUpdated": "Ultimo aggiornamento: agosto 2026",
+    "sections": {
+      "about": {
+        "title": "1. Informazioni su Sailock",
+        "content": "Sailock è un progetto open source creato per offrire un modo sicuro e attento alla privacy di gestire le password. Sailock è attualmente sviluppato come progetto open source indipendente e non opera come azienda né offre un servizio di gestione password ospitato."
+      },
+      "website": {
+        "title": "2. Utilizzo del sito web",
+        "content": "Puoi utilizzare il sito web di Sailock per saperne di più sul progetto, scaricare il software, consultare la documentazione e i tutorial, seguire gli aggiornamenti del progetto e accedere ad altre risorse messe a disposizione dal progetto."
+      },
+      "software": {
+        "title": "3. Software Sailock",
+        "content": "Sailock viene fornito come software che gli utenti possono installare ed eseguire sui propri dispositivi. Sei responsabile della scelta di un ambiente adeguato, della protezione del tuo dispositivo e della conservazione di copie proprie dei dati importanti."
+      },
+      "localFirst": {
+        "title": "4. Architettura local-first",
+        "content": "Sailock è progettato secondo un approccio local-first. L'applicazione desktop è pensata per mantenere l'archivio password dell'utente sul proprio dispositivo, senza richiedere un account cloud o un database delle password ospitato."
+      },
+      "userResponsibility": {
+        "title": "5. Responsabilità dell'utente",
+        "content": "Sei responsabile della protezione della tua password principale, del tuo dispositivo, dei file di archivio esportati e dei tuoi backup. Se perdi la tua password principale o un archivio cifrato diventa inaccessibile, il progetto Sailock non può recuperare le tue credenziali al posto tuo."
+      },
+      "security": {
+        "title": "6. Sicurezza",
+        "content": "Sailock è progettato ponendo sicurezza e privacy come principi fondamentali. Tuttavia, nessun software può garantire una sicurezza assoluta. Gli utenti dovrebbero mantenere aggiornati il proprio sistema operativo e i propri dispositivi e seguire pratiche di sicurezza adeguate durante l'utilizzo e il backup del proprio archivio."
+      },
+      "openSource": {
+        "title": "7. Open source",
+        "content": "Sailock è distribuito come software open source secondo la licenza pubblicata insieme al progetto. La licenza applicabile disciplina i diritti di utilizzo, modifica e ridistribuzione del software."
+      },
+      "externalServices": {
+        "title": "8. Servizi esterni",
+        "content": "Il sito web di Sailock può contenere collegamenti a siti web o servizi esterni, incluso il repository del codice sorgente del progetto. Questi servizi sono gestiti in modo indipendente da Sailock e sono soggetti ai propri termini e alle proprie informative sulla privacy."
+      },
+      "availability": {
+        "title": "9. Disponibilità",
+        "content": "Il sito web, i download, la documentazione e le altre risorse del progetto possono essere modificati, aggiornati, spostati o interrotti in qualsiasi momento. Non garantiamo che tutte le risorse siano sempre disponibili o prive di errori."
+      },
+      "changes": {
+        "title": "10. Modifiche a questi termini",
+        "content": "Questi termini possono essere aggiornati con l'evolversi del progetto Sailock. In caso di modifiche significative, la versione aggiornata verrà pubblicata su questa pagina insieme a una nuova data di revisione."
+      },
+      "law": {
+        "title": "11. Legge applicabile",
+        "content": "Questi termini sono soggetti alla legge applicabile. Nulla in questi termini intende escludere o limitare diritti che non possono essere legalmente esclusi o limitati."
+      },
+      "contact": {
+        "title": "12. Contatti",
+        "content": "Domande, suggerimenti e problemi relativi a Sailock possono essere inviati tramite il repository ufficiale del progetto o un altro canale di contatto ufficiale messo a disposizione dal progetto."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy",
+    "description": "Come Sailock gestisce le informazioni quando utilizzi il software o visiti il sito web.",
+    "lastUpdated": "Ultimo aggiornamento: agosto 2026",
+    "sections": {
+      "overview": {
+        "title": "1. Panoramica",
+        "content": "Sailock è progettato con la privacy come principio fondamentale. L'applicazione desktop segue un approccio local-first e non richiede un account online né un servizio cloud per archiviare il tuo archivio password."
+      },
+      "application": {
+        "title": "2. Dati archiviati dall'applicazione",
+        "content": "L'applicazione desktop di Sailock archivia localmente sul tuo dispositivo le informazioni necessarie al funzionamento del tuo archivio password. Il tuo archivio è pensato per rimanere sotto il tuo controllo e non viene caricato sui server di Sailock."
+      },
+      "vault": {
+        "title": "3. Dati dell'archivio password",
+        "content": "Sailock non ha accesso alla tua password principale né al contenuto del tuo archivio password locale. Sei responsabile della protezione del tuo dispositivo, della tua password principale e di eventuali file di archivio esportati o salvati come backup."
+      },
+      "telemetry": {
+        "title": "4. Telemetria e tracciamento",
+        "content": "L'applicazione desktop di Sailock è progettata senza telemetria integrata né tracciamento comportamentale. Il progetto non raccoglie intenzionalmente informazioni su come utilizzi il gestore di password."
+      },
+      "website": {
+        "title": "5. Informazioni sul sito web",
+        "content": "Quando visiti il sito web di Sailock, l'infrastruttura di hosting può elaborare le informazioni tecniche necessarie per fornire e proteggere il sito web, come indirizzi IP, informazioni sul browser, timestamp o log del server. Le informazioni effettivamente conservate dipendono dal provider di hosting e dalla sua configurazione."
+      },
+      "cookies": {
+        "title": "6. Cookie",
+        "content": "Sailock non utilizza intenzionalmente cookie a scopo pubblicitario o di tracciamento comportamentale. Se in futuro dovessero essere introdotti cookie tecnicamente necessari o tecnologie simili, questa informativa verrà aggiornata di conseguenza."
+      },
+      "analytics": {
+        "title": "7. Analisi",
+        "content": "Sailock non utilizza attualmente servizi di analisi di terze parti per creare profili pubblicitari o comportamentali. Se in futuro dovessero essere introdotti strumenti di analisi, questa informativa verrà aggiornata per descrivere quali informazioni vengono raccolte e perché."
+      },
+      "external": {
+        "title": "8. Servizi esterni",
+        "content": "Il sito web può contenere collegamenti a servizi esterni come GitHub o provider di download. Quando visiti un servizio esterno, quest'ultimo può elaborare le informazioni secondo la propria informativa sulla privacy e i propri termini."
+      },
+      "contact": {
+        "title": "9. Informazioni di contatto",
+        "content": "Se contatti il progetto Sailock tramite un canale di contatto disponibile, le informazioni che fornisci volontariamente potranno essere elaborate esclusivamente allo scopo di rispondere alla tua richiesta e mantenere il progetto."
+      },
+      "changes": {
+        "title": "10. Modifiche a questa informativa",
+        "content": "Questa Informativa sulla privacy può essere aggiornata quando il progetto Sailock o il suo sito web cambiano. La versione più recente sarà sempre pubblicata su questa pagina insieme alla relativa data di revisione."
+      }
+    }
+  }
+}

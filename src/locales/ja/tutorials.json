@@ -1,0 +1,16 @@
+{
+  "tutorials": {
+    "title": "チュートリアル",
+    "description": "Sailockの使い方と、すべての機能について学びましょう。",
+    "categories": {
+      "all": "すべて表示",
+      "firstSteps": "はじめに",
+      "twoFactor": "2段階認証",
+      "autoLock": "自動ロック",
+      "generator": "ジェネレーター",
+      "vault": "ボールト",
+      "importExport": "インポート・エクスポート",
+      "settings": "設定"
+    }
+  }
+}

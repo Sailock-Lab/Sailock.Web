@@ -1,0 +1,25 @@
+{
+  "footer": {
+    "description": "Een lokale wachtwoordmanager gebouwd rond privacy, veiligheid en controle.",
+    "product": { "title": "Product" },
+    "community": { "title": "Community" },
+    "project": {
+      "title": "Project",
+      "about": "Over Sailock",
+      "sitemap": "Sitemap",
+      "contact": "Contact"
+    },
+    "legal": {
+      "terms": "Gebruiksvoorwaarden",
+      "privacy": "Privacybeleid"
+    },
+    "copyright": "Open source software."
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "description": "We konden de pagina die je zoekt niet vinden. Mogelijk is deze verwijderd, verplaatst, of klopt de URL niet.",
+    "backHome": "Terug naar home",
+    "help": "Hulp nodig? Bekijk onze",
+    "helpLink": "veelgestelde vragen"
+  }
+}

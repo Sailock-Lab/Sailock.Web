@@ -1,0 +1,29 @@
+{
+  "footer": {
+    "description": "Ein lokaler Passwort-Manager, entwickelt mit Fokus auf Privatsphäre, Sicherheit und Kontrolle.",
+    "product": {
+      "title": "Produkt"
+    },
+    "community": {
+      "title": "Community"
+    },
+    "project": {
+      "title": "Projekt",
+      "about": "Über Sailock",
+      "sitemap": "Sitemap",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzerklärung"
+    },
+    "copyright": "Open-Source-Software."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite konnte nicht gefunden werden. Möglicherweise wurde sie entfernt, verschoben oder die URL ist nicht korrekt.",
+    "backHome": "Zur Startseite",
+    "help": "Brauchst du Hilfe? Besuche unsere",
+    "helpLink": "häufig gestellten Fragen"
+  }
+}

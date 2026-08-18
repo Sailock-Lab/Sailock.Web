@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "あなたのパスワード。",
+    "titleHighlight": "あなたの管理下に。",
+    "description": "Sailockはローカルファーストのパスワードマネージャーで、暗号化されたボールトをあなたのデバイス上に保存します。クラウドなし、アカウントなし、テレメトリなし。",
+    "download": "Sailockをダウンロード",
+    "github": "GitHubで見る",
+    "meta": {
+      "windows": "Windows",
+      "offline": "オフライン",
+      "openSource": "オープンソース"
+    }
+  }
+}
