@@ -9,9 +9,12 @@ import {
 
 import {
     Locale,
+    Dictionary,
     STORAGE_KEY,
     defaultLocale,
+    availableLocales,
     getTranslation,
+    loadDictionary,
 } from "@/lib/i18n";
 
 interface LocaleContextType {
@@ -38,8 +41,11 @@ export function LocaleProvider({
     children: ReactNode;
 }) {
 
-    const [locale, setLocale] =
+    const [locale, setLocaleState] =
         useState<Locale>(defaultLocale);
+
+    const [dictionary, setDictionary] =
+        useState<Dictionary | null>(null);
 
     useEffect(() => {
 
@@ -48,32 +54,51 @@ export function LocaleProvider({
                 STORAGE_KEY
             ) as Locale | null;
 
-        if (saved) {
-            setLocale(saved);
-        }
+        const initialLocale =
+            saved && availableLocales.includes(saved)
+                ? saved
+                : defaultLocale;
+
+        setLocaleState(initialLocale);
+
+        loadDictionary(initialLocale).then(
+            setDictionary
+        );
 
     }, []);
 
     function changeLocale(
-        locale: Locale
+        newLocale: Locale
     ) {
 
         localStorage.setItem(
             STORAGE_KEY,
-            locale
+            newLocale
         );
 
-        setLocale(locale);
+        setLocaleState(newLocale);
+
+        loadDictionary(newLocale).then(
+            setDictionary
+        );
     }
 
     function t(
         key: string
     ) {
 
+        if (!dictionary) {
+            return key;
+        }
+
         return getTranslation(
-            locale,
+            dictionary,
             key
         );
+    }
+
+    if (!dictionary) {
+        return null;
     }
 
     return (
