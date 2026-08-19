@@ -1,6 +1,7 @@
 "use client";
 
 import Container from "@/components/common/Container";
+import PageHero from "@/components/common/PageHero";
 import useLocale from "@/hooks/useLocale";
 
 export default function PrivacyPage() {
@@ -8,18 +9,16 @@ export default function PrivacyPage() {
 
     return (
         <main className="legal-page">
-            <section className="legal-hero">
-                <Container>
-                    <div className="legal-hero-content">
-                        <h1>{t("privacy.title")}</h1>
-                        <p>{t("privacy.description")}</p>
-                    </div>
-                </Container>
-            </section>
+            <div className="legal-page-hero animate-fade-in">
+                <PageHero
+                    title={t("privacy.title")}
+                    description={t("privacy.description")}
+                />
+            </div>
 
             <section className="legal-content">
                 <Container>
-                    <article className="legal-document">
+                    <article className="legal-document animate-fade-in-up">
                         <p className="legal-updated">
                             {t("privacy.lastUpdated")}
                         </p>
