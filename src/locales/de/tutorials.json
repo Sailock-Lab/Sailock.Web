@@ -11,6 +11,10 @@
       "vault": "Tresor",
       "importExport": "Import & Export",
       "settings": "Einstellungen"
+    },
+    "empty": {
+      "title": "Anleitungen sind bald verfügbar",
+      "description": "Wir arbeiten an Schritt-für-Schritt-Anleitungen für jeden Bereich von Sailock. Schau bald wieder vorbei oder folge dem Projekt auf GitHub, um informiert zu werden, sobald sie veröffentlicht werden."
     }
   }
 }

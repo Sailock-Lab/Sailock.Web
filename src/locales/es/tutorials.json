@@ -11,6 +11,10 @@
       "vault": "Bóveda",
       "importExport": "Importar y exportar",
       "settings": "Configuración"
+    },
+    "empty": {
+      "title": "Los tutoriales están en camino",
+      "description": "Estamos preparando guías paso a paso para cada parte de Sailock. Vuelve pronto, o sigue el proyecto en GitHub para enterarte en cuanto se publiquen."
     }
   }
 }

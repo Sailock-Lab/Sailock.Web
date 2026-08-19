@@ -11,6 +11,10 @@
       "vault": "Coffre-fort",
       "importExport": "Importation et exportation",
       "settings": "Paramètres"
+    },
+    "empty": {
+      "title": "Les tutoriels arrivent bientôt",
+      "description": "Nous préparons des guides étape par étape pour chaque partie de Sailock. Revenez bientôt, ou suivez le projet sur GitHub pour être informé dès leur publication."
     }
   }
 }

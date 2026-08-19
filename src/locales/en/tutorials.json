@@ -11,6 +11,10 @@
       "vault": "Vault",
       "importExport": "Import & Export",
       "settings": "Settings"
+    },
+    "empty": {
+      "title": "Tutorials are on their way",
+      "description": "We're working on step-by-step guides for every part of Sailock. Check back soon, or follow the project on GitHub to know when they're published."
     }
   }
 }
