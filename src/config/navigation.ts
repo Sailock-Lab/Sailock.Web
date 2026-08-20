@@ -8,10 +8,6 @@ export const NAVIGATION = [
         href: "/tutorials",
     },
     {
-        key: "navigation.changelog",
-        href: "/changelog",
-    },
-    {
         key: "navigation.faq",
         href: "/faq",
     },

@@ -57,7 +57,6 @@ export default function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <IconBrandGithub size={17} />
                                 <span>GitHub</span>
                             </a>
 

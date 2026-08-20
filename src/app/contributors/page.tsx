@@ -11,12 +11,12 @@ export default function ContributorsPage() {
 
     return (
         <main className="contributors-page">
-            <div className="contributors-page-hero animate-fade-in">
+            {/* <div className="contributors-page-hero animate-fade-in">
                 <PageHero
                     title={t("contributors.title")}
                     description={t("contributors.description")}
                 />
-            </div>
+            </div> */}
 
             <section className="contributors">
                 <Container>

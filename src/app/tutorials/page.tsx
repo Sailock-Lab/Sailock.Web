@@ -24,16 +24,16 @@ export default function TutorialsPage() {
 
     return (
         <main className="tutorials-page">
-            <div className="tutorials-page-hero animate-fade-in">
+            {/* <div className="tutorials-page-hero animate-fade-in">
                 <PageHero
                     title={t("tutorials.title")}
                     description={t("tutorials.description")}
                 />
-            </div>
+            </div> */}
 
             <section className="tutorials">
                 <Container>
-                    <div className="tutorials-categories animate-fade-in-up">
+                    {/* <div className="tutorials-categories animate-fade-in-up">
                         {CATEGORY_KEYS.map((key) => (
                             <button
                                 key={key}
@@ -47,7 +47,7 @@ export default function TutorialsPage() {
                                 {t(`tutorials.categories.${key}`)}
                             </button>
                         ))}
-                    </div>
+                    </div> */}
 
                     <div className="tutorials-empty animate-fade-in-up">
                         <h2>{t("tutorials.empty.title")}</h2>
