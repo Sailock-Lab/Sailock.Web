@@ -2,6 +2,7 @@
   "tutorials": {
     "title": "Anleitungen",
     "description": "Erfahre, wie du Sailock verwendest und entdecke alle Funktionen.",
+    "searchPlaceholder": "Anleitungen durchsuchen...",
     "categories": {
       "all": "Alle anzeigen",
       "firstSteps": "Erste Schritte",
@@ -15,6 +16,10 @@
     "empty": {
       "title": "Anleitungen sind bald verfügbar",
       "description": "Wir arbeiten an Schritt-für-Schritt-Anleitungen für jeden Bereich von Sailock. Schau bald wieder vorbei oder folge dem Projekt auf GitHub, um informiert zu werden, sobald sie veröffentlicht werden."
+    },
+    "noResults": {
+      "title": "Keine Anleitungen gefunden",
+      "description": "Versuche es mit einem anderen Suchbegriff oder einer anderen Kategorie."
     }
   }
 }

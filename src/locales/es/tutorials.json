@@ -2,6 +2,7 @@
   "tutorials": {
     "title": "Tutoriales",
     "description": "Aprende a utilizar Sailock y descubre todas sus funciones.",
+    "searchPlaceholder": "Buscar tutoriales...",
     "categories": {
       "all": "Mostrar todo",
       "firstSteps": "Primeros pasos",
@@ -15,6 +16,10 @@
     "empty": {
       "title": "Los tutoriales están en camino",
       "description": "Estamos preparando guías paso a paso para cada parte de Sailock. Vuelve pronto, o sigue el proyecto en GitHub para enterarte en cuanto se publiquen."
+    },
+    "noResults": {
+      "title": "No se han encontrado tutoriales",
+      "description": "Prueba con otro término de búsqueda o categoría."
     }
   }
 }
