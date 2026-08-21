@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { APP } from "@/config/app";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
     const routes = [
         "",
@@ -9,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "/contributors",
         "/terms",
         "/privacy",
+        "/sitemap",
     ];
 
     return routes.map((route) => ({

@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { IconBrandGithub } from "@tabler/icons-react";
-
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import { APP } from "@/config/app";
 import useLocale from "@/hooks/useLocale";
@@ -17,12 +16,7 @@ export default function Footer() {
                 <div className="footer-main">
                     <div className="footer-brand">
                         <Link href="/" className="footer-logo">
-                            <img
-                                src="/logo.svg"
-                                alt={APP.name}
-                                width={40}
-                                height={40}
-                            />
+                            <Image src="/logo.svg" alt={APP.name} width={40} height={40} />
                             <span>{APP.name}</span>
                         </Link>
 
