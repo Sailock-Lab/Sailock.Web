@@ -10,6 +10,7 @@ import { APP } from "@/config/app";
 import { NAVIGATION } from "@/config/navigation";
 import useLocale from "@/hooks/useLocale";
 import useTheme from "@/hooks/useTheme";
+import { BASE_PATH } from "@/utils/basePath";
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,13 +31,7 @@ export default function Navbar() {
                 <div className="navbar-content">
                     {/* Logo */}
                     <Link href="/" className="navbar-logo">
-                        <Image
-                            src="/logo.svg"
-                            alt={APP.name}
-                            width={50}
-                            height={50}
-                            priority
-                        />
+                        <Image src={`${BASE_PATH}/logo.svg`} alt={APP.name} width={50} height={50} priority/>
                         <span>{APP.name}</span>
                     </Link>
 

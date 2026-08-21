@@ -2,13 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import {
-    IconArrowLeft,
-    IconMap,
-} from "@tabler/icons-react";
-
+import { IconArrowLeft, IconMap } from "@tabler/icons-react";
 import Container from "@/components/common/Container";
 import useLocale from "@/hooks/useLocale";
+import { BASE_PATH } from "@/utils/basePath";
 
 export default function NotFound() {
     const { t } = useLocale();
@@ -18,13 +15,7 @@ export default function NotFound() {
             <Container>
                 <div className="not-found-content">
                     <div className="not-found-illustration">
-                        <Image
-                            src="/images/not-found.svg"
-                            alt=""
-                            width={500}
-                            height={400}
-                            priority
-                        />
+                        <Image src={`${BASE_PATH}/images/not-found.svg`} alt="" width={500} height={400} priority />
                     </div>
 
                     <div className="not-found-info">

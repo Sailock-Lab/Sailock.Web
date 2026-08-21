@@ -5,6 +5,7 @@ import Image from "next/image";
 import Container from "@/components/common/Container";
 import { APP } from "@/config/app";
 import useLocale from "@/hooks/useLocale";
+import { BASE_PATH } from "@/utils/basePath";
 
 export default function Footer() {
     const { t } = useLocale();
@@ -16,7 +17,7 @@ export default function Footer() {
                 <div className="footer-main">
                     <div className="footer-brand">
                         <Link href="/" className="footer-logo">
-                            <Image src="/logo.svg" alt={APP.name} width={40} height={40} />
+                            <Image src={`${BASE_PATH}/logo.svg`} alt={APP.name} width={40} height={40} />
                             <span>{APP.name}</span>
                         </Link>
 
