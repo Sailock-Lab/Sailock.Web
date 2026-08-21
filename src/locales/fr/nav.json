@@ -1,5 +1,6 @@
 {
   "navigation": {
+    "home": "Accueil",
     "download": "Télécharger",
     "tutorials": "Tutoriels",
     "changelog": "Journal des modifications",

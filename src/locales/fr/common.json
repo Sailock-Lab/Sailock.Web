@@ -25,5 +25,13 @@
     "backHome": "Retour à l'accueil",
     "help": "Besoin d'aide ? Consultez nos",
     "helpLink": "questions fréquentes"
+  },
+  "sitemap": {
+    "title": "Plan du site",
+    "description": "Toutes les pages de Sailock, regroupées pour un accès rapide.",
+    "groups": {
+      "pages": "Pages",
+      "legal": "Mentions légales"
+    }
   }
 }

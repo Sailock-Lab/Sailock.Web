@@ -25,5 +25,13 @@
     "backHome": "Back to home",
     "help": "Need help? Visit our",
     "helpLink": "frequently asked questions"
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "description": "Every page on Sailock, grouped for quick navigation.",
+    "groups": {
+      "pages": "Pages",
+      "legal": "Legal"
+    }
   }
 }

@@ -1,8 +1,12 @@
 {
   "footer": {
     "description": "Een lokale wachtwoordmanager gebouwd rond privacy, veiligheid en controle.",
-    "product": { "title": "Product" },
-    "community": { "title": "Community" },
+    "product": {
+      "title": "Product"
+    },
+    "community": {
+      "title": "Community"
+    },
     "project": {
       "title": "Project",
       "about": "Over Sailock",
@@ -21,5 +25,13 @@
     "backHome": "Terug naar home",
     "help": "Hulp nodig? Bekijk onze",
     "helpLink": "veelgestelde vragen"
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "description": "Alle pagina's van Sailock, gegroepeerd voor snelle navigatie.",
+    "groups": {
+      "pages": "Pagina's",
+      "legal": "Juridisch"
+    }
   }
 }

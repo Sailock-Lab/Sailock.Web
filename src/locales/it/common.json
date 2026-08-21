@@ -1,8 +1,12 @@
 {
   "footer": {
     "description": "Un gestore di password locale pensato per privacy, sicurezza e controllo.",
-    "product": { "title": "Prodotto" },
-    "community": { "title": "Community" },
+    "product": {
+      "title": "Prodotto"
+    },
+    "community": {
+      "title": "Community"
+    },
     "project": {
       "title": "Progetto",
       "about": "Informazioni su Sailock",
@@ -21,5 +25,13 @@
     "backHome": "Torna alla home",
     "help": "Hai bisogno di aiuto? Visita le nostre",
     "helpLink": "domande frequenti"
+  },
+  "sitemap": {
+    "title": "Mappa del sito",
+    "description": "Tutte le pagine di Sailock, raggruppate per una navigazione rapida.",
+    "groups": {
+      "pages": "Pagine",
+      "legal": "Legale"
+    }
   }
 }

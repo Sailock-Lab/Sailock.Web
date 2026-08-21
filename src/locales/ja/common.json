@@ -1,8 +1,12 @@
 {
   "footer": {
     "description": "プライバシー、セキュリティ、そしてコントロールを重視して作られたローカルパスワードマネージャーです。",
-    "product": { "title": "プロダクト" },
-    "community": { "title": "コミュニティ" },
+    "product": {
+      "title": "プロダクト"
+    },
+    "community": {
+      "title": "コミュニティ"
+    },
     "project": {
       "title": "プロジェクト",
       "about": "Sailockについて",
@@ -21,5 +25,13 @@
     "backHome": "ホームに戻る",
     "help": "お困りですか？よくある質問を",
     "helpLink": "ご覧ください"
+  },
+  "sitemap": {
+    "title": "サイトマップ",
+    "description": "Sailockのすべてのページを、見つけやすいようにグループ分けしています。",
+    "groups": {
+      "pages": "ページ",
+      "legal": "法的情報"
+    }
   }
 }

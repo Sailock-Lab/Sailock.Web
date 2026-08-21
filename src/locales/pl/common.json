@@ -1,8 +1,12 @@
 {
   "footer": {
     "description": "Lokalny menedżer haseł zbudowany z myślą o prywatności, bezpieczeństwie i kontroli.",
-    "product": { "title": "Produkt" },
-    "community": { "title": "Społeczność" },
+    "product": {
+      "title": "Produkt"
+    },
+    "community": {
+      "title": "Społeczność"
+    },
     "project": {
       "title": "Projekt",
       "about": "O Sailock",
@@ -21,5 +25,13 @@
     "backHome": "Wróć na stronę główną",
     "help": "Potrzebujesz pomocy? Sprawdź nasze",
     "helpLink": "najczęściej zadawane pytania"
+  },
+  "sitemap": {
+    "title": "Mapa strony",
+    "description": "Wszystkie strony Sailock, pogrupowane dla szybkiej nawigacji.",
+    "groups": {
+      "pages": "Strony",
+      "legal": "Informacje prawne"
+    }
   }
 }

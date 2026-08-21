@@ -1,8 +1,12 @@
 {
   "footer": {
     "description": "一款围绕隐私、安全与掌控力打造的本地密码管理器。",
-    "product": { "title": "产品" },
-    "community": { "title": "社区" },
+    "product": {
+      "title": "产品"
+    },
+    "community": {
+      "title": "社区"
+    },
     "project": {
       "title": "项目",
       "about": "关于 Sailock",
@@ -21,5 +25,13 @@
     "backHome": "返回首页",
     "help": "需要帮助？请查看我们的",
     "helpLink": "常见问题"
+  },
+  "sitemap": {
+    "title": "网站地图",
+    "description": "Sailock 的所有页面，按类别分组，方便快速查找。",
+    "groups": {
+      "pages": "页面",
+      "legal": "法律信息"
+    }
   }
 }

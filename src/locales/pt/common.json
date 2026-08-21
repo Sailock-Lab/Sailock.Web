@@ -1,8 +1,12 @@
 {
   "footer": {
     "description": "Um gerenciador de senhas local construído em torno de privacidade, segurança e controle.",
-    "product": { "title": "Produto" },
-    "community": { "title": "Comunidade" },
+    "product": {
+      "title": "Produto"
+    },
+    "community": {
+      "title": "Comunidade"
+    },
     "project": {
       "title": "Projeto",
       "about": "Sobre o Sailock",
@@ -21,5 +25,13 @@
     "backHome": "Voltar ao início",
     "help": "Precisa de ajuda? Confira nossas",
     "helpLink": "perguntas frequentes"
+  },
+  "sitemap": {
+    "title": "Mapa do site",
+    "description": "Todas as páginas do Sailock, agrupadas para facilitar a navegação.",
+    "groups": {
+      "pages": "Páginas",
+      "legal": "Legal"
+    }
   }
 }
