@@ -25,12 +25,7 @@ interface Tutorial {
     category: Exclude<CategoryKey, "all">;
 }
 
-
-const TUTORIALS: Tutorial[] = [
-    { slug: "getting-started", title: "Getting Started with Sailock", category: "firstSteps" },
-    { slug: "setup-2fa", title: "Setting up Two-Factor Authentication", category: "twoFactor" },
-    { slug: "password-generator", title: "Using the Password Generator", category: "generator" },
-];
+const TUTORIALS: Tutorial[] = [];
 
 export default function TutorialsPage() {
     const { t } = useLocale();
@@ -54,21 +49,6 @@ export default function TutorialsPage() {
             return matchesCategory && matchesQuery;
         });
     }, [activeCategory, searchQuery]);
-
-    if (!hasTutorials) {
-        return (
-            <main className="tutorials-page">
-                <section className="tutorials">
-                    <Container>
-                        <div className="tutorials-empty animate-fade-in-up">
-                            <h2>{t("tutorials.empty.title")}</h2>
-                            <p>{t("tutorials.empty.description")}</p>
-                        </div>
-                    </Container>
-                </section>
-            </main>
-        );
-    }
 
     return (
         <main className="tutorials-page">
