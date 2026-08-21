@@ -11,6 +11,15 @@
       "vault": "Magazyn",
       "importExport": "Import i eksport",
       "settings": "Ustawienia"
+    },
+    "searchPlaceholder": "Szukaj samouczków...",
+    "empty": {
+      "title": "Samouczki już wkrótce",
+      "description": "Przygotowujemy przewodniki krok po kroku dla każdej części Sailock. Zajrzyj tu wkrótce lub śledź projekt na GitHub, aby wiedzieć, kiedy zostaną opublikowane."
+    },
+    "noResults": {
+      "title": "Nie znaleziono samouczków",
+      "description": "Spróbuj innego hasła wyszukiwania lub kategorii."
     }
   }
 }

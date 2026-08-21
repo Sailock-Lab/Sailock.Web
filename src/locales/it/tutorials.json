@@ -11,6 +11,15 @@
       "vault": "Archivio",
       "importExport": "Importa ed esporta",
       "settings": "Impostazioni"
+    },
+    "searchPlaceholder": "Cerca tutorial...",
+    "empty": {
+      "title": "I tutorial stanno arrivando",
+      "description": "Stiamo preparando guide passo passo per ogni parte di Sailock. Torna presto, oppure segui il progetto su GitHub per sapere quando verranno pubblicati."
+    },
+    "noResults": {
+      "title": "Nessun tutorial trovato",
+      "description": "Prova con un termine di ricerca o una categoria diversi."
     }
   }
 }

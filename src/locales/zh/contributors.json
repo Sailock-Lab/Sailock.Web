@@ -1,1 +1,11 @@
-{}
+{
+  "contributors": {
+    "title": "贡献者",
+    "description": "帮助构建 Sailock 的人们。",
+    "empty": {
+      "title": "暂无贡献者",
+      "description": "Sailock 才刚刚起步。如果你想参与它的开发，欢迎在 GitHub 上提交贡献。",
+      "cta": "在 GitHub 上查看"
+    }
+  }
+}

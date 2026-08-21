@@ -11,6 +11,15 @@
       "vault": "Cofre",
       "importExport": "Importar e exportar",
       "settings": "Configurações"
+    },
+    "searchPlaceholder": "Buscar tutoriais...",
+    "empty": {
+      "title": "Os tutoriais estão a caminho",
+      "description": "Estamos preparando guias passo a passo para cada parte do Sailock. Volte em breve, ou siga o projeto no GitHub para saber quando forem publicados."
+    },
+    "noResults": {
+      "title": "Nenhum tutorial encontrado",
+      "description": "Tente um termo de busca ou categoria diferente."
     }
   }
 }

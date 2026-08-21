@@ -1,1 +1,11 @@
-{}
+{
+  "contributors": {
+    "title": "コントリビューター",
+    "description": "Sailockの構築を支えている人々です。",
+    "empty": {
+      "title": "まだコントリビューターはいません",
+      "description": "Sailockはまだ始まったばかりです。開発に協力していただける方は、GitHub上での貢献を歓迎しています。",
+      "cta": "GitHubで見る"
+    }
+  }
+}

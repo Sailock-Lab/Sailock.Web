@@ -11,6 +11,15 @@
       "vault": "Kluis",
       "importExport": "Importeren & exporteren",
       "settings": "Instellingen"
+    },
+    "searchPlaceholder": "Tutorials doorzoeken...",
+    "empty": {
+      "title": "Tutorials komen eraan",
+      "description": "We werken aan stap-voor-stap handleidingen voor elk onderdeel van Sailock. Kom snel terug, of volg het project op GitHub om te weten wanneer ze gepubliceerd worden."
+    },
+    "noResults": {
+      "title": "Geen tutorials gevonden",
+      "description": "Probeer een andere zoekterm of categorie."
     }
   }
 }

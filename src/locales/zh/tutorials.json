@@ -11,6 +11,15 @@
       "vault": "密码库",
       "importExport": "导入与导出",
       "settings": "设置"
+    },
+    "searchPlaceholder": "搜索教程...",
+    "empty": {
+      "title": "教程即将上线",
+      "description": "我们正在为 Sailock 的各个功能准备分步指南。请稍后再来查看，或在 GitHub 上关注本项目以获取发布通知。"
+    },
+    "noResults": {
+      "title": "未找到相关教程",
+      "description": "请尝试其他搜索关键词或分类。"
     }
   }
 }
