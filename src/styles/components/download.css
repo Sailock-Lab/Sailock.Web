@@ -1,0 +1,166 @@
+/* src/styles/components/download.css */
+
+.download-page {
+    padding-bottom: var(--space-10);
+}
+
+/* OS selector tabs */
+.download-os-tabs {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-3);
+    margin: var(--space-6) 0;
+}
+
+.download-os-tab {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-5);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
+}
+
+.download-os-tab.is-active {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.download-os-tab:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.download-os-soon {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+}
+
+/* Botón de descarga principal */
+.download-action {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-6);
+}
+
+/* Cómo instalarlo / Requisitos del sistema */
+.install-steps,
+.system-requirements {
+    max-width: 900px;
+    margin: var(--space-9) auto 0;
+
+    text-align: center;
+}
+
+.install-steps h2,
+.system-requirements h2 {
+    color: var(--color-primary);
+}
+
+.install-steps-subtitle {
+    margin-top: var(--space-2);
+    color: var(--color-text-secondary);
+}
+
+.install-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+}
+
+.install-step-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: var(--space-4);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+
+    background: var(--color-surface);
+}
+
+.install-step-number {
+    display: inline-block;
+    padding: 2px var(--space-3);
+    margin-bottom: var(--space-3);
+
+    border-radius: var(--radius-full);
+    background: var(--color-surface-alt);
+    color: var(--color-primary);
+
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 0.03em;
+}
+
+.install-step-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+    margin-bottom: var(--space-3);
+
+    border: 1.5px dashed var(--color-border);
+    border-radius: 50%;
+
+    color: var(--color-primary);
+}
+
+.install-step-card h3 {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--space-2);
+}
+
+.install-step-card p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+}
+
+/* Requisitos del sistema */
+.requirements-list {
+    margin-top: var(--space-6);
+    text-align: left;
+}
+
+.requirements-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding: var(--space-4);
+
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-primary);
+}
+
+.requirements-item strong {
+    color: var(--color-text);
+}
+
+.requirements-item p {
+    margin-top: var(--space-1);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.requirements-item.is-disabled {
+    color: var(--color-text-muted);
+    opacity: 0.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .install-steps-grid {
+        grid-template-columns: 1fr;
+    }
+}

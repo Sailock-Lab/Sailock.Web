@@ -25,7 +25,7 @@ export default function HomeHero() {
 
                     <div className="home-hero-actions">
                         <Link
-                            href="#download"
+                            href="/download"
                             className="button button-primary"
                         >
                             {t("hero.download")}

@@ -1,0 +1,49 @@
+{
+    "download": {
+        "title": "Sailock 다운로드",
+        "latestVersion": "최신 버전:",
+        "loadingVersion": "최신 버전을 불러오는 중...",
+        "os": {
+            "windows": "Windows",
+            "mac": "macOS",
+            "linux": "Linux",
+            "comingSoon": "출시 예정"
+        },
+        "action": {
+            "downloadFor": "다운로드:",
+            "loading": "불러오는 중...",
+            "viewReleases": "GitHub에서 릴리스 보기",
+            "notAvailable": "아직 빌드가 없습니다:"
+        },
+        "installSteps": {
+            "title": "설치 방법",
+            "subtitle": "세 단계만 거치면 비밀번호를 안전하게 보호할 수 있습니다.",
+            "step1": {
+                "number": "1단계",
+                "title": "다운로드",
+                "description": "위의 다운로드 버튼을 클릭하세요."
+            },
+            "step2": {
+                "number": "2단계",
+                "title": "파일 열기",
+                "description": "다운로드가 완료되면 .exe 파일을 찾아 여세요."
+            },
+            "step3": {
+                "number": "3단계",
+                "title": "설치",
+                "description": "설치 프로그램의 안내를 따르세요. 완료!"
+            }
+        },
+        "requirements": {
+            "title": "시스템 요구 사항",
+            "windows": {
+                "label": "Windows",
+                "description": "Windows 10 이상, RAM 4GB, 디스크 여유 공간 200MB."
+            },
+            "macLinux": {
+                "label": "macOS / Linux",
+                "description": "출시 예정."
+            }
+        }
+    }
+}

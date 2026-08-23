@@ -1,0 +1,49 @@
+{
+    "download": {
+        "title": "Baixar Sailock",
+        "latestVersion": "Última versão:",
+        "loadingVersion": "Carregando a última versão...",
+        "os": {
+            "windows": "Windows",
+            "mac": "macOS",
+            "linux": "Linux",
+            "comingSoon": "Em breve"
+        },
+        "action": {
+            "downloadFor": "Baixar para",
+            "loading": "Carregando...",
+            "viewReleases": "Ver releases no GitHub",
+            "notAvailable": "Ainda não há build disponível para"
+        },
+        "installSteps": {
+            "title": "Como instalar",
+            "subtitle": "Três passos e você já estará protegendo suas senhas.",
+            "step1": {
+                "number": "Passo 1",
+                "title": "Baixar",
+                "description": "Clique no botão de download acima."
+            },
+            "step2": {
+                "number": "Passo 2",
+                "title": "Abra o arquivo",
+                "description": "Assim que o download terminar, localize o .exe e abra-o."
+            },
+            "step3": {
+                "number": "Passo 3",
+                "title": "Instale",
+                "description": "Siga as instruções do instalador. Pronto!"
+            }
+        },
+        "requirements": {
+            "title": "Requisitos do sistema",
+            "windows": {
+                "label": "Windows",
+                "description": "Windows 10 ou superior, 4 GB de RAM, 200 MB de espaço livre em disco."
+            },
+            "macLinux": {
+                "label": "macOS / Linux",
+                "description": "Em breve."
+            }
+        }
+    }
+}

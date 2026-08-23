@@ -1,0 +1,49 @@
+{
+    "download": {
+        "title": "Sailockをダウンロード",
+        "latestVersion": "最新バージョン:",
+        "loadingVersion": "最新バージョンを読み込んでいます...",
+        "os": {
+            "windows": "Windows",
+            "mac": "macOS",
+            "linux": "Linux",
+            "comingSoon": "近日公開"
+        },
+        "action": {
+            "downloadFor": "ダウンロード:",
+            "loading": "読み込み中...",
+            "viewReleases": "GitHubでリリースを見る",
+            "notAvailable": "まだビルドがありません:"
+        },
+        "installSteps": {
+            "title": "インストール方法",
+            "subtitle": "3つのステップでパスワードを保護できます。",
+            "step1": {
+                "number": "ステップ1",
+                "title": "ダウンロード",
+                "description": "上のダウンロードボタンをクリックしてください。"
+            },
+            "step2": {
+                "number": "ステップ2",
+                "title": "ファイルを開く",
+                "description": "ダウンロードが完了したら、.exeファイルを見つけて開いてください。"
+            },
+            "step3": {
+                "number": "ステップ3",
+                "title": "インストール",
+                "description": "インストーラーの指示に従ってください。完了です!"
+            }
+        },
+        "requirements": {
+            "title": "システム要件",
+            "windows": {
+                "label": "Windows",
+                "description": "Windows 10以降、RAM 4GB、空きディスク容量200MB。"
+            },
+            "macLinux": {
+                "label": "macOS / Linux",
+                "description": "近日公開。"
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "download": {
+        "title": "Sailock downloaden",
+        "latestVersion": "Laatste versie:",
+        "loadingVersion": "Laatste versie wordt geladen...",
+        "os": {
+            "windows": "Windows",
+            "mac": "macOS",
+            "linux": "Linux",
+            "comingSoon": "Binnenkort beschikbaar"
+        },
+        "action": {
+            "downloadFor": "Downloaden voor",
+            "loading": "Laden...",
+            "viewReleases": "Releases bekijken op GitHub",
+            "notAvailable": "Nog geen build beschikbaar voor"
+        },
+        "installSteps": {
+            "title": "Zo installeer je het",
+            "subtitle": "Drie stappen en je wachtwoorden zijn beveiligd.",
+            "step1": {
+                "number": "Stap 1",
+                "title": "Downloaden",
+                "description": "Klik op de downloadknop hierboven."
+            },
+            "step2": {
+                "number": "Stap 2",
+                "title": "Open het bestand",
+                "description": "Zodra de download is voltooid, zoek je het .exe-bestand en open je het."
+            },
+            "step3": {
+                "number": "Stap 3",
+                "title": "Installeren",
+                "description": "Volg de instructies van het installatieprogramma. Klaar!"
+            }
+        },
+        "requirements": {
+            "title": "Systeemvereisten",
+            "windows": {
+                "label": "Windows",
+                "description": "Windows 10 of hoger, 4 GB RAM, 200 MB vrije schijfruimte."
+            },
+            "macLinux": {
+                "label": "macOS / Linux",
+                "description": "Binnenkort beschikbaar."
+            }
+        }
+    }
+}

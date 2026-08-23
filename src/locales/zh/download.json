@@ -1,0 +1,49 @@
+{
+    "download": {
+        "title": "下载 Sailock",
+        "latestVersion": "最新版本：",
+        "loadingVersion": "正在加载最新版本...",
+        "os": {
+            "windows": "Windows",
+            "mac": "macOS",
+            "linux": "Linux",
+            "comingSoon": "即将推出"
+        },
+        "action": {
+            "downloadFor": "下载适用于",
+            "loading": "加载中...",
+            "viewReleases": "在 GitHub 上查看发行版",
+            "notAvailable": "暂无可用的构建版本："
+        },
+        "installSteps": {
+            "title": "如何安装",
+            "subtitle": "三个步骤即可保护您的密码。",
+            "step1": {
+                "number": "第 1 步",
+                "title": "下载",
+                "description": "点击上方的下载按钮。"
+            },
+            "step2": {
+                "number": "第 2 步",
+                "title": "打开文件",
+                "description": "下载完成后，找到 .exe 文件并打开它。"
+            },
+            "step3": {
+                "number": "第 3 步",
+                "title": "安装",
+                "description": "按照安装程序的说明操作。完成！"
+            }
+        },
+        "requirements": {
+            "title": "系统要求",
+            "windows": {
+                "label": "Windows",
+                "description": "Windows 10 或更高版本，4 GB 内存，200 MB 可用磁盘空间。"
+            },
+            "macLinux": {
+                "label": "macOS / Linux",
+                "description": "即将推出。"
+            }
+        }
+    }
+}

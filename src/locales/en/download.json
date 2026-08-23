@@ -1,0 +1,49 @@
+{
+    "download": {
+        "title": "Download Sailock",
+        "latestVersion": "Latest version:",
+        "loadingVersion": "Loading the latest version...",
+        "os": {
+            "windows": "Windows",
+            "mac": "macOS",
+            "linux": "Linux",
+            "comingSoon": "Coming soon"
+        },
+        "action": {
+            "downloadFor": "Download for",
+            "loading": "Loading...",
+            "viewReleases": "View releases on GitHub",
+            "notAvailable": "No build available yet for"
+        },
+        "installSteps": {
+            "title": "How to install it",
+            "subtitle": "Three steps and you'll be protecting your passwords.",
+            "step1": {
+                "number": "Step 1",
+                "title": "Download",
+                "description": "Click the download button above."
+            },
+            "step2": {
+                "number": "Step 2",
+                "title": "Open the file",
+                "description": "Once the download finishes, locate the .exe and open it."
+            },
+            "step3": {
+                "number": "Step 3",
+                "title": "Install",
+                "description": "Follow the installer's instructions. Done!"
+            }
+        },
+        "requirements": {
+            "title": "System requirements",
+            "windows": {
+                "label": "Windows",
+                "description": "Windows 10 or later, 4 GB RAM, 200 MB free disk space."
+            },
+            "macLinux": {
+                "label": "macOS / Linux",
+                "description": "Coming soon."
+            }
+        }
+    }
+}

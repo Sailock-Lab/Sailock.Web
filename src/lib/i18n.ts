@@ -14,6 +14,7 @@ const NAMESPACES = [
     "tutorials",
     "contributors",
     "legal",
+    "download",
 ] as const;
 
 export type Dictionary = Record<string, unknown>;
