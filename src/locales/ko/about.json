@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "Sailock 소개",
+        "subtitle": "오픈소스 비밀번호 관리자 — 로컬, 안전, 그리고 무료.",
+        "mission": {
+            "eyebrow": "우리의 미션",
+            "title": "당신의 비밀번호는 당신의 것입니다",
+            "body": "Sailock은 단순한 아이디어에서 시작되었습니다. 비밀번호 관리는 클라우드 계정이나 기업에 대한 맹목적인 신뢰에 의존해서는 안 됩니다. 모든 것은 사용자의 기기에서 암호화되어 저장되며, 사용자가 결정하지 않는 한 아무것도 외부로 나가지 않습니다."
+        },
+        "story": {
+            "eyebrow": "시작 이야기",
+            "title": "우리의 이야기",
+            "body": "보류 중 — 개인적인 톤 여부에 대한 결정을 기다리고 있습니다."
+        },
+        "principles": {
+            "title": "우리가 중요하게 생각하는 것",
+            "local": {
+                "title": "로컬 퍼스트",
+                "description": "보관함은 사용자의 기기에서 암호화되어 저장됩니다. 서버도, 계정도, 예외도 없습니다."
+            },
+            "secure": {
+                "title": "안전함",
+                "description": "프로젝트의 첫 커밋부터 AES-256 암호화와 2단계 인증을 적용했습니다."
+            },
+            "free": {
+                "title": "무료이며 개방적",
+                "description": "Sailock은 앞으로도 무료로 제공됩니다. 코드는 GitHub에 공개되어 있어 누구나 검토하거나 기여할 수 있습니다."
+            }
+        },
+        "stats": {
+            "title": "숫자로 보는 Sailock",
+            "stars": "GitHub 스타",
+            "contributors": "기여자",
+            "openSource": "오픈소스"
+        },
+        "involved": {
+            "title": "프로젝트에 참여하기",
+            "description": "Sailock은 오픈소스입니다 — 아이디어, 버그 리포트, 풀 리퀘스트를 언제든 환영합니다.",
+            "github": "GitHub에서 보기",
+            "contributors": "기여자 보기"
+        },
+        "finalCta": "Sailock 다운로드"
+    }
+}

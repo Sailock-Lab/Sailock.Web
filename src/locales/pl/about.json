@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "O Sailock",
+        "subtitle": "Menedżer haseł open source — lokalny, bezpieczny i darmowy.",
+        "mission": {
+            "eyebrow": "Nasza misja",
+            "title": "Twoje hasła należą do Ciebie",
+            "body": "Sailock powstał z prostego pomysłu: zarządzanie hasłami nie powinno zależeć od konta w chmurze ani ślepego zaufania firmie. Wszystko jest szyfrowane i przechowywane na Twoim własnym urządzeniu — nic nie opuszcza Twojego komputera bez Twojej decyzji."
+        },
+        "story": {
+            "eyebrow": "Jak to się zaczęło",
+            "title": "Nasza historia",
+            "body": "OCZEKUJE — czeka na Twoją decyzję co do osobistego tonu."
+        },
+        "principles": {
+            "title": "Co jest dla nas ważne",
+            "local": {
+                "title": "Local-first",
+                "description": "Twój magazyn haseł jest szyfrowany i przechowywany na Twoim urządzeniu. Bez serwerów, bez kont, bez wyjątków."
+            },
+            "secure": {
+                "title": "Bezpieczny",
+                "description": "Szyfrowanie AES-256 i uwierzytelnianie dwuskładnikowe od samego pierwszego commita projektu."
+            },
+            "free": {
+                "title": "Darmowy i otwarty",
+                "description": "Sailock jest i pozostanie darmowy. Kod jest dostępny na GitHub dla każdego, kto chce go sprawdzić lub rozwijać."
+            }
+        },
+        "stats": {
+            "title": "Sailock w liczbach",
+            "stars": "Gwiazdki na GitHub",
+            "contributors": "Współtwórcy",
+            "openSource": "Open source"
+        },
+        "involved": {
+            "title": "Dołącz do projektu",
+            "description": "Sailock jest open source — każdy pomysł, zgłoszenie błędu czy pull request jest mile widziany.",
+            "github": "Zobacz na GitHub",
+            "contributors": "Zobacz współtwórców"
+        },
+        "finalCta": "Pobierz Sailock"
+    }
+}

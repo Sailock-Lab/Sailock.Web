@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "Sobre o Sailock",
+        "subtitle": "Um gerenciador de senhas open source — local, seguro e gratuito.",
+        "mission": {
+            "eyebrow": "Nossa missão",
+            "title": "Suas senhas são suas",
+            "body": "O Sailock nasceu de uma ideia simples: o gerenciamento de senhas não deveria depender de uma conta na nuvem nem de confiança cega em uma empresa. Tudo é criptografado e armazenado no seu próprio dispositivo — nada sai da sua máquina sem que você decida."
+        },
+        "story": {
+            "eyebrow": "Como começou",
+            "title": "Nossa história",
+            "body": "PENDENTE — aguardando sua decisão sobre o tom pessoal."
+        },
+        "principles": {
+            "title": "O que valorizamos",
+            "local": {
+                "title": "Local-first",
+                "description": "Seu cofre é criptografado e armazenado no seu próprio dispositivo. Sem servidores, sem contas, sem exceções."
+            },
+            "secure": {
+                "title": "Seguro",
+                "description": "Criptografia AES-256 e autenticação de dois fatores desde o primeiro commit do projeto."
+            },
+            "free": {
+                "title": "Gratuito e aberto",
+                "description": "O Sailock é, e continuará sendo, gratuito. O código está no GitHub, aberto para revisão ou contribuição de qualquer pessoa."
+            }
+        },
+        "stats": {
+            "title": "Sailock em números",
+            "stars": "Estrelas no GitHub",
+            "contributors": "Colaboradores",
+            "openSource": "Código aberto"
+        },
+        "involved": {
+            "title": "Participe do projeto",
+            "description": "O Sailock é open source — qualquer ideia, relato de bug ou pull request é bem-vindo.",
+            "github": "Ver no GitHub",
+            "contributors": "Ver colaboradores"
+        },
+        "finalCta": "Baixar Sailock"
+    }
+}

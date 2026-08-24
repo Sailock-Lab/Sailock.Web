@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "Over Sailock",
+        "subtitle": "Een open source wachtwoordmanager die lokaal, veilig en gratis is.",
+        "mission": {
+            "eyebrow": "Onze missie",
+            "title": "Jouw wachtwoorden zijn van jou",
+            "body": "Sailock ontstond uit een simpel idee: wachtwoordbeheer zou niet moeten afhangen van een cloudaccount of blind vertrouwen in een bedrijf. Alles wordt versleuteld en opgeslagen op je eigen apparaat — er verlaat niets je computer zonder dat jij dat beslist."
+        },
+        "story": {
+            "eyebrow": "Hoe het begon",
+            "title": "Ons verhaal",
+            "body": "IN AFWACHTING — wacht op jouw keuze over de persoonlijke toon."
+        },
+        "principles": {
+            "title": "Waar we om geven",
+            "local": {
+                "title": "Local-first",
+                "description": "Je kluis wordt versleuteld en opgeslagen op je eigen apparaat. Geen servers, geen accounts, geen uitzonderingen."
+            },
+            "secure": {
+                "title": "Veilig",
+                "description": "AES-256-versleuteling en tweefactorauthenticatie vanaf de allereerste commit van het project."
+            },
+            "free": {
+                "title": "Gratis en open",
+                "description": "Sailock is en blijft gratis. De code staat op GitHub, open voor iedereen om te bekijken of aan bij te dragen."
+            }
+        },
+        "stats": {
+            "title": "Sailock in cijfers",
+            "stars": "GitHub-sterren",
+            "contributors": "Bijdragers",
+            "openSource": "Open source"
+        },
+        "involved": {
+            "title": "Doe mee",
+            "description": "Sailock is open source — elk idee, bugrapport of pull request is welkom.",
+            "github": "Bekijk op GitHub",
+            "contributors": "Bekijk bijdragers"
+        },
+        "finalCta": "Sailock downloaden"
+    }
+}

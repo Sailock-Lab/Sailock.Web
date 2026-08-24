@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "About Sailock",
+        "subtitle": "An open-source password manager that's local, secure, and free.",
+        "mission": {
+            "eyebrow": "Our mission",
+            "title": "Your passwords are yours",
+            "body": "Sailock started from a simple idea: password management shouldn't depend on a cloud account or blind trust in a company. Everything is encrypted and stored on your own device — nothing leaves your machine unless you decide it should."
+        },
+        "story": {
+            "eyebrow": "How it started",
+            "title": "Our story",
+            "body": "PENDING — awaiting your input on personal vs. product tone."
+        },
+        "principles": {
+            "title": "What we care about",
+            "local": {
+                "title": "Local-first",
+                "description": "Your vault is encrypted and stored on your own device. No servers, no accounts, no exceptions."
+            },
+            "secure": {
+                "title": "Secure",
+                "description": "AES-256 encryption and two-factor authentication from the project's very first commit."
+            },
+            "free": {
+                "title": "Free and open",
+                "description": "Sailock is, and will remain, free. The code is on GitHub for anyone to review or contribute to."
+            }
+        },
+        "stats": {
+            "title": "Sailock by the numbers",
+            "stars": "GitHub stars",
+            "contributors": "Contributors",
+            "openSource": "Open source"
+        },
+        "involved": {
+            "title": "Get involved",
+            "description": "Sailock is open source — any idea, bug report, or pull request is welcome.",
+            "github": "View on GitHub",
+            "contributors": "View contributors"
+        },
+        "finalCta": "Download Sailock"
+    }
+}

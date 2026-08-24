@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "关于 Sailock",
+        "subtitle": "一款开源密码管理器 — 本地、安全、免费。",
+        "mission": {
+            "eyebrow": "我们的使命",
+            "title": "你的密码属于你自己",
+            "body": "Sailock 源于一个简单的想法：密码管理不应依赖云账户，也不该盲目信任某家公司。所有数据都在你自己的设备上加密并存储 —— 未经你的决定，任何内容都不会离开你的电脑。"
+        },
+        "story": {
+            "eyebrow": "起源",
+            "title": "我们的故事",
+            "body": "待定 —— 等待你决定是否采用个人化的语气。"
+        },
+        "principles": {
+            "title": "我们所重视的",
+            "local": {
+                "title": "本地优先",
+                "description": "你的密码库在你自己的设备上加密并存储。没有服务器，没有账户，没有例外。"
+            },
+            "secure": {
+                "title": "安全",
+                "description": "从项目的第一次提交开始，就采用 AES-256 加密和双重身份验证。"
+            },
+            "free": {
+                "title": "免费且开放",
+                "description": "Sailock 现在是、并将永远是免费的。代码托管在 GitHub 上，任何人都可以查看或贡献代码。"
+            }
+        },
+        "stats": {
+            "title": "Sailock 的数字",
+            "stars": "GitHub 星标数",
+            "contributors": "贡献者",
+            "openSource": "开源"
+        },
+        "involved": {
+            "title": "参与项目",
+            "description": "Sailock 是开源项目 —— 欢迎任何想法、错误报告或拉取请求。",
+            "github": "在 GitHub 上查看",
+            "contributors": "查看贡献者"
+        },
+        "finalCta": "下载 Sailock"
+    }
+}

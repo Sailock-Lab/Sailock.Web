@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "Über Sailock",
+        "subtitle": "Ein quelloffener Passwort-Manager — lokal, sicher und kostenlos.",
+        "mission": {
+            "eyebrow": "Unsere Mission",
+            "title": "Deine Passwörter gehören dir",
+            "body": "Sailock entstand aus einer einfachen Idee: Passwortverwaltung sollte nicht von einem Cloud-Konto oder blindem Vertrauen in ein Unternehmen abhängen. Alles wird verschlüsselt und auf deinem eigenen Gerät gespeichert — nichts verlässt deinen Rechner, ohne dass du es entscheidest."
+        },
+        "story": {
+            "eyebrow": "Wie alles begann",
+            "title": "Unsere Geschichte",
+            "body": "AUSSTEHEND — wartet auf deine Entscheidung zum persönlichen Ton."
+        },
+        "principles": {
+            "title": "Was uns wichtig ist",
+            "local": {
+                "title": "Local-first",
+                "description": "Dein Tresor wird verschlüsselt und auf deinem eigenen Gerät gespeichert. Keine Server, keine Konten, keine Ausnahmen."
+            },
+            "secure": {
+                "title": "Sicher",
+                "description": "AES-256-Verschlüsselung und Zwei-Faktor-Authentifizierung seit dem allerersten Commit des Projekts."
+            },
+            "free": {
+                "title": "Kostenlos und offen",
+                "description": "Sailock ist und bleibt kostenlos. Der Code steht auf GitHub für jeden zur Überprüfung oder Mitwirkung offen."
+            }
+        },
+        "stats": {
+            "title": "Sailock in Zahlen",
+            "stars": "GitHub-Sterne",
+            "contributors": "Mitwirkende",
+            "openSource": "Open Source"
+        },
+        "involved": {
+            "title": "Mitmachen",
+            "description": "Sailock ist Open Source — jede Idee, jeder Bug-Report oder Pull Request ist willkommen.",
+            "github": "Auf GitHub ansehen",
+            "contributors": "Mitwirkende ansehen"
+        },
+        "finalCta": "Sailock herunterladen"
+    }
+}

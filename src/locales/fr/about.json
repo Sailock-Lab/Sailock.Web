@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "À propos de Sailock",
+        "subtitle": "Un gestionnaire de mots de passe open source, local, sécurisé et gratuit.",
+        "mission": {
+            "eyebrow": "Notre mission",
+            "title": "Vos mots de passe vous appartiennent",
+            "body": "Sailock est né d'une idée simple : la gestion des mots de passe ne devrait pas dépendre d'un compte cloud ni d'une confiance aveugle envers une entreprise. Tout est chiffré et stocké sur votre propre appareil — rien ne quitte votre machine sans que vous le décidiez."
+        },
+        "story": {
+            "eyebrow": "Comment tout a commencé",
+            "title": "Notre histoire",
+            "body": "EN ATTENTE — en attente de votre choix sur le ton personnel."
+        },
+        "principles": {
+            "title": "Ce qui compte pour nous",
+            "local": {
+                "title": "Local-first",
+                "description": "Votre coffre est chiffré et stocké sur votre propre appareil. Pas de serveurs, pas de comptes, pas d'exceptions."
+            },
+            "secure": {
+                "title": "Sécurisé",
+                "description": "Chiffrement AES-256 et authentification à deux facteurs dès le tout premier commit du projet."
+            },
+            "free": {
+                "title": "Gratuit et ouvert",
+                "description": "Sailock est et restera gratuit. Le code est sur GitHub, ouvert à la relecture et aux contributions de tous."
+            }
+        },
+        "stats": {
+            "title": "Sailock en chiffres",
+            "stars": "Étoiles GitHub",
+            "contributors": "Contributeurs",
+            "openSource": "Open source"
+        },
+        "involved": {
+            "title": "Participer au projet",
+            "description": "Sailock est open source — toute idée, rapport de bug ou pull request est bienvenue.",
+            "github": "Voir sur GitHub",
+            "contributors": "Voir les contributeurs"
+        },
+        "finalCta": "Télécharger Sailock"
+    }
+}

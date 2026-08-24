@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "Chi è Sailock",
+        "subtitle": "Un gestore di password open source, locale, sicuro e gratuito.",
+        "mission": {
+            "eyebrow": "La nostra missione",
+            "title": "Le tue password sono tue",
+            "body": "Sailock nasce da un'idea semplice: la gestione delle password non dovrebbe dipendere da un account cloud o dalla fiducia cieca in un'azienda. Tutto viene cifrato e salvato sul tuo dispositivo — nulla lascia il tuo computer senza che tu lo decida."
+        },
+        "story": {
+            "eyebrow": "Come è iniziato",
+            "title": "La nostra storia",
+            "body": "IN SOSPESO — in attesa della tua decisione sul tono personale."
+        },
+        "principles": {
+            "title": "Ciò che ci sta a cuore",
+            "local": {
+                "title": "Local-first",
+                "description": "Il tuo archivio viene cifrato e salvato sul tuo dispositivo. Nessun server, nessun account, nessuna eccezione."
+            },
+            "secure": {
+                "title": "Sicuro",
+                "description": "Cifratura AES-256 e autenticazione a due fattori fin dal primo commit del progetto."
+            },
+            "free": {
+                "title": "Gratuito e aperto",
+                "description": "Sailock è, e resterà, gratuito. Il codice è su GitHub, aperto a revisioni e contributi da parte di chiunque."
+            }
+        },
+        "stats": {
+            "title": "Sailock in numeri",
+            "stars": "Stelle su GitHub",
+            "contributors": "Collaboratori",
+            "openSource": "Open source"
+        },
+        "involved": {
+            "title": "Partecipa al progetto",
+            "description": "Sailock è open source — ogni idea, segnalazione di bug o pull request è benvenuta.",
+            "github": "Vedi su GitHub",
+            "contributors": "Vedi i collaboratori"
+        },
+        "finalCta": "Scarica Sailock"
+    }
+}
