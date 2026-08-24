@@ -36,10 +36,6 @@ export default function Footer() {
                                 {t("navigation.tutorials")}
                             </Link>
 
-                            <Link href="/changelog">
-                                {t("navigation.changelog")}
-                            </Link>
-
                             <Link href="/faq">
                                 {t("navigation.faq")}
                             </Link>
