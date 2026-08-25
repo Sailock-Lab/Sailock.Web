@@ -21,7 +21,7 @@ export default function AboutPage() {
 
             <Container>
                 <AboutMission />
-                <AboutStory />
+                {/* <AboutStory /> */}
                 <AboutPrinciples />
                 <AboutStats />
                 <AboutGetInvolved />
