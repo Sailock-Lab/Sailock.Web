@@ -5,6 +5,10 @@ import { ThemeProvider } from "@/context/ThemeContext";
 import { LocaleProvider } from "@/context/LocaleContext";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { Inter } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
     title: APP.name,
@@ -21,7 +25,7 @@ export default function RootLayout({
     return (
         <html
             lang="en"
-            suppressHydrationWarning
+            suppressHydrationWarning className={cn("font-sans", inter.variable)}
         >
             <body>
                 <ThemeProvider>
