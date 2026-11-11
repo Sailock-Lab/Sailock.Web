@@ -5,6 +5,7 @@ import {
     IconBrandWindows,
     IconBrandApple,
     IconBrandUbuntu,
+    IconBrandAndroid,
     IconDownload,
 } from "@tabler/icons-react";
 import Container from "@/components/common/Container";
@@ -16,7 +17,7 @@ import useLocale from "@/hooks/useLocale";
 const OWNER = "Sailock-Lab";
 const REPO = "Sailock.Windows";
 
-type OS = "windows" | "mac" | "linux";
+type OS = "windows" | "mac" | "linux" | "android";
 
 interface ReleaseAsset {
     name: string;
@@ -34,6 +35,8 @@ function detectOS(): OS {
 
     const ua = navigator.userAgent.toLowerCase();
 
+    // Android user agents also contain "linux", so check it first.
+    if (ua.includes("android")) return "android";
     if (ua.includes("mac")) return "mac";
     if (ua.includes("linux")) return "linux";
 
@@ -51,6 +54,11 @@ function findAsset(assets: ReleaseAsset[], os: OS): ReleaseAsset | undefined {
 
     if (os === "mac") {
         return assets.find((asset) => /\.dmg$/i.test(asset.name));
+    }
+
+    // Android: no build available yet.
+    if (os === "android") {
+        return undefined;
     }
 
     // Linux: prefer AppImage, then fallback to DEB.
@@ -112,6 +120,11 @@ export default function DownloadPage() {
         {
             key: "linux",
             icon: <IconBrandUbuntu size={22} />,
+            available: false,
+        },
+        {
+            key: "android",
+            icon: <IconBrandAndroid size={22} />,
             available: false,
         },
     ];
