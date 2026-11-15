@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { APP } from "@/config/app";
+import { getAllTutorials } from "@/lib/tutorials";
 
 export const dynamic = "force-static";
 
@@ -14,7 +15,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "/sitemap",
     ];
 
-    return routes.map((route) => ({
+    const tutorialRoutes = getAllTutorials().map((tutorial) => `/tutorials/${tutorial.dir}/${tutorial.slug}`);
+
+    return [...routes, ...tutorialRoutes].map((route) => ({
         url: `${APP.url}${route}`,
         lastModified: new Date(),
         changeFrequency: route === "" ? "weekly" : "monthly",

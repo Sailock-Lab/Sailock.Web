@@ -5,16 +5,17 @@
         "loadingVersion": "Laatste versie wordt geladen...",
         "os": {
             "windows": "Windows",
+            "android": "Android",
             "mac": "macOS",
             "linux": "Linux",
-            "android": "Android",
             "comingSoon": "Binnenkort beschikbaar"
         },
         "action": {
             "downloadFor": "Downloaden voor",
             "loading": "Laden...",
             "viewReleases": "Releases bekijken op GitHub",
-            "notAvailable": "Nog geen build beschikbaar voor"
+            "notAvailable": "Nog geen build beschikbaar voor",
+            "androidSoon": "Sailock voor Android komt binnenkort."
         },
         "installSteps": {
             "title": "Zo installeer je het",
@@ -40,6 +41,10 @@
             "windows": {
                 "label": "Windows",
                 "description": "Windows 10 of hoger, 4 GB RAM, 200 MB vrije schijfruimte."
+            },
+            "android": {
+                "label": "Android",
+                "description": "Android 8.0 of nieuwer. Binnenkort beschikbaar."
             },
             "macLinux": {
                 "label": "macOS / Linux",

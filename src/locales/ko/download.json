@@ -5,16 +5,17 @@
         "loadingVersion": "최신 버전을 불러오는 중...",
         "os": {
             "windows": "Windows",
+            "android": "Android",
             "mac": "macOS",
             "linux": "Linux",
-            "android": "Android",
             "comingSoon": "출시 예정"
         },
         "action": {
             "downloadFor": "다운로드:",
             "loading": "불러오는 중...",
             "viewReleases": "GitHub에서 릴리스 보기",
-            "notAvailable": "아직 빌드가 없습니다:"
+            "notAvailable": "아직 빌드가 없습니다:",
+            "androidSoon": "Android용 Sailock이 곧 출시됩니다."
         },
         "installSteps": {
             "title": "설치 방법",
@@ -40,6 +41,10 @@
             "windows": {
                 "label": "Windows",
                 "description": "Windows 10 이상, RAM 4GB, 디스크 여유 공간 200MB."
+            },
+            "android": {
+                "label": "Android",
+                "description": "Android 8.0 이상. 곧 출시됩니다."
             },
             "macLinux": {
                 "label": "macOS / Linux",

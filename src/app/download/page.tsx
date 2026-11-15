@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 import {
     IconBrandWindows,
+    IconBrandAndroid,
     IconBrandApple,
     IconBrandUbuntu,
-    IconBrandAndroid,
     IconDownload,
 } from "@tabler/icons-react";
 import Container from "@/components/common/Container";
@@ -17,7 +17,7 @@ import useLocale from "@/hooks/useLocale";
 const OWNER = "Sailock-Lab";
 const REPO = "Sailock.Windows";
 
-type OS = "windows" | "mac" | "linux" | "android";
+type OS = "windows" | "android" | "mac" | "linux";
 
 interface ReleaseAsset {
     name: string;
@@ -35,7 +35,7 @@ function detectOS(): OS {
 
     const ua = navigator.userAgent.toLowerCase();
 
-    // Android user agents also contain "linux", so check it first.
+    // Android también dice "linux" en su user agent: se comprueba antes.
     if (ua.includes("android")) return "android";
     if (ua.includes("mac")) return "mac";
     if (ua.includes("linux")) return "linux";
@@ -54,11 +54,6 @@ function findAsset(assets: ReleaseAsset[], os: OS): ReleaseAsset | undefined {
 
     if (os === "mac") {
         return assets.find((asset) => /\.dmg$/i.test(asset.name));
-    }
-
-    // Android: no build available yet.
-    if (os === "android") {
-        return undefined;
     }
 
     // Linux: prefer AppImage, then fallback to DEB.
@@ -113,6 +108,11 @@ export default function DownloadPage() {
             available: true,
         },
         {
+            key: "android",
+            icon: <IconBrandAndroid size={22} />,
+            available: false,
+        },
+        {
             key: "mac",
             icon: <IconBrandApple size={22} />,
             available: false,
@@ -120,11 +120,6 @@ export default function DownloadPage() {
         {
             key: "linux",
             icon: <IconBrandUbuntu size={22} />,
-            available: false,
-        },
-        {
-            key: "android",
-            icon: <IconBrandAndroid size={22} />,
             available: false,
         },
     ];
@@ -191,8 +186,11 @@ export default function DownloadPage() {
                         )
                     ) : (
                         <p>
-                            {t("download.action.notAvailable")}{" "}
-                            {t(`download.os.${selectedOS}`)}.
+                            {selectedOS === "android"
+                                ? t("download.action.androidSoon")
+                                : `${t("download.action.notAvailable")} ${t(
+                                      `download.os.${selectedOS}`
+                                  )}.`}
                         </p>
                     )}
                 </div>

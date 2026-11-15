@@ -5,16 +5,17 @@
         "loadingVersion": "正在加载最新版本...",
         "os": {
             "windows": "Windows",
+            "android": "Android",
             "mac": "macOS",
             "linux": "Linux",
-            "android": "Android",
             "comingSoon": "即将推出"
         },
         "action": {
             "downloadFor": "下载适用于",
             "loading": "加载中...",
             "viewReleases": "在 GitHub 上查看发行版",
-            "notAvailable": "暂无可用的构建版本："
+            "notAvailable": "暂无可用的构建版本：",
+            "androidSoon": "Sailock 安卓版即将推出。"
         },
         "installSteps": {
             "title": "如何安装",
@@ -40,6 +41,10 @@
             "windows": {
                 "label": "Windows",
                 "description": "Windows 10 或更高版本，4 GB 内存，200 MB 可用磁盘空间。"
+            },
+            "android": {
+                "label": "Android",
+                "description": "Android 8.0 或更高版本。即将推出。"
             },
             "macLinux": {
                 "label": "macOS / Linux",

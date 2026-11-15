@@ -20,6 +20,9 @@
     "noResults": {
       "title": "No se han encontrado tutoriales",
       "description": "Prueba con otro término de búsqueda o categoría."
-    }
+    },
+    "back": "Volver a los tutoriales",
+    "updated": "Última actualización:",
+    "fallbackNotice": "Este tutorial aún no está disponible en tu idioma. Se muestra en otro idioma."
   }
 }

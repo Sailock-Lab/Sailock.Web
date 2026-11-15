@@ -20,6 +20,9 @@
     "noResults": {
       "title": "Geen tutorials gevonden",
       "description": "Probeer een andere zoekterm of categorie."
-    }
+    },
+    "back": "Terug naar de handleidingen",
+    "updated": "Laatst bijgewerkt:",
+    "fallbackNotice": "Deze handleiding is nog niet beschikbaar in jouw taal. Hij wordt in een andere taal getoond."
   }
 }
