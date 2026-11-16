@@ -20,6 +20,9 @@
     "noResults": {
       "title": "Aucun tutoriel trouvé",
       "description": "Essayez un autre terme de recherche ou une autre catégorie."
-    }
+    },
+    "back": "Retour aux tutoriels",
+    "updated": "Dernière mise à jour :",
+    "fallbackNotice": "Ce tutoriel n'est pas encore disponible dans votre langue. Il s'affiche dans une autre langue."
   }
 }

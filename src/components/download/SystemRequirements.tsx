@@ -1,4 +1,4 @@
-import { IconBrandWindows } from "@tabler/icons-react";
+import { IconBrandAndroid, IconBrandWindows } from "@tabler/icons-react";
 import useLocale from "@/hooks/useLocale";
 
 export default function SystemRequirements() {
@@ -14,6 +14,14 @@ export default function SystemRequirements() {
                     <div>
                         <strong>{t("download.requirements.windows.label")}</strong>
                         <p>{t("download.requirements.windows.description")}</p>
+                    </div>
+                </div>
+
+                <div className="requirements-item is-disabled">
+                    <IconBrandAndroid size={22} />
+                    <div>
+                        <strong>{t("download.requirements.android.label")}</strong>
+                        <p>{t("download.requirements.android.description")}</p>
                     </div>
                 </div>
 

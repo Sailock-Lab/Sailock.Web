@@ -20,6 +20,9 @@
     "noResults": {
       "title": "Keine Anleitungen gefunden",
       "description": "Versuche es mit einem anderen Suchbegriff oder einer anderen Kategorie."
-    }
+    },
+    "back": "Zurück zu den Anleitungen",
+    "updated": "Zuletzt aktualisiert:",
+    "fallbackNotice": "Diese Anleitung ist in deiner Sprache noch nicht verfügbar. Sie wird in einer anderen Sprache angezeigt."
   }
 }

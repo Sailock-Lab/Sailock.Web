@@ -5,16 +5,17 @@
         "loadingVersion": "Загрузка последней версии...",
         "os": {
             "windows": "Windows",
+            "android": "Android",
             "mac": "macOS",
             "linux": "Linux",
-            "android": "Android",
             "comingSoon": "Скоро"
         },
         "action": {
             "downloadFor": "Скачать для",
             "loading": "Загрузка...",
             "viewReleases": "Посмотреть релизы на GitHub",
-            "notAvailable": "Сборка пока недоступна для"
+            "notAvailable": "Сборка пока недоступна для",
+            "androidSoon": "Sailock для Android скоро появится."
         },
         "installSteps": {
             "title": "Как установить",
@@ -40,6 +41,10 @@
             "windows": {
                 "label": "Windows",
                 "description": "Windows 10 или новее, 4 ГБ ОЗУ, 200 МБ свободного места на диске."
+            },
+            "android": {
+                "label": "Android",
+                "description": "Android 8.0 или новее. Скоро."
             },
             "macLinux": {
                 "label": "macOS / Linux",

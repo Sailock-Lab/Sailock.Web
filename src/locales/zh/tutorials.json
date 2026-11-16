@@ -20,6 +20,9 @@
     "noResults": {
       "title": "未找到相关教程",
       "description": "请尝试其他搜索关键词或分类。"
-    }
+    },
+    "back": "返回教程",
+    "updated": "最后更新：",
+    "fallbackNotice": "此教程暂无您所用语言的版本，已改用其他语言显示。"
   }
 }

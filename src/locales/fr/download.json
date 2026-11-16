@@ -5,16 +5,17 @@
         "loadingVersion": "Chargement de la dernière version...",
         "os": {
             "windows": "Windows",
+            "android": "Android",
             "mac": "macOS",
             "linux": "Linux",
-            "android": "Android",
             "comingSoon": "Bientôt disponible"
         },
         "action": {
             "downloadFor": "Télécharger pour",
             "loading": "Chargement...",
             "viewReleases": "Voir les versions sur GitHub",
-            "notAvailable": "Aucune version disponible pour le moment pour"
+            "notAvailable": "Aucune version disponible pour le moment pour",
+            "androidSoon": "Sailock pour Android arrive très bientôt."
         },
         "installSteps": {
             "title": "Comment l'installer",
@@ -40,6 +41,10 @@
             "windows": {
                 "label": "Windows",
                 "description": "Windows 10 ou supérieur, 4 Go de RAM, 200 Mo d'espace disque libre."
+            },
+            "android": {
+                "label": "Android",
+                "description": "Android 8.0 ou supérieur. Bientôt disponible."
             },
             "macLinux": {
                 "label": "macOS / Linux",

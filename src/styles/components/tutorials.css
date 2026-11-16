@@ -121,3 +121,215 @@
         padding-bottom: var(--space-8);
     }
 }
+/* ---------- Lista de tutoriales ---------- */
+
+.tutorials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-5);
+
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.tutorial-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+
+    padding: var(--space-5);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+
+    background: var(--color-surface);
+    color: var(--color-text);
+    text-decoration: none;
+
+    transition: var(--transition-fast);
+}
+
+.tutorial-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.tutorial-card h3 {
+    margin: 0;
+    font-size: var(--font-size-lg, 1.125rem);
+}
+
+.tutorial-card p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.tutorial-card-category {
+    align-self: flex-start;
+
+    padding: var(--space-1) var(--space-3);
+
+    border-radius: var(--radius-full);
+
+    background: var(--color-surface-alt);
+    color: var(--color-primary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* ---------- Tutorial abierto ---------- */
+
+.tutorial-article {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: var(--space-7) 0 var(--space-10);
+}
+
+.tutorial-article h1 {
+    margin: var(--space-4) 0 var(--space-2);
+    color: var(--color-primary);
+}
+
+.tutorial-back-wrap {
+    margin-top: var(--space-6);
+}
+
+.tutorial-back {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+
+    margin-bottom: var(--space-5);
+
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    text-decoration: none;
+}
+
+.tutorial-back:hover {
+    color: var(--color-primary);
+}
+
+.tutorial-meta {
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm);
+}
+
+.tutorial-fallback-notice {
+    margin: var(--space-4) 0;
+    padding: var(--space-3) var(--space-4);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+
+    background: var(--color-surface-alt);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.tutorial-body {
+    margin-top: var(--space-6);
+    line-height: 1.7;
+}
+
+.tutorial-body h2 {
+    margin: var(--space-7) 0 var(--space-3);
+}
+
+.tutorial-body h3 {
+    margin: var(--space-6) 0 var(--space-2);
+}
+
+.tutorial-body p,
+.tutorial-body ul,
+.tutorial-body ol {
+    margin: var(--space-4) 0;
+}
+
+.tutorial-body ul,
+.tutorial-body ol {
+    padding-left: var(--space-6);
+}
+
+.tutorial-body li {
+    margin: var(--space-2) 0;
+}
+
+.tutorial-body a {
+    color: var(--color-primary);
+}
+
+.tutorial-body img {
+    max-width: 100%;
+    height: auto;
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+}
+
+.tutorial-body code {
+    padding: 0.1em 0.4em;
+
+    border-radius: var(--radius-sm);
+
+    background: var(--color-surface-alt);
+    font-size: 0.9em;
+}
+
+.tutorial-body pre {
+    margin: var(--space-4) 0;
+    padding: var(--space-4);
+
+    overflow-x: auto;
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+
+    background: var(--color-surface-alt);
+}
+
+.tutorial-body pre code {
+    padding: 0;
+    background: transparent;
+}
+
+.tutorial-body blockquote {
+    margin: var(--space-4) 0;
+    padding: var(--space-2) var(--space-4);
+
+    border-left: 4px solid var(--color-primary);
+
+    background: var(--color-surface-alt);
+    color: var(--color-text-secondary);
+}
+
+.tutorial-body blockquote p {
+    margin: var(--space-2) 0;
+}
+
+.tutorial-body table {
+    width: 100%;
+    margin: var(--space-4) 0;
+
+    border-collapse: collapse;
+}
+
+.tutorial-body th,
+.tutorial-body td {
+    padding: var(--space-2) var(--space-3);
+
+    border: 1px solid var(--color-border);
+    text-align: left;
+}
+
+.tutorial-body th {
+    background: var(--color-surface-alt);
+}
+
+.tutorial-body hr {
+    margin: var(--space-6) 0;
+
+    border: 0;
+    border-top: 1px solid var(--color-border);
+}

@@ -20,6 +20,9 @@
     "noResults": {
       "title": "Nie znaleziono samouczków",
       "description": "Spróbuj innego hasła wyszukiwania lub kategorii."
-    }
+    },
+    "back": "Wróć do poradników",
+    "updated": "Ostatnia aktualizacja:",
+    "fallbackNotice": "Ten poradnik nie jest jeszcze dostępny w Twoim języku. Wyświetlono go w innym języku."
   }
 }
