@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "Contatti",
+    "description": "Domande, segnalazioni di bug o idee? Scrivici e ti risponderemo.",
+    "form": {
+      "title": "Inviaci un messaggio",
+      "subtitle": "Scegli un argomento e scrivi il tuo messaggio. Apriremo la tua app di posta con tutto pronto da inviare.",
+      "name": "Il tuo nome",
+      "product": "Prodotto",
+      "topic": "Argomento",
+      "message": "Messaggio",
+      "messagePlaceholder": "Descrivi cosa è successo o cosa vorresti vedere…",
+      "send": "Apri l'app di posta",
+      "copy": "Copia l'indirizzo email",
+      "copied": "Copiato!",
+      "note": "Da questo sito non viene inviato nulla: il messaggio si scrive nella tua app di posta.",
+      "warning": "Non includere mai la tua password principale o i dati della tua cassaforte in un messaggio.",
+      "emailLabel": "Email",
+      "messageRequired": "Scrivi prima un messaggio."
+    },
+    "products": {
+      "windows": "Sailock per Windows",
+      "android": "Sailock per Android",
+      "website": "Sito web",
+      "other": "Altro"
+    },
+    "topics": {
+      "help": "Ho bisogno di aiuto",
+      "bug": "Segnala un bug",
+      "idea": "Suggerisci un'idea",
+      "security": "Problema di sicurezza",
+      "other": "Altro"
+    },
+    "cards": {
+      "help": {
+        "title": "Aiuto e tutorial",
+        "description": "Guide passo passo per ogni parte di Sailock.",
+        "action": "Vedi i tutorial"
+      },
+      "issues": {
+        "title": "Bug e idee",
+        "description": "Apri una issue su GitHub così anche altri possono seguirla.",
+        "action": "Vai a GitHub"
+      },
+      "security": {
+        "title": "Segnalazioni di sicurezza",
+        "description": "Hai trovato una vulnerabilità? Comunicacela in privato e dacci il tempo di correggerla prima di divulgarla.",
+        "action": "Segnala in privato"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Sailock conserva i tuoi dati sul tuo dispositivo. Leggi come trattiamo le informazioni.",
+        "action": "Leggi l'informativa"
+      }
+    }
+  }
+}

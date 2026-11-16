@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "联系我们",
+    "description": "有问题、错误反馈或想法？写信给我们，我们会回复您。",
+    "form": {
+      "title": "给我们发消息",
+      "subtitle": "选择主题并写下您的消息。我们会打开您的邮件应用，并准备好所有内容以便发送。",
+      "name": "您的姓名",
+      "product": "产品",
+      "topic": "主题",
+      "message": "消息",
+      "messagePlaceholder": "请描述发生了什么，或您希望看到什么…",
+      "send": "打开邮件应用",
+      "copy": "复制邮箱地址",
+      "copied": "已复制！",
+      "note": "本网站不会发送任何内容：消息将在您自己的邮件应用中撰写。",
+      "warning": "切勿在消息中包含您的主密码或保险库数据。",
+      "emailLabel": "邮箱",
+      "messageRequired": "请先写下消息。"
+    },
+    "products": {
+      "windows": "Sailock Windows 版",
+      "android": "Sailock 安卓版",
+      "website": "网站",
+      "other": "其他"
+    },
+    "topics": {
+      "help": "我需要帮助",
+      "bug": "报告错误",
+      "idea": "提出想法",
+      "security": "安全问题",
+      "other": "其他"
+    },
+    "cards": {
+      "help": {
+        "title": "帮助与教程",
+        "description": "Sailock 各部分的分步指南。",
+        "action": "查看教程"
+      },
+      "issues": {
+        "title": "错误与想法",
+        "description": "在 GitHub 上提交 Issue，方便其他人一同关注。",
+        "action": "前往 GitHub"
+      },
+      "security": {
+        "title": "安全报告",
+        "description": "发现了漏洞？请私下告知我们，并在公开前给我们时间修复。",
+        "action": "私下报告"
+      },
+      "privacy": {
+        "title": "隐私",
+        "description": "Sailock 将您的数据保存在您的设备上。了解我们如何处理信息。",
+        "action": "阅读政策"
+      }
+    }
+  }
+}

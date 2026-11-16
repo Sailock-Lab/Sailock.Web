@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "Contact",
+    "description": "Une question, un bug ou une idée ? Écrivez-nous, nous vous répondrons.",
+    "form": {
+      "title": "Envoyez-nous un message",
+      "subtitle": "Choisissez un sujet et rédigez votre message. Nous ouvrirons votre application de messagerie avec tout prêt à envoyer.",
+      "name": "Votre nom",
+      "product": "Produit",
+      "topic": "Sujet",
+      "message": "Message",
+      "messagePlaceholder": "Décrivez ce qui s'est passé ou ce que vous aimeriez voir…",
+      "send": "Ouvrir l'application de messagerie",
+      "copy": "Copier l'adresse e-mail",
+      "copied": "Copié !",
+      "note": "Rien n'est envoyé depuis ce site : le message est rédigé dans votre propre application de messagerie.",
+      "warning": "N'incluez jamais votre mot de passe maître ni les données de votre coffre dans un message.",
+      "emailLabel": "E-mail",
+      "messageRequired": "Veuillez d'abord écrire un message."
+    },
+    "products": {
+      "windows": "Sailock pour Windows",
+      "android": "Sailock pour Android",
+      "website": "Site web",
+      "other": "Autre"
+    },
+    "topics": {
+      "help": "J'ai besoin d'aide",
+      "bug": "Signaler un bug",
+      "idea": "Proposer une idée",
+      "security": "Problème de sécurité",
+      "other": "Autre"
+    },
+    "cards": {
+      "help": {
+        "title": "Aide et tutoriels",
+        "description": "Des guides pas à pas pour chaque partie de Sailock.",
+        "action": "Voir les tutoriels"
+      },
+      "issues": {
+        "title": "Bugs et idées",
+        "description": "Ouvrez un ticket sur GitHub pour que d'autres puissent aussi le suivre.",
+        "action": "Aller sur GitHub"
+      },
+      "security": {
+        "title": "Signalements de sécurité",
+        "description": "Vous avez trouvé une faille ? Dites-le-nous en privé et laissez-nous le temps de la corriger avant de la divulguer.",
+        "action": "Signaler en privé"
+      },
+      "privacy": {
+        "title": "Confidentialité",
+        "description": "Sailock conserve vos données sur votre appareil. Découvrez comment nous traitons les informations.",
+        "action": "Lire la politique"
+      }
+    }
+  }
+}

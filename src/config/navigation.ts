@@ -15,4 +15,8 @@ export const NAVIGATION = [
         key: "navigation.contributors",
         href: "/contributors",
     },
+    {
+        key: "navigation.contact",
+        href: "/contact",
+    },
 ];

@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "Contacto",
+    "description": "Perguntas, erros ou ideias? Escreve-nos e respondemos-te.",
+    "form": {
+      "title": "Envia-nos uma mensagem",
+      "subtitle": "Escolhe um tema e escreve a tua mensagem. Abriremos a tua aplicação de email com tudo pronto a enviar.",
+      "name": "O teu nome",
+      "product": "Produto",
+      "topic": "Tema",
+      "message": "Mensagem",
+      "messagePlaceholder": "Descreve o que aconteceu ou o que gostarias de ver…",
+      "send": "Abrir aplicação de email",
+      "copy": "Copiar endereço de email",
+      "copied": "Copiado!",
+      "note": "Nada é enviado a partir deste site: a mensagem é escrita na tua própria aplicação de email.",
+      "warning": "Nunca incluas a tua palavra-passe mestra nem os dados do teu cofre numa mensagem.",
+      "emailLabel": "Email",
+      "messageRequired": "Escreve primeiro uma mensagem."
+    },
+    "products": {
+      "windows": "Sailock para Windows",
+      "android": "Sailock para Android",
+      "website": "Website",
+      "other": "Outro"
+    },
+    "topics": {
+      "help": "Preciso de ajuda",
+      "bug": "Reportar um erro",
+      "idea": "Sugerir uma ideia",
+      "security": "Problema de segurança",
+      "other": "Outro"
+    },
+    "cards": {
+      "help": {
+        "title": "Ajuda e tutoriais",
+        "description": "Guias passo a passo para cada parte do Sailock.",
+        "action": "Ver tutoriais"
+      },
+      "issues": {
+        "title": "Erros e ideias",
+        "description": "Abre uma issue no GitHub para que outros também a possam seguir.",
+        "action": "Ir para o GitHub"
+      },
+      "security": {
+        "title": "Avisos de segurança",
+        "description": "Encontraste uma vulnerabilidade? Conta-nos em privado e dá-nos tempo para a corrigir antes de a divulgar.",
+        "action": "Reportar em privado"
+      },
+      "privacy": {
+        "title": "Privacidade",
+        "description": "O Sailock guarda os teus dados no teu dispositivo. Lê como tratamos a informação.",
+        "action": "Ler a política"
+      }
+    }
+  }
+}

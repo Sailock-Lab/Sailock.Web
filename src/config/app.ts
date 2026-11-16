@@ -2,6 +2,7 @@ export const APP = {
     name: "Sailock",
     description: "Sailock is a local-first password manager for Windows. No cloud and no internet required.",
     github: "https://github.com/Sailock-Lab",
+    email: "hello.sailokstudio@gmail.com",
     download: "https://github.com/Sailock-Lab/Sailock.Windows/releases/latest",
     url: "https://sailock-lab.github.io/Sailock.Web",
 };

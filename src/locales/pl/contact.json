@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "Kontakt",
+    "description": "Pytania, błędy lub pomysły? Napisz do nas, odpowiemy.",
+    "form": {
+      "title": "Wyślij nam wiadomość",
+      "subtitle": "Wybierz temat i napisz wiadomość. Otworzymy Twoją aplikację pocztową z wszystkim gotowym do wysłania.",
+      "name": "Twoje imię",
+      "product": "Produkt",
+      "topic": "Temat",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Opisz, co się stało lub co chciałbyś zobaczyć…",
+      "send": "Otwórz aplikację pocztową",
+      "copy": "Kopiuj adres e-mail",
+      "copied": "Skopiowano!",
+      "note": "Ta strona niczego nie wysyła: wiadomość piszesz we własnej aplikacji pocztowej.",
+      "warning": "Nigdy nie umieszczaj w wiadomości hasła głównego ani danych z sejfu.",
+      "emailLabel": "E-mail",
+      "messageRequired": "Najpierw napisz wiadomość."
+    },
+    "products": {
+      "windows": "Sailock na Windows",
+      "android": "Sailock na Androida",
+      "website": "Strona internetowa",
+      "other": "Inne"
+    },
+    "topics": {
+      "help": "Potrzebuję pomocy",
+      "bug": "Zgłoś błąd",
+      "idea": "Zaproponuj pomysł",
+      "security": "Problem z bezpieczeństwem",
+      "other": "Inne"
+    },
+    "cards": {
+      "help": {
+        "title": "Pomoc i poradniki",
+        "description": "Poradniki krok po kroku dla każdej części Sailock.",
+        "action": "Zobacz poradniki"
+      },
+      "issues": {
+        "title": "Błędy i pomysły",
+        "description": "Otwórz zgłoszenie na GitHubie, aby inni mogli je śledzić.",
+        "action": "Przejdź do GitHuba"
+      },
+      "security": {
+        "title": "Zgłoszenia bezpieczeństwa",
+        "description": "Znalazłeś lukę? Napisz do nas prywatnie i daj nam czas na naprawę, zanim ją upublicznisz.",
+        "action": "Zgłoś prywatnie"
+      },
+      "privacy": {
+        "title": "Prywatność",
+        "description": "Sailock przechowuje Twoje dane na Twoim urządzeniu. Przeczytaj, jak postępujemy z informacjami.",
+        "action": "Przeczytaj politykę"
+      }
+    }
+  }
+}

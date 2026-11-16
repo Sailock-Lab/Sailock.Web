@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "ご質問、不具合の報告、アイデアなど、お気軽にご連絡ください。",
+    "form": {
+      "title": "メッセージを送る",
+      "subtitle": "トピックを選んでメッセージを書いてください。送信準備が整った状態でメールアプリを開きます。",
+      "name": "お名前",
+      "product": "製品",
+      "topic": "トピック",
+      "message": "メッセージ",
+      "messagePlaceholder": "起きたことや、見てみたい機能を書いてください…",
+      "send": "メールアプリを開く",
+      "copy": "メールアドレスをコピー",
+      "copied": "コピーしました！",
+      "note": "このサイトからは何も送信されません。メッセージはお使いのメールアプリで作成されます。",
+      "warning": "マスターパスワードや保管庫のデータはメッセージに絶対に含めないでください。",
+      "emailLabel": "メール",
+      "messageRequired": "先にメッセージを入力してください。"
+    },
+    "products": {
+      "windows": "Windows 版 Sailock",
+      "android": "Android 版 Sailock",
+      "website": "ウェブサイト",
+      "other": "その他"
+    },
+    "topics": {
+      "help": "ヘルプが必要",
+      "bug": "不具合を報告",
+      "idea": "アイデアを提案",
+      "security": "セキュリティの問題",
+      "other": "その他"
+    },
+    "cards": {
+      "help": {
+        "title": "ヘルプとチュートリアル",
+        "description": "Sailock のあらゆる機能のステップバイステップガイド。",
+        "action": "チュートリアルを見る"
+      },
+      "issues": {
+        "title": "不具合とアイデア",
+        "description": "他の人も追えるように、GitHub で Issue を作成してください。",
+        "action": "GitHub へ"
+      },
+      "security": {
+        "title": "セキュリティ報告",
+        "description": "脆弱性を見つけましたか？公開する前に修正の時間をいただけるよう、非公開でお知らせください。",
+        "action": "非公開で報告"
+      },
+      "privacy": {
+        "title": "プライバシー",
+        "description": "Sailock はデータをお使いのデバイスに保存します。情報の取り扱いについてご確認ください。",
+        "action": "ポリシーを読む"
+      }
+    }
+  }
+}
