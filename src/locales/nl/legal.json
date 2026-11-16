@@ -57,7 +57,7 @@
   "privacy": {
     "title": "Privacybeleid",
     "description": "Hoe Sailock omgaat met informatie wanneer je de software gebruikt of de website bezoekt.",
-    "lastUpdated": "Laatst bijgewerkt: augustus 2026",
+    "lastUpdated": "Laatst bijgewerkt: november 2026",
     "sections": {
       "overview": {
         "title": "1. Overzicht",
@@ -67,36 +67,40 @@
         "title": "2. Gegevens die door de applicatie worden opgeslagen",
         "content": "De Sailock-desktopapplicatie slaat de informatie die nodig is om je wachtwoordkluis te laten werken lokaal op je apparaat op. Je kluis blijft onder jouw controle en wordt niet geüpload naar Sailock-servers."
       },
+      "android": {
+        "title": "3. Sailock voor Android",
+        "content": "Sailock voor Android werkt volledig offline. De app vraagt geen internetmachtiging aan en kan je gegevens dus nergens naartoe sturen. Je kluis wordt versleuteld (Argon2id en AES-256-GCM) opgeslagen in de privéopslag van de app op je apparaat en is uitgesloten van Android-cloudback-ups en apparaatoverdracht. Sailock kan je hoofdwachtwoord en je gegevens niet zien. Als je ontgrendelen met vingerafdruk inschakelt, wordt de biometrie van het Android-systeem gebruikt: Sailock ontvangt of bewaart je vingerafdruk nooit. Meldingen (vervaldata, beveiligingswaarschuwingen en back-uprerinneringen) worden lokaal op je apparaat gemaakt en bevatten nooit de namen van je items. Gekopieerde wachtwoorden worden als gevoelig gemarkeerd en automatisch van het klembord gewist. Bestanden die je exporteert worden opgeslagen waar jij kiest en versleuteld met het wachtwoord dat je instelt. Weblinks openen alleen in je browser nadat je dat bevestigt; het privacybeleid van de doelsite is dan van toepassing. Sailock voor Android bevat geen advertenties, analyse, tracking of diensten van derden."
+      },
       "vault": {
-        "title": "3. Gegevens van de wachtwoordkluis",
+        "title": "4. Gegevens van de wachtwoordkluis",
         "content": "Sailock heeft geen toegang tot je hoofdwachtwoord of de inhoud van je lokale wachtwoordkluis. Jij bent verantwoordelijk voor het beschermen van je apparaat, hoofdwachtwoord en eventuele geëxporteerde of geback-upte kluisbestanden."
       },
       "telemetry": {
-        "title": "4. Telemetrie en tracking",
+        "title": "5. Telemetrie en tracking",
         "content": "De Sailock-desktopapplicatie is ontworpen zonder ingebouwde telemetrie of gedragstracking. Het project verzamelt niet opzettelijk informatie over hoe je de wachtwoordmanager gebruikt."
       },
       "website": {
-        "title": "5. Informatie over de website",
+        "title": "6. Informatie over de website",
         "content": "Wanneer je de Sailock-website bezoekt, kan de hostinginfrastructuur technische informatie verwerken die nodig is om de website te leveren en te beschermen, zoals IP-adressen, browserinformatie, tijdstempels of serverlogs. De exacte informatie die wordt bewaard, is afhankelijk van de hostingprovider en de configuratie daarvan."
       },
       "cookies": {
-        "title": "6. Cookies",
+        "title": "7. Cookies",
         "content": "Sailock gebruikt niet opzettelijk cookies voor advertentie- of gedragstrackingdoeleinden. Als technisch noodzakelijke cookies of vergelijkbare technologieën in de toekomst worden geïntroduceerd, wordt dit beleid dienovereenkomstig bijgewerkt."
       },
       "analytics": {
-        "title": "7. Analyse",
+        "title": "8. Analyse",
         "content": "Sailock maakt momenteel geen gebruik van analysediensten van derden om advertentie- of gedragsprofielen op te bouwen. Als analysetools in de toekomst worden geïntroduceerd, wordt dit beleid bijgewerkt om te beschrijven welke informatie wordt verzameld en waarom."
       },
       "external": {
-        "title": "8. Externe diensten",
+        "title": "9. Externe diensten",
         "content": "De website kan links bevatten naar externe diensten zoals GitHub of downloadproviders. Wanneer je een externe dienst bezoekt, kan deze informatie verwerken volgens zijn eigen privacybeleid en voorwaarden."
       },
       "contact": {
-        "title": "9. Contactgegevens",
-        "content": "Als je contact opneemt met het Sailock-project via een beschikbaar contactkanaal, kan de informatie die je vrijwillig verstrekt uitsluitend worden verwerkt om te reageren op je verzoek en het project te onderhouden."
+        "title": "10. Contactgegevens",
+        "content": "Als je contact opneemt met het Sailock-project via een beschikbaar contactkanaal, kan de informatie die je vrijwillig verstrekt uitsluitend worden verwerkt om te reageren op je verzoek en het project te onderhouden. Je kunt SailokStudio bereiken via hello.sailokstudio@gmail.com."
       },
       "changes": {
-        "title": "10. Wijzigingen in dit beleid",
+        "title": "11. Wijzigingen in dit beleid",
         "content": "Dit privacybeleid kan worden bijgewerkt wanneer het Sailock-project of de bijbehorende website verandert. De meest recente versie wordt altijd samen met de revisiedatum op deze pagina gepubliceerd."
       }
     }

@@ -57,7 +57,7 @@
   "privacy": {
     "title": "Polityka prywatności",
     "description": "Jak Sailock przetwarza informacje, gdy korzystasz z oprogramowania lub odwiedzasz stronę internetową.",
-    "lastUpdated": "Ostatnia aktualizacja: sierpień 2026",
+    "lastUpdated": "Ostatnia aktualizacja: listopad 2026",
     "sections": {
       "overview": {
         "title": "1. Przegląd",
@@ -67,36 +67,40 @@
         "title": "2. Dane przechowywane przez aplikację",
         "content": "Aplikacja desktopowa Sailock przechowuje lokalnie na Twoim urządzeniu informacje niezbędne do działania Twojego magazynu haseł. Twój magazyn ma pozostać pod Twoją kontrolą i nie jest przesyłany na serwery Sailock."
       },
+      "android": {
+        "title": "3. Sailock na Androida",
+        "content": "Sailock na Androida działa całkowicie offline. Aplikacja nie prosi o uprawnienie do internetu, więc nie może nigdzie wysyłać Twoich danych. Twój sejf jest przechowywany w postaci zaszyfrowanej (Argon2id i AES-256-GCM) w prywatnej pamięci aplikacji na Twoim urządzeniu i jest wyłączony z kopii zapasowych w chmurze Androida oraz z przenoszenia między urządzeniami. Sailock nie widzi Twojego hasła głównego ani danych. Jeśli włączysz odblokowanie odciskiem palca, używana jest biometria systemu Android: Sailock nigdy nie otrzymuje ani nie przechowuje Twojego odcisku palca. Powiadomienia (terminy ważności, alerty bezpieczeństwa i przypomnienia o kopii zapasowej) są tworzone lokalnie na urządzeniu i nigdy nie zawierają nazw Twoich wpisów. Skopiowane hasła są oznaczane jako wrażliwe i automatycznie usuwane ze schowka. Eksportowane pliki są zapisywane tam, gdzie wskażesz, i szyfrowane ustawionym przez Ciebie hasłem. Linki internetowe otwierają się w przeglądarce dopiero po Twoim potwierdzeniu, a obowiązuje polityka prywatności strony docelowej. Sailock na Androida nie zawiera reklam, analityki, śledzenia ani usług podmiotów trzecich."
+      },
       "vault": {
-        "title": "3. Dane magazynu haseł",
+        "title": "4. Dane magazynu haseł",
         "content": "Sailock nie ma dostępu do Twojego hasła głównego ani zawartości Twojego lokalnego magazynu haseł. Jesteś odpowiedzialny za ochronę swojego urządzenia, hasła głównego oraz wszelkich wyeksportowanych lub zapasowych plików magazynu."
       },
       "telemetry": {
-        "title": "4. Telemetria i śledzenie",
+        "title": "5. Telemetria i śledzenie",
         "content": "Aplikacja desktopowa Sailock została zaprojektowana bez wbudowanej telemetrii ani śledzenia zachowań. Projekt nie zbiera celowo informacji o tym, jak korzystasz z menedżera haseł."
       },
       "website": {
-        "title": "5. Informacje dotyczące strony internetowej",
+        "title": "6. Informacje dotyczące strony internetowej",
         "content": "Podczas odwiedzania strony Sailock infrastruktura hostingowa może przetwarzać informacje techniczne niezbędne do dostarczania i ochrony strony, takie jak adresy IP, informacje o przeglądarce, znaczniki czasu czy logi serwera. Dokładny zakres przechowywanych informacji zależy od dostawcy hostingu i jego konfiguracji."
       },
       "cookies": {
-        "title": "6. Pliki cookie",
+        "title": "7. Pliki cookie",
         "content": "Sailock celowo nie wykorzystuje plików cookie do celów reklamowych ani śledzenia zachowań. Jeśli w przyszłości zostaną wprowadzone technicznie niezbędne pliki cookie lub podobne technologie, niniejsza polityka zostanie odpowiednio zaktualizowana."
       },
       "analytics": {
-        "title": "7. Analityka",
+        "title": "8. Analityka",
         "content": "Sailock obecnie nie korzysta z usług analitycznych stron trzecich w celu tworzenia profili reklamowych ani behawioralnych. Jeśli w przyszłości zostaną wprowadzone narzędzia analityczne, niniejsza polityka zostanie zaktualizowana, aby opisać, jakie informacje są zbierane i dlaczego."
       },
       "external": {
-        "title": "8. Usługi zewnętrzne",
+        "title": "9. Usługi zewnętrzne",
         "content": "Strona internetowa może zawierać linki do usług zewnętrznych, takich jak GitHub czy dostawcy pobierania plików. Odwiedzając usługę zewnętrzną, może ona przetwarzać informacje zgodnie z własną polityką prywatności i warunkami."
       },
       "contact": {
-        "title": "9. Informacje kontaktowe",
-        "content": "Jeśli skontaktujesz się z projektem Sailock za pośrednictwem dostępnego kanału kontaktowego, dobrowolnie podane przez Ciebie informacje mogą być przetwarzane wyłącznie w celu odpowiedzi na Twoją prośbę i utrzymania projektu."
+        "title": "10. Informacje kontaktowe",
+        "content": "Jeśli skontaktujesz się z projektem Sailock za pośrednictwem dostępnego kanału kontaktowego, dobrowolnie podane przez Ciebie informacje mogą być przetwarzane wyłącznie w celu odpowiedzi na Twoją prośbę i utrzymania projektu. Możesz skontaktować się z SailokStudio pod adresem hello.sailokstudio@gmail.com."
       },
       "changes": {
-        "title": "10. Zmiany niniejszej polityki",
+        "title": "11. Zmiany niniejszej polityki",
         "content": "Niniejsza Polityka prywatności może być aktualizowana w miarę zmian w projekcie Sailock lub jego stronie internetowej. Najnowsza wersja będzie zawsze publikowana na tej stronie wraz z datą jej rewizji."
       }
     }

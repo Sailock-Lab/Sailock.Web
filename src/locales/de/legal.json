@@ -57,7 +57,7 @@
   "privacy": {
     "title": "Datenschutzerklärung",
     "description": "Wie Sailock mit Informationen umgeht, wenn du die Software nutzt oder die Website besuchst.",
-    "lastUpdated": "Zuletzt aktualisiert: August 2026",
+    "lastUpdated": "Zuletzt aktualisiert: November 2026",
     "sections": {
       "overview": {
         "title": "1. Überblick",
@@ -67,36 +67,40 @@
         "title": "2. Von der Anwendung gespeicherte Daten",
         "content": "Die Sailock-Desktop-Anwendung speichert die für den Betrieb deines Passworttresors erforderlichen Informationen lokal auf deinem Gerät. Dein Tresor soll unter deiner Kontrolle bleiben und wird nicht auf Sailock-Server hochgeladen."
       },
+      "android": {
+        "title": "3. Sailock für Android",
+        "content": "Sailock für Android funktioniert vollständig offline. Die App fordert keine Internetberechtigung an und kann deine Daten daher nirgendwohin senden. Dein Tresor wird verschlüsselt (Argon2id und AES-256-GCM) im privaten Speicher der App auf deinem Gerät abgelegt und ist von Android-Cloud-Backups und Gerätewechsel-Übertragungen ausgeschlossen. Sailock kann weder dein Master-Passwort noch deine Daten sehen. Wenn du die Entsperrung per Fingerabdruck aktivierst, nutzt sie die Biometrie des Android-Systems: Sailock erhält oder speichert deinen Fingerabdruck nie. Benachrichtigungen (Ablaufdaten, Sicherheitswarnungen und Backup-Erinnerungen) werden lokal auf deinem Gerät erzeugt und enthalten nie die Namen deiner Einträge. Kopierte Passwörter werden als sensibel markiert und automatisch aus der Zwischenablage gelöscht. Exportierte Dateien werden am von dir gewählten Ort gespeichert und mit dem von dir festgelegten Passwort verschlüsselt. Weblinks öffnen sich nur nach deiner Bestätigung im Browser; es gilt die Datenschutzerklärung der Zielseite. Sailock für Android enthält keine Werbung, Analyse, Nachverfolgung oder Drittanbieterdienste."
+      },
       "vault": {
-        "title": "3. Passworttresordaten",
+        "title": "4. Passworttresordaten",
         "content": "Sailock hat keinen Zugriff auf dein Master-Passwort oder den Inhalt deines lokalen Passworttresors. Du bist für den Schutz deines Geräts, deines Master-Passworts sowie exportierter oder gesicherter Tresordateien verantwortlich."
       },
       "telemetry": {
-        "title": "4. Telemetrie und Tracking",
+        "title": "5. Telemetrie und Tracking",
         "content": "Die Sailock-Desktop-Anwendung ist ohne integrierte Telemetrie oder Verhaltensverfolgung konzipiert. Das Projekt sammelt nicht absichtlich Informationen darüber, wie du den Passwortmanager verwendest."
       },
       "website": {
-        "title": "5. Informationen über die Website",
+        "title": "6. Informationen über die Website",
         "content": "Wenn du die Sailock-Website besuchst, kann die Hosting-Infrastruktur technische Informationen verarbeiten, die zur Bereitstellung und zum Schutz der Website erforderlich sind, beispielsweise IP-Adressen, Browserinformationen, Zeitstempel oder Serverprotokolle. Welche Informationen tatsächlich gespeichert werden, hängt vom Hosting-Anbieter und dessen Konfiguration ab."
       },
       "cookies": {
-        "title": "6. Cookies",
+        "title": "7. Cookies",
         "content": "Sailock verwendet Cookies nicht absichtlich für Werbung oder verhaltensbezogenes Tracking. Falls in Zukunft technisch notwendige Cookies oder ähnliche Technologien eingeführt werden, wird diese Richtlinie entsprechend aktualisiert."
       },
       "analytics": {
-        "title": "7. Analysen",
+        "title": "8. Analysen",
         "content": "Sailock verwendet derzeit keine Analyse-Dienste von Drittanbietern, um Werbe- oder Verhaltensprofile zu erstellen. Falls in Zukunft Analysewerkzeuge eingeführt werden, wird diese Richtlinie aktualisiert und erläutert, welche Informationen gesammelt werden und warum."
       },
       "external": {
-        "title": "8. Externe Dienste",
+        "title": "9. Externe Dienste",
         "content": "Die Website kann auf externe Dienste wie GitHub oder Download-Anbieter verweisen. Wenn du einen externen Dienst besuchst, kann dieser Informationen gemäß seiner eigenen Datenschutzrichtlinie und seinen Nutzungsbedingungen verarbeiten."
       },
       "contact": {
-        "title": "9. Kontaktinformationen",
-        "content": "Wenn du das Sailock-Projekt über einen verfügbaren Kontaktweg kontaktierst, können die von dir freiwillig bereitgestellten Informationen ausschließlich zur Beantwortung deiner Anfrage und zur Pflege des Projekts verarbeitet werden."
+        "title": "10. Kontaktinformationen",
+        "content": "Wenn du das Sailock-Projekt über einen verfügbaren Kontaktweg kontaktierst, können die von dir freiwillig bereitgestellten Informationen ausschließlich zur Beantwortung deiner Anfrage und zur Pflege des Projekts verarbeitet werden. Du erreichst SailokStudio unter hello.sailokstudio@gmail.com."
       },
       "changes": {
-        "title": "10. Änderungen dieser Richtlinie",
+        "title": "11. Änderungen dieser Richtlinie",
         "content": "Diese Datenschutzerklärung kann aktualisiert werden, wenn sich das Sailock-Projekt oder seine Website ändert. Die aktuellste Version wird zusammen mit ihrem Änderungsdatum immer auf dieser Seite veröffentlicht."
       }
     }

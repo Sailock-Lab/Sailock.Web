@@ -57,7 +57,7 @@
   "privacy": {
     "title": "Privacy Policy",
     "description": "How Sailock handles information when you use the software or visit the website.",
-    "lastUpdated": "Last updated: August 2026",
+    "lastUpdated": "Last updated: November 2026",
     "sections": {
       "overview": {
         "title": "1. Overview",
@@ -67,36 +67,40 @@
         "title": "2. Data stored by the application",
         "content": "The Sailock desktop application stores the information required to operate your password vault locally on your device. Your vault is intended to remain under your control and is not uploaded to Sailock servers."
       },
+      "android": {
+        "title": "3. Sailock for Android",
+        "content": "Sailock for Android works fully offline. The app does not request internet permission, so it cannot send your data anywhere. Your vault is stored encrypted (Argon2id and AES-256-GCM) in the app's private storage on your device and is excluded from Android cloud backups and device transfers. Sailock cannot see your master password or your data. If you enable fingerprint unlock, it uses Android's system biometrics: Sailock never receives or stores your fingerprint. Notifications (expirations, security alerts and backup reminders) are generated locally on your device and never include the names of your entries. Copied passwords are marked as sensitive and are cleared from the clipboard automatically. Files you export are saved where you choose and are encrypted with the password you set. Web links open in your browser only after you confirm, and the destination site's own privacy policy applies. Sailock for Android contains no ads, analytics, tracking or third-party services."
+      },
       "vault": {
-        "title": "3. Password vault data",
+        "title": "4. Password vault data",
         "content": "Sailock does not have access to your master password or the contents of your local password vault. You are responsible for protecting your device, master password and any exported or backed-up vault files."
       },
       "telemetry": {
-        "title": "4. Telemetry and tracking",
+        "title": "5. Telemetry and tracking",
         "content": "The Sailock desktop application is designed without built-in telemetry or behavioral tracking. The project does not intentionally collect information about how you use the password manager."
       },
       "website": {
-        "title": "5. Website information",
+        "title": "6. Website information",
         "content": "When you visit the Sailock website, the hosting infrastructure may process technical information required to deliver and protect the website, such as IP addresses, browser information, timestamps or server logs. The exact information retained depends on the hosting provider and its configuration."
       },
       "cookies": {
-        "title": "6. Cookies",
+        "title": "7. Cookies",
         "content": "Sailock does not intentionally use cookies for advertising or behavioral tracking. If technically necessary cookies or similar technologies are introduced in the future, this policy will be updated accordingly."
       },
       "analytics": {
-        "title": "7. Analytics",
+        "title": "8. Analytics",
         "content": "Sailock does not currently use third-party analytics services to build advertising or behavioral profiles. If analytics are introduced in the future, this policy will be updated to describe what information is collected and why."
       },
       "external": {
-        "title": "8. External services",
+        "title": "9. External services",
         "content": "The website may link to external services such as GitHub or download providers. When you visit an external service, that service may process information according to its own privacy policy and terms."
       },
       "contact": {
-        "title": "9. Contact information",
-        "content": "If you contact the Sailock project through an available contact channel, the information you voluntarily provide may be processed solely for the purpose of responding to your request and maintaining the project."
+        "title": "10. Contact information",
+        "content": "If you contact the Sailock project through an available contact channel, the information you voluntarily provide may be processed solely for the purpose of responding to your request and maintaining the project. You can contact SailokStudio at hello.sailokstudio@gmail.com."
       },
       "changes": {
-        "title": "10. Changes to this policy",
+        "title": "11. Changes to this policy",
         "content": "This Privacy Policy may be updated when the Sailock project or its website changes. The latest version will always be published on this page together with its revision date."
       }
     }
