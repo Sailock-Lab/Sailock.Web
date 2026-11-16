@@ -1,0 +1,219 @@
+/* src/styles/components/contact.css */
+
+.contact-page-hero .page-hero {
+    padding: var(--space-8) 0 var(--space-6);
+}
+
+.contact-page-hero .page-hero-content h1 {
+    color: var(--color-primary);
+}
+
+.contact {
+    padding: 0 0 var(--space-10);
+}
+
+/* ---------- Formulario ---------- */
+
+.contact-form-card {
+    max-width: 760px;
+    margin: 0 auto var(--space-8);
+    padding: var(--space-6);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+
+    background: var(--color-surface);
+}
+
+.contact-form-card h2 {
+    margin: 0;
+    color: var(--color-primary);
+}
+
+.contact-form-subtitle {
+    margin: var(--space-2) 0 var(--space-5);
+    color: var(--color-text-secondary);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.contact-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+}
+
+.contact-field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.contact-field > span {
+    color: var(--color-text);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+}
+
+.contact-field input,
+.contact-field select,
+.contact-field textarea {
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+
+    background: var(--color-background, var(--color-surface));
+    color: var(--color-text);
+    font: inherit;
+
+    transition: var(--transition-fast);
+}
+
+.contact-field textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.contact-field input:focus,
+.contact-field select:focus,
+.contact-field textarea:focus {
+    border-color: var(--color-primary);
+    outline: none;
+}
+
+.contact-field textarea[aria-invalid="true"] {
+    border-color: #d64545;
+}
+
+.contact-error {
+    margin: 0;
+    color: #d64545;
+    font-size: var(--font-size-sm);
+}
+
+.contact-warning {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+
+    margin: 0;
+    padding: var(--space-3) var(--space-4);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+
+    background: var(--color-surface-alt);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.contact-warning svg {
+    flex-shrink: 0;
+    color: var(--color-primary);
+}
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+}
+
+.contact-note {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm);
+}
+
+.contact-note strong {
+    color: var(--color-text);
+    user-select: all;
+}
+
+/* ---------- Tarjetas ---------- */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-5);
+
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+
+    padding: var(--space-5);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+
+    background: var(--color-surface);
+    color: var(--color-text);
+    text-decoration: none;
+
+    transition: var(--transition-fast);
+}
+
+.contact-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.contact-card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: var(--radius-md);
+
+    background: var(--color-surface-alt);
+    color: var(--color-primary);
+}
+
+.contact-card h3 {
+    margin: 0;
+}
+
+.contact-card p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.contact-card-action {
+    margin-top: auto;
+    color: var(--color-primary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+}
+
+@media (max-width: 768px) {
+    .contact-page-hero .page-hero {
+        padding: var(--space-7) 0 var(--space-4);
+    }
+
+    .contact-form-card {
+        padding: var(--space-5) var(--space-4);
+    }
+
+    .contact-row {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-actions .button {
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Preguntas, errores o ideas? Escríbenos y te responderemos.",
+    "form": {
+      "title": "Envíanos un mensaje",
+      "subtitle": "Elige un tema y escribe tu mensaje. Abriremos tu aplicación de correo con todo listo para enviar.",
+      "name": "Tu nombre",
+      "product": "Producto",
+      "topic": "Tema",
+      "message": "Mensaje",
+      "messagePlaceholder": "Describe qué ha pasado o qué te gustaría ver…",
+      "send": "Abrir aplicación de correo",
+      "copy": "Copiar dirección de correo",
+      "copied": "¡Copiado!",
+      "note": "Desde esta web no se envía nada: el mensaje se escribe en tu propia aplicación de correo.",
+      "warning": "Nunca incluyas tu contraseña maestra ni los datos de tu bóveda en un mensaje.",
+      "emailLabel": "Correo",
+      "messageRequired": "Escribe un mensaje primero."
+    },
+    "products": {
+      "windows": "Sailock para Windows",
+      "android": "Sailock para Android",
+      "website": "Sitio web",
+      "other": "Otro"
+    },
+    "topics": {
+      "help": "Necesito ayuda",
+      "bug": "Informar de un error",
+      "idea": "Sugerir una idea",
+      "security": "Problema de seguridad",
+      "other": "Otro"
+    },
+    "cards": {
+      "help": {
+        "title": "Ayuda y tutoriales",
+        "description": "Guías paso a paso para cada parte de Sailock.",
+        "action": "Ver tutoriales"
+      },
+      "issues": {
+        "title": "Errores e ideas",
+        "description": "Abre una incidencia en GitHub para que otros también puedan seguirla.",
+        "action": "Ir a GitHub"
+      },
+      "security": {
+        "title": "Avisos de seguridad",
+        "description": "¿Has encontrado una vulnerabilidad? Cuéntanosla en privado y danos tiempo para corregirla antes de publicarla.",
+        "action": "Avisar en privado"
+      },
+      "privacy": {
+        "title": "Privacidad",
+        "description": "Sailock guarda tus datos en tu dispositivo. Lee cómo tratamos la información.",
+        "action": "Leer la política"
+      }
+    }
+  }
+}

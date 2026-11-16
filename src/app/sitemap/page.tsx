@@ -10,6 +10,7 @@ const PAGE_LINKS = [
     { href: "/faq", key: "navigation.faq" },
     { href: "/tutorials", key: "navigation.tutorials" },
     { href: "/contributors", key: "navigation.contributors" },
+    { href: "/contact", key: "navigation.contact" },
 ];
 
 const LEGAL_LINKS = [

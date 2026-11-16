@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "Contact",
+    "description": "Questions, bug reports or ideas? Write to us and we'll get back to you.",
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "Choose a topic and write your message. We'll open your email app with everything ready to send.",
+      "name": "Your name",
+      "product": "Product",
+      "topic": "Topic",
+      "message": "Message",
+      "messagePlaceholder": "Describe what happened or what you'd like to see…",
+      "send": "Open email app",
+      "copy": "Copy email address",
+      "copied": "Copied!",
+      "note": "Nothing is sent from this website: the message is written in your own email app.",
+      "warning": "Never include your master password or your vault data in a message.",
+      "emailLabel": "Email",
+      "messageRequired": "Please write a message first."
+    },
+    "products": {
+      "windows": "Sailock for Windows",
+      "android": "Sailock for Android",
+      "website": "Website",
+      "other": "Other"
+    },
+    "topics": {
+      "help": "I need help",
+      "bug": "Report a bug",
+      "idea": "Suggest an idea",
+      "security": "Security issue",
+      "other": "Other"
+    },
+    "cards": {
+      "help": {
+        "title": "Help and tutorials",
+        "description": "Step-by-step guides for every part of Sailock.",
+        "action": "View tutorials"
+      },
+      "issues": {
+        "title": "Bugs and ideas",
+        "description": "Open an issue on GitHub so others can follow it too.",
+        "action": "Go to GitHub"
+      },
+      "security": {
+        "title": "Security reports",
+        "description": "Found a vulnerability? Tell us privately and give us time to fix it before sharing it.",
+        "action": "Report privately"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Sailock keeps your data on your device. Read how we handle information.",
+        "action": "Read the policy"
+      }
+    }
+  }
+}

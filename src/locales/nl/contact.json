@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "Contact",
+    "description": "Vragen, bugmeldingen of ideeën? Schrijf ons en we antwoorden je.",
+    "form": {
+      "title": "Stuur ons een bericht",
+      "subtitle": "Kies een onderwerp en schrijf je bericht. We openen je e-mailapp met alles klaar om te versturen.",
+      "name": "Je naam",
+      "product": "Product",
+      "topic": "Onderwerp",
+      "message": "Bericht",
+      "messagePlaceholder": "Beschrijf wat er gebeurde of wat je graag zou zien…",
+      "send": "E-mailapp openen",
+      "copy": "E-mailadres kopiëren",
+      "copied": "Gekopieerd!",
+      "note": "Via deze website wordt niets verzonden: het bericht schrijf je in je eigen e-mailapp.",
+      "warning": "Neem nooit je hoofdwachtwoord of de gegevens van je kluis op in een bericht.",
+      "emailLabel": "E-mail",
+      "messageRequired": "Schrijf eerst een bericht."
+    },
+    "products": {
+      "windows": "Sailock voor Windows",
+      "android": "Sailock voor Android",
+      "website": "Website",
+      "other": "Anders"
+    },
+    "topics": {
+      "help": "Ik heb hulp nodig",
+      "bug": "Een bug melden",
+      "idea": "Een idee voorstellen",
+      "security": "Beveiligingsprobleem",
+      "other": "Anders"
+    },
+    "cards": {
+      "help": {
+        "title": "Hulp en handleidingen",
+        "description": "Stapsgewijze handleidingen voor elk onderdeel van Sailock.",
+        "action": "Handleidingen bekijken"
+      },
+      "issues": {
+        "title": "Bugs en ideeën",
+        "description": "Open een issue op GitHub zodat anderen het ook kunnen volgen.",
+        "action": "Naar GitHub"
+      },
+      "security": {
+        "title": "Beveiligingsmeldingen",
+        "description": "Een kwetsbaarheid gevonden? Meld het ons privé en geef ons tijd om het te verhelpen voordat je het deelt.",
+        "action": "Privé melden"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Sailock bewaart je gegevens op je apparaat. Lees hoe we met informatie omgaan.",
+        "action": "Beleid lezen"
+      }
+    }
+  }
+}

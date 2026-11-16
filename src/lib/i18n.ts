@@ -16,11 +16,31 @@ const NAMESPACES = [
     "legal",
     "download",
     "about",
+    "contact",
 ] as const;
 
 export type Dictionary = Record<string, unknown>;
 
 const dictionaryCache = new Map<Locale, Dictionary>();
+
+function isPlainObject(value: unknown): value is Dictionary {
+    return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+// Mezcla dos diccionarios: lo que falte en `override` se toma de `base`.
+function deepMerge(base: Dictionary, override: Dictionary): Dictionary {
+    const result: Dictionary = { ...base };
+
+    for (const [key, value] of Object.entries(override)) {
+        const current = result[key];
+        result[key] =
+            isPlainObject(value) && isPlainObject(current)
+                ? deepMerge(current, value)
+                : value;
+    }
+
+    return result;
+}
 
 export async function loadDictionary(
     locale: Locale
@@ -38,10 +58,15 @@ export async function loadDictionary(
         )
     );
 
-    const dictionary: Dictionary = Object.assign(
+    let dictionary: Dictionary = Object.assign(
         {},
         ...modules.map((m) => m.default)
     );
+
+    // Si a un idioma le falta algún texto, se usa el del idioma por defecto (inglés) en vez de mostrar la clave.
+    if (locale !== defaultLocale) {
+        dictionary = deepMerge(await loadDictionary(defaultLocale), dictionary);
+    }
 
     dictionaryCache.set(locale, dictionary);
 

@@ -1,0 +1,57 @@
+{
+  "contact": {
+    "title": "Kontakt",
+    "description": "Fragen, Fehlerberichte oder Ideen? Schreib uns, wir melden uns bei dir.",
+    "form": {
+      "title": "Schick uns eine Nachricht",
+      "subtitle": "Wähle ein Thema und schreibe deine Nachricht. Wir öffnen deine E-Mail-App mit allem, was zum Senden nötig ist.",
+      "name": "Dein Name",
+      "product": "Produkt",
+      "topic": "Thema",
+      "message": "Nachricht",
+      "messagePlaceholder": "Beschreibe, was passiert ist oder was du dir wünschst…",
+      "send": "E-Mail-App öffnen",
+      "copy": "E-Mail-Adresse kopieren",
+      "copied": "Kopiert!",
+      "note": "Über diese Website wird nichts gesendet: Die Nachricht wird in deiner eigenen E-Mail-App verfasst.",
+      "warning": "Schreibe niemals dein Master-Passwort oder Daten aus deinem Tresor in eine Nachricht.",
+      "emailLabel": "E-Mail",
+      "messageRequired": "Bitte schreibe zuerst eine Nachricht."
+    },
+    "products": {
+      "windows": "Sailock für Windows",
+      "android": "Sailock für Android",
+      "website": "Website",
+      "other": "Sonstiges"
+    },
+    "topics": {
+      "help": "Ich brauche Hilfe",
+      "bug": "Fehler melden",
+      "idea": "Idee vorschlagen",
+      "security": "Sicherheitsproblem",
+      "other": "Sonstiges"
+    },
+    "cards": {
+      "help": {
+        "title": "Hilfe und Anleitungen",
+        "description": "Schritt-für-Schritt-Anleitungen für jeden Bereich von Sailock.",
+        "action": "Anleitungen ansehen"
+      },
+      "issues": {
+        "title": "Fehler und Ideen",
+        "description": "Eröffne ein Issue auf GitHub, damit auch andere es verfolgen können.",
+        "action": "Zu GitHub"
+      },
+      "security": {
+        "title": "Sicherheitsmeldungen",
+        "description": "Schwachstelle gefunden? Melde sie uns privat und gib uns Zeit, sie zu beheben, bevor du sie veröffentlichst.",
+        "action": "Privat melden"
+      },
+      "privacy": {
+        "title": "Datenschutz",
+        "description": "Sailock speichert deine Daten auf deinem Gerät. Lies, wie wir mit Informationen umgehen.",
+        "action": "Erklärung lesen"
+      }
+    }
+  }
+}
