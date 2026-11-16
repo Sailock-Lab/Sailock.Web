@@ -57,7 +57,7 @@
   "privacy": {
     "title": "Política de privacidade",
     "description": "Como o Sailock trata as informações quando você usa o software ou visita o site.",
-    "lastUpdated": "Última atualização: agosto de 2026",
+    "lastUpdated": "Última atualização: novembro de 2026",
     "sections": {
       "overview": {
         "title": "1. Visão geral",
@@ -67,36 +67,40 @@
         "title": "2. Dados armazenados pelo aplicativo",
         "content": "O aplicativo desktop do Sailock armazena localmente, no seu dispositivo, as informações necessárias para operar seu cofre de senhas. Seu cofre deve permanecer sob seu controle e não é enviado aos servidores do Sailock."
       },
+      "android": {
+        "title": "3. Sailock para Android",
+        "content": "O Sailock para Android funciona totalmente offline. A aplicação não pede permissão de internet, por isso não pode enviar os teus dados para lado nenhum. O teu cofre é guardado cifrado (Argon2id e AES-256-GCM) no armazenamento privado da aplicação no teu dispositivo e fica excluído das cópias na nuvem do Android e da transferência entre dispositivos. O Sailock não consegue ver a tua palavra-passe mestra nem os teus dados. Se ativares o desbloqueio por impressão digital, é usada a biometria do sistema Android: o Sailock nunca recebe nem guarda a tua impressão digital. As notificações (validades, alertas de segurança e lembretes de cópia) são geradas localmente no teu dispositivo e nunca incluem os nomes dos teus registos. As palavras-passe copiadas são marcadas como sensíveis e apagadas automaticamente da área de transferência. Os ficheiros que exportas são guardados onde escolheres e cifrados com a palavra-passe que definires. As ligações web só abrem no navegador depois de confirmares, e aplica-se a política de privacidade do site de destino. O Sailock para Android não contém anúncios, análise, rastreio nem serviços de terceiros."
+      },
       "vault": {
-        "title": "3. Dados do cofre de senhas",
+        "title": "4. Dados do cofre de senhas",
         "content": "O Sailock não tem acesso à sua senha mestra nem ao conteúdo do seu cofre de senhas local. Você é responsável por proteger seu dispositivo, sua senha mestra e quaisquer arquivos de cofre exportados ou salvos em backup."
       },
       "telemetry": {
-        "title": "4. Telemetria e rastreamento",
+        "title": "5. Telemetria e rastreamento",
         "content": "O aplicativo desktop do Sailock é projetado sem telemetria integrada nem rastreamento comportamental. O projeto não coleta intencionalmente informações sobre como você usa o gerenciador de senhas."
       },
       "website": {
-        "title": "5. Informações sobre o site",
+        "title": "6. Informações sobre o site",
         "content": "Ao visitar o site do Sailock, a infraestrutura de hospedagem pode processar informações técnicas necessárias para fornecer e proteger o site, como endereços IP, informações do navegador, registros de data e hora ou logs de servidor. As informações efetivamente retidas dependem do provedor de hospedagem e de sua configuração."
       },
       "cookies": {
-        "title": "6. Cookies",
+        "title": "7. Cookies",
         "content": "O Sailock não usa cookies intencionalmente para fins de publicidade ou rastreamento comportamental. Caso cookies tecnicamente necessários ou tecnologias semelhantes sejam introduzidos no futuro, esta política será atualizada de acordo."
       },
       "analytics": {
-        "title": "7. Análises",
+        "title": "8. Análises",
         "content": "Atualmente, o Sailock não usa serviços de análise de terceiros para criar perfis publicitários ou comportamentais. Caso ferramentas de análise sejam introduzidas no futuro, esta política será atualizada para descrever quais informações são coletadas e por quê."
       },
       "external": {
-        "title": "8. Serviços externos",
+        "title": "9. Serviços externos",
         "content": "O site pode conter links para serviços externos, como GitHub ou provedores de download. Ao visitar um serviço externo, ele pode processar informações de acordo com sua própria política de privacidade e termos."
       },
       "contact": {
-        "title": "9. Informações de contato",
-        "content": "Se você entrar em contato com o projeto Sailock por meio de um canal de contato disponível, as informações fornecidas voluntariamente por você poderão ser processadas exclusivamente para responder à sua solicitação e manter o projeto."
+        "title": "10. Informações de contato",
+        "content": "Se você entrar em contato com o projeto Sailock por meio de um canal de contato disponível, as informações fornecidas voluntariamente por você poderão ser processadas exclusivamente para responder à sua solicitação e manter o projeto. Podes contactar a SailokStudio em hello.sailokstudio@gmail.com."
       },
       "changes": {
-        "title": "10. Alterações a esta política",
+        "title": "11. Alterações a esta política",
         "content": "Esta Política de privacidade pode ser atualizada conforme o projeto Sailock ou seu site sejam alterados. A versão mais recente será sempre publicada nesta página junto com sua data de revisão."
       }
     }

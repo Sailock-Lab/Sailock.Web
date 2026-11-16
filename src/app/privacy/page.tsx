@@ -34,6 +34,11 @@ export default function PrivacyPage() {
                         </section>
 
                         <section>
+                            <h2>{t("privacy.sections.android.title")}</h2>
+                            <p>{t("privacy.sections.android.content")}</p>
+                        </section>
+
+                        <section>
                             <h2>{t("privacy.sections.vault.title")}</h2>
                             <p>{t("privacy.sections.vault.content")}</p>
                         </section>
